@@ -55,10 +55,6 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
       <handlers>
-        <event>StartListChoice</event>
-        <name>ТекущаяНастройкаНачалоВыбораИзСписка</name>
-      </handlers>
-      <handlers>
         <event>ChoiceProcessing</event>
         <name>ТекущаяНастройкаОбработкаВыбора</name>
       </handlers>

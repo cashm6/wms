@@ -4874,49 +4874,6 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
-      <items xsi:type="form:Button">
-        <name>ФормаПерезапуск</name>
-        <id>351</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-          <for>
-            <role>Role.WMSПолныйДоступ</role>
-          </for>
-          <for>
-            <role>Role.итWMSПечатьШкQr</role>
-          </for>
-          <for>
-            <role>Role.ИгнорироватьОшибки</role>
-          </for>
-          <for>
-            <value>true</value>
-            <role>Role.ПолныеПрава</role>
-          </for>
-        </userVisible>
-        <extendedTooltip>
-          <name>ФормаПерезапускРасширеннаяПодсказка</name>
-          <id>352</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.Перезапуск</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -5103,10 +5060,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Post</excludedCommands>
@@ -5927,27 +5880,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РучнойЗапускПереупаковки</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Перезапуск</name>
-    <title>
-      <key>ru</key>
-      <value>Перезапуск</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Перезапуск</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ТестПерезапуск</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

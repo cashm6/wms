@@ -76,6 +76,14 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>WMS</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>WMS</value>
+  </listPresentation>
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>36</descriptionLength>

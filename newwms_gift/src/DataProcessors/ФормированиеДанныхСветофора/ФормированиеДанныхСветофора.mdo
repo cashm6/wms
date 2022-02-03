@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c9dbea6-c439-449a-af24-a6371a4e1a36">
+  <producedTypes>
+    <objectType typeId="f1cde134-8d6b-4c56-a04e-c88eaa24387f" valueTypeId="ee740fd7-acf3-4da4-bfd6-2c4ed899dd83"/>
+    <managerType typeId="23b809ab-fbdc-4499-bfcb-4fc7c042ca90" valueTypeId="b6706500-2a9c-4614-8075-bb39ec3095e4"/>
+  </producedTypes>
+  <name>ФормированиеДанныхСветофора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование данных светофора</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="30678fa2-bb67-4aa5-9d1e-efe50775bba7">
+    <name>СветофорНаборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Светофор наборка</value>
+    </synonym>
+  </templates>
+  <templates uuid="cd7bc98c-63b7-422b-887b-4332286951f5">
+    <name>СветофорОтгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Светофор отгрузка</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="730161c5-9caa-4725-aa84-484953ba3f89">
+  <producedTypes>
+    <managerType typeId="bc20b1de-53f6-44fd-874a-43563fca80a2" valueTypeId="c6327959-18dd-4b40-887e-95ec4fd9d571"/>
+    <valueManagerType typeId="7ebc6e5c-4b47-4709-9415-61d249c2d818" valueTypeId="dde32b89-19c8-48f7-aa2e-be7834e1a3d4"/>
+    <valueKeyType typeId="5dead047-9d7f-4d74-887f-2d7d236c2e92" valueTypeId="7116027a-5f5d-4aa9-a463-2bf397b0bb7d"/>
+  </producedTypes>
+  <name>СистемнаяЯчейка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системная ячейка</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.итСкладскиеЯчейки</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

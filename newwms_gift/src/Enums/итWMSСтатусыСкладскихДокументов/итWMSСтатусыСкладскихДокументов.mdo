@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2df0e06-f3c0-463c-a920-c5e33afb58b8">
+  <producedTypes>
+    <refType typeId="d15c8fbf-b359-4f0d-b516-f2fe91e7bdae" valueTypeId="e2937f92-9e26-4b6d-969f-12d660820778"/>
+    <listType typeId="a2a2fba3-cd46-41cc-9786-7303e36780db" valueTypeId="b44d068a-f5f7-46df-a627-c707838365ad"/>
+    <managerType typeId="a3dd40dc-93f6-4d34-bd32-5cdd814cd802" valueTypeId="1130b8e5-a20f-44e4-b713-f9dfb5528b5d"/>
+  </producedTypes>
+  <name>итWMSСтатусыСкладскихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ит статусы складских документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ac244ea4-aafc-42ce-b51f-9502585f12c3">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49fd5b07-9843-4192-8cc9-ba0aca12fc42">
+    <name>Зарезервирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарезервирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d85600ca-398a-4ba5-8107-55a7abade599">
+    <name>Распределяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределяется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd1797f6-8769-4b72-b958-63bd0da47c66">
+    <name>Распределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9194d408-88bc-41a9-b5d1-945e0ee4d2f1">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fc00b8b-3fcb-4634-8658-ced8c1b5f370">
+    <name>ВыполненСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен с ошибкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fe9cccc-2881-4031-b1fc-47fc610891f5">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

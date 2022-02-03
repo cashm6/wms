@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c25046b4-dd99-4e46-909e-be82ebce84fa">
+  <name>ПодсистемаОрганайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема органайзер</value>
+  </synonym>
+</mdclass:CommonPicture>

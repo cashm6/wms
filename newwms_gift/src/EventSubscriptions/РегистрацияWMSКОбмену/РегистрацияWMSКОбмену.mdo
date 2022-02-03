@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="720b568e-9686-47e8-91c8-f5bcd93454f3">
+  <name>РегистрацияWMSКОбмену</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация WMSКОбмену</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.итWMSРучноеПеремещение</types>
+    <types>DocumentObject.итWMSПриемка</types>
+    <types>DocumentObject.ит_WMS_ТоварыВПути</types>
+    <types>DocumentObject.итWMSРучноеРазмещение</types>
+    <types>CatalogObject.итТерриторииСкладов</types>
+    <types>CatalogObject.итСкладскиеЯчейки</types>
+    <types>DocumentObject.итWMSОтгрузка</types>
+    <types>DocumentObject.итWMSПеремещение</types>
+    <types>CatalogObject.ит_WMS_АссортиментныеУчасткиСклада</types>
+    <types>CatalogObject.итWMS_ПричиныОтменыЗадач</types>
+    <types>DocumentObject.итWMSРучнаяОтгрузка</types>
+    <types>DocumentObject.итWMSИзменениеПараметровТовараВЯчейках</types>
+    <types>CatalogObject.итСкладскиеПомещения</types>
+    <types>DocumentObject.итWMSДанныеИнвентаризации</types>
+    <types>DocumentObject.итWMSРазмещение</types>
+    <types>DocumentObject.итWMSСписаниеТовара</types>
+    <types>CatalogObject.итТипоразмерыЯчеек</types>
+    <types>DocumentObject.ит_WMS_УстановкаСоответсвийНоменклатурыИАссортиментногоУчастка</types>
+    <types>DocumentObject.итWMSНаборка</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытия.РегистрацияWMSКОбменуПриЗаписи</handler>
+</mdclass:EventSubscription>

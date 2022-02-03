@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a8d6e97-2e93-4bb9-a16b-2242613f9bd9">
+  <name>СтруктураПодчиненностиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура подчиненности переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

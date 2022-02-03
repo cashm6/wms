@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f652421a-f9bb-46c0-88ba-dcc29fcd9d82">
+  <producedTypes>
+    <refType typeId="861db21d-2d42-4207-9cb0-defd8249616e" valueTypeId="10919ee4-d0e3-403b-bb92-9122865be2e9"/>
+    <listType typeId="224c7ae2-c1fd-43c2-8f12-459d17c3df39" valueTypeId="543c39da-3bfe-44c2-bc26-8e03281a6b63"/>
+    <managerType typeId="a68c9345-39d0-4def-bce9-3e76de215a4b" valueTypeId="284e434e-ea5f-49c4-a3ca-7975b8d4eaf5"/>
+  </producedTypes>
+  <name>ВидыМаркированнойПродукцииБПО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды маркированной продукции БПО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66c7ff51-57a1-41e6-9f85-ac98643f4d50">
+    <name>ИзделияИзМеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделия из меха</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26843e7c-54e0-4eb9-9be1-11d0458c2afc">
+    <name>Табак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табачная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32b917a6-befe-4be2-ac87-5fc48c89015f">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebba86d5-167a-45dd-a748-81609a051621">
+    <name>ЛегкаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары легкой промышленности и одежда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="479060da-d67e-4b50-9e46-de22cea3e493">
+    <name>МолочнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c36cc34-f2f8-4415-9605-196184cb72af">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины и автопокрышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1a63e29-5435-47e0-bffc-b97ce8279db9">
+    <name>Фотоаппараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотокамеры и лампы-вспышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1834a502-5dab-4a18-858c-509fd84a138b">
+    <name>Духи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духи и туалетная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d39836c-74c4-44a5-9573-a1cf3340207d">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0cdf880-8cd8-405d-ac30-9d017fe93651">
+    <name>КреслаКоляски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кресла-коляски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="230262f9-bcaa-45fb-8b7c-48194a4199d2">
+    <name>АльтернативныйТабак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80cab634-4949-46a2-b9be-44d1a4062efa">
+    <name>УпакованнаяВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

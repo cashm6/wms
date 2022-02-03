@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d9bdb0-aa87-4e38-bdfb-5d08f6687996">
+  <name>РегистрацияАлкПереупаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация алк переупаковки</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.алкПереупаковка</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытия.РегистрацияАлкПереупаковкиПриЗаписи</handler>
+</mdclass:EventSubscription>

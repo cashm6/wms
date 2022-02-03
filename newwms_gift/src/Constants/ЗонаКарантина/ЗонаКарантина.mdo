@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd8448cd-ee6a-4926-a8c1-95f019b6958b">
+  <producedTypes>
+    <managerType typeId="24847f9c-0b9e-427a-930a-b4be1a3f8be7" valueTypeId="5f7aacb5-94b6-4011-b88a-b6010926e719"/>
+    <valueManagerType typeId="a3b61f5b-5c99-46b4-a696-dcdc11087571" valueTypeId="eb78c50d-72d4-4694-b9fa-f166727960f9"/>
+    <valueKeyType typeId="b6dd46aa-0c2a-4fe4-8d3d-03c6b643a867" valueTypeId="53b6295e-13ac-4e66-9966-f028d4c9c9c1"/>
+  </producedTypes>
+  <name>ЗонаКарантина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зона карантина</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.итСкладскиеПомещения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

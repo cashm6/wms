@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4de23a6c-252c-477f-be3d-110ce5932c59">
+  <producedTypes>
+    <managerType typeId="f9e16c79-212d-4fcd-b798-1bb8caeb7dac" valueTypeId="ada32b65-6837-4416-b857-5a9109c5e0ce"/>
+    <valueManagerType typeId="e6469072-e8ff-493a-8165-d45a78e582e2" valueTypeId="9644485e-d55d-4e89-bca7-427564ce34cb"/>
+    <valueKeyType typeId="74bf23ee-2393-4aa7-8917-4efeb3590ad1" valueTypeId="fa865dc6-4061-4557-9530-a56e66611814"/>
+  </producedTypes>
+  <name>БлокироватьЯчейкиПриИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировать ячейки при инвентаризации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

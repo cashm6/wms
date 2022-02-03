@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff4e925f-0684-4d88-895c-5a227393a57b">
+  <producedTypes>
+    <managerType typeId="0bd1dfe1-995b-4fcc-9ef9-76de178d9413" valueTypeId="5964e90d-da7d-469a-b42b-df6a4b2673d7"/>
+    <valueManagerType typeId="40990be8-f169-45d6-aebf-ecdee4dcda21" valueTypeId="970d97ed-83d7-4331-aacb-75efaa0178e2"/>
+    <valueKeyType typeId="7e817d4a-f692-4050-abc4-d1236bddd22a" valueTypeId="c833e9f2-ebac-426a-92f9-d7bf9d7ed69b"/>
+  </producedTypes>
+  <name>ВремяРазблокировкиЯчеекПриИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время разблокировки ячеек при инвентаризации</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

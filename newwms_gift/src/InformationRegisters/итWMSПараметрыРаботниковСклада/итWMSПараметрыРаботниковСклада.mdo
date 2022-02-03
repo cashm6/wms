@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af04f672-89eb-4b64-929f-ca030f3b8c6e">
+  <producedTypes>
+    <selectionType typeId="85c5eef5-dea3-4e36-9139-d38e76be6b32" valueTypeId="4847e0d7-5286-4a54-baee-b17193ae20f6"/>
+    <listType typeId="33c28c11-960c-42a5-8263-cb801abec2f9" valueTypeId="7ee034dc-817f-49c2-8efa-1fa6ca72a774"/>
+    <managerType typeId="9ec2e418-d5d3-48f4-9d94-c46a2c5a8443" valueTypeId="051ee5a1-895d-4a92-afa9-529fec5c7e5d"/>
+    <recordSetType typeId="3fabcc3c-b68a-493a-bc1a-50e0630e2bf1" valueTypeId="fa706b3e-7567-443a-a644-7fc39b90d0cd"/>
+    <recordKeyType typeId="5d31d144-56c6-4d9d-8f04-a49151abb0e1" valueTypeId="b0bcdd0d-4a4f-4668-84b8-7bf115633c80"/>
+    <recordType typeId="cb10745e-c525-4105-8637-a9e05f31cd94" valueTypeId="575cd171-bc5d-460a-84d9-2fa1d778f196"/>
+    <recordManagerType typeId="4c851553-cada-4c1c-ba28-7f959c46644f" valueTypeId="5c77eeb2-6578-4e19-953e-df9a61b18f56"/>
+  </producedTypes>
+  <name>итWMSПараметрыРаботниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>ит Параметры работников склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.итWMSПараметрыРаботниковСклада.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.итWMSПараметрыРаботниковСклада.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fa0f227e-151f-46e1-a58e-544d6d0dae09">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итWMSРолиРаботниковСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d949ca87-f31b-4b17-9028-59a7749b1206">
+    <name>ТерриторияСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория склада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итТерриторииСкладов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="406d9f9e-f9f3-4002-88c8-d13512fb596b">
+    <name>ПринтерПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принтер по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итWMSОборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5d465bb8-b5ab-4c68-8f2c-21a77fce77ec">
+    <name>РаботникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник склада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итWMSРаботникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cbe94f38-528b-4124-a6c3-c4f188d97ee6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7fe67fe-2928-465f-847b-640ac2bd26bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e30cf007-1eed-456c-a66e-c5ff0f82db44">
+    <name>ФормаНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf68dbfa-c1e4-4dba-9959-b3ab3bb39dc9">
+  <producedTypes>
+    <selectionType typeId="9bf79446-086a-4c87-99b3-bc1b24a1b8df" valueTypeId="4863bc44-1f9a-49dc-b335-8ecb0d022e11"/>
+    <listType typeId="4188ee09-bf53-4e97-b046-c2dab20320f9" valueTypeId="19aa67cf-904e-499a-a90d-97ee12b44d03"/>
+    <managerType typeId="8e538306-2314-4230-aded-679855454794" valueTypeId="23738e47-3003-4e08-83a6-d0e682439865"/>
+    <recordSetType typeId="37616b6d-8fdd-4fef-9c0d-53eb5baf42a0" valueTypeId="2ca61b41-3c43-4b8e-a190-f128f312c45a"/>
+    <recordKeyType typeId="78bdcea4-f74c-4a59-9e41-9cca2f731c28" valueTypeId="48fb6ef6-d468-418d-8fa8-84f76d7a52a4"/>
+    <recordType typeId="1aa54885-4757-457d-812e-247833fd93cb" valueTypeId="a9a05535-b07c-485d-acd3-f629c09bbd00"/>
+    <recordManagerType typeId="be96f2c7-a492-451a-9c24-a02f254eda0f" valueTypeId="9aa32005-3aad-47b4-aaa0-1d4e55b6e49c"/>
+  </producedTypes>
+  <name>итWMSSSCCпаллет</name>
+  <synonym>
+    <key>ru</key>
+    <value>ит SSCCпаллет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.итWMSSSCCпаллет.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит перечень SSCC паллет в разделенном и полном виде.</value>
+  </explanation>
+  <resources uuid="eab77bf8-f8d3-4e97-8bc2-7cdb00c3b943">
+    <name>SSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>SSCC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d829b05c-d405-4e7d-8813-4fb56dd43c6d">
+    <name>ИдентификаторSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор SSCC</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="1bafb3db-ce75-48c3-b582-fb459620907a">
+    <name>FSRAR_ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>FSRAR ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="5e825955-52d9-425d-ab47-980cf0b0bc99">
+    <name>ЦифраРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифра расширения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa4bcc52-ca35-47e4-8522-b2fb60fc2335">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5e14c087-75b2-4f3e-8bd5-ea2d30322b45">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итФилиалыWMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="82632e65-35bf-493d-becc-e458f4cdc69c">
+    <name>ВидДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид диапазона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSВидыДиапазонвSSCC</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="835f10a5-833d-4ae5-95af-09df4f6cc3de">
+    <name>ТипЛогистическойЕденицыWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип логистической еденицы WMS</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЛогистическойЕденицыWMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1d45d975-6484-46ab-b41d-a3f3a97d5f97">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b9b62e00-27fa-459f-905d-9c9089435aa4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

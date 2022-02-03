@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a6bd6a-6f90-46e1-8aca-9e0b8fc73a5b">
+  <producedTypes>
+    <objectType typeId="5ddfee52-5858-4418-9991-a504237f3bef" valueTypeId="9f78824b-2f48-4777-9fc7-985d54609851"/>
+    <refType typeId="9ba0f11a-bf0d-426a-9b15-a4d44b01b7f9" valueTypeId="4c67f4fe-748e-4bf5-a39d-cfb9887772b4"/>
+    <selectionType typeId="8b470d51-2935-43d1-8669-d9d1c9489bc2" valueTypeId="391b3f7c-a95a-471c-ad68-c198cf2eaf68"/>
+    <listType typeId="00f16ff1-377d-4fef-ae73-6b3098ee4ac8" valueTypeId="3217b7b1-4a60-4b99-b2df-87b3bab0e924"/>
+    <managerType typeId="bf2ec30b-47ae-4c04-85d2-f89a6454b8a5" valueTypeId="498a4977-5aaa-4a0f-b5f9-22d1a98b1c11"/>
+  </producedTypes>
+  <name>алкПунктыРазгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункты рагрузок (ЕГАИС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.алкПунктыРазгрузки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.алкПунктыРазгрузки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2c5835e4-1ac8-4c4b-80ab-90a184c9e12f">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c38889fb-017f-4f73-9bca-2df3dec9fed6">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8b9e393-fec6-457b-8a42-3a486c994fba">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

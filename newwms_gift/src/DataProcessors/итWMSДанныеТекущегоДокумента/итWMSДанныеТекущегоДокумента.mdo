@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed708f3d-55e4-4262-b396-ab224cace5aa">
+  <producedTypes>
+    <objectType typeId="3ddff269-2e60-43c8-91ca-46caea44e1d1" valueTypeId="0ba99c75-04c0-4b31-8902-ac845e4b11ff"/>
+    <managerType typeId="2022bc72-66bf-4a35-af58-6d8cb65378f5" valueTypeId="afa961ba-8b01-455d-a36d-8bce3659bb62"/>
+  </producedTypes>
+  <name>итWMSДанныеТекущегоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные текущего документа</value>
+  </synonym>
+  <defaultForm>DataProcessor.итWMSДанныеТекущегоДокумента.Form.Форма</defaultForm>
+  <forms uuid="e4e13f00-67be-4feb-afc7-04d11e0262e3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="303cf940-bd88-42f4-b444-8331e18ac9cf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

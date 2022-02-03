@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a357b38-f504-4dd7-99aa-56158a58c78c">
+  <producedTypes>
+    <selectionType typeId="6dc6d429-2d35-44ae-b6f3-7a605631920b" valueTypeId="74af6097-f945-4f39-aee0-6f35bfcefb15"/>
+    <listType typeId="755c8496-b72a-48b1-b875-d4477daa208b" valueTypeId="2172dd6f-3095-4a80-a4c5-1a4dfdf7c660"/>
+    <managerType typeId="5b1ead28-eb7d-4862-8692-d2d82592a01e" valueTypeId="293af377-e078-4be0-a4cc-2f22b8cf8012"/>
+    <recordSetType typeId="1cd2c49a-b8a4-443f-bb69-8521fa476497" valueTypeId="42ba05b0-007e-425e-83ac-a017cbbd7da3"/>
+    <recordKeyType typeId="6ada5478-ddd7-4ea4-8ad4-0497bb9add9d" valueTypeId="ddb0ce7d-0c61-45ad-8a91-722840d3cb17"/>
+    <recordType typeId="1e957ff7-039f-4662-9bb5-8b4fab0f4f82" valueTypeId="dcb5bba5-baf5-400d-96bd-131c2d3ed7de"/>
+    <recordManagerType typeId="313e1c5e-22f4-4bbd-9dcc-8267cfc37ec4" valueTypeId="f66c8c40-4dc2-4ead-bdcc-34f34f5077f4"/>
+  </producedTypes>
+  <name>итWMSДиапазоныSSCC</name>
+  <synonym>
+    <key>ru</key>
+    <value>ит диапазоны SSCC</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.итWMSДиапазоныSSCC.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.итWMSДиапазоныSSCC.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2692f6d6-dd0c-4770-8e41-db973cf806e7">
+    <name>FSRAR_ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>FSRAR_ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e867aed5-820e-40a6-8b61-b520711c4b93">
+    <name>ДиапазонС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="547d927a-dc72-4b52-b58d-09f20a660245">
+    <name>ДиапазонПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон по</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="684fecbb-de6a-4f04-b82d-a032071dbcda">
+    <name>ЦифраРасширенияС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифра расширения С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68333444-a40a-40a2-8c6a-60294594a396">
+    <name>ЦифраРасширенияПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифра расширения по</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a60daa37-000c-4934-ad4f-7fe89b6616d2">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итФилиалыWMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b085e2a3-5d04-4663-84d5-f04afd5a4e21">
+    <name>ВидДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид диапазона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSВидыДиапазонвSSCC</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5ac060a6-1591-42a1-a5f9-983a8246ec6d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08b1c6c4-03be-47c4-983a-532435657681">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

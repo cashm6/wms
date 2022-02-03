@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончанияЗадачи</dataPath>
+			<field>ДатаОкончанияЗадачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания задачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТСД</dataPath>
+			<field>ТСД</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачалаЗадачи</dataPath>
+			<field>ДатаНачалаЗадачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала задачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТерриторияСклада</dataPath>
+			<field>ТерриторияСклада</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЗадачи</dataPath>
+			<field>ТипЗадачи</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаАктивацииТСД</dataPath>
+			<field>ДатаАктивацииТСД</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата активации ТСД</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РаботникСклада</dataPath>
+			<field>РаботникСклада</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Роль</dataPath>
+			<field>Роль</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачалаИсполненияДокумента</dataPath>
+			<field>ДатаНачалаИсполненияДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала исполнения документа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗавершенияДокумента</dataPath>
+			<field>ДатаЗавершенияДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата завершения документа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЯчейкаОтправитель</dataPath>
+			<field>ЯчейкаОтправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторУпаковки</dataPath>
+			<field>ИдентификаторУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЯчейкаПолучатель</dataPath>
+			<field>ЯчейкаПолучатель</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	итWMSЗадачиТСД.ТСД,
+	итWMSЗадачиТСД.ДокументОснование,
+	итWMSЗадачиТСД.ТипЗадачи,
+	итWMSЗадачиТСД.ИдЗадачи,
+	итWMSЗадачиТСД.ИдЗадачиРодителя,
+	итWMSЗадачиТСД.ИдентификаторУпаковки,
+	итWMSЗадачиТСД.ЯчейкаОтправитель,
+	итWMSЗадачиТСД.ЯчейкаПолучатель,
+	итWMSЗадачиТСД.ДополнительныеДанные,
+	итWMSЗадачиТСД.ДатаНачала,
+	итWMSЗадачиТСД.ДатаОкончания,
+	итWMSЗадачиТСД.Состояние,
+	итWMSЗадачиТСД.ФиксацияЗадачи,
+	итWMSЗадачиТСД.ДанныеДокументаТСД
+ПОМЕСТИТЬ ЗадачиСотбором
+ИЗ
+	РегистрСведений.итWMSЗадачиТСД КАК итWMSЗадачиТСД
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ОграничитьПоискДатойДокумента
+				ТОГДА итWMSЗадачиТСД.ДокументОснование.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВложенныйЗапрос.ТСД,
+	ВложенныйЗапрос.ДатаСостоянияТСД КАК ДатаАктивацииТСД,
+	ВложенныйЗапрос.ДатаНачала,
+	МАКСИМУМ(итWMSСостояниеТСД.РаботникСклада) КАК РаботникСклада,
+	МАКСИМУМ(итWMSСостояниеТСД.Роль) КАК Роль,
+	МАКСИМУМ(итWMSСостояниеТСД.ТерриторияСклада) КАК ТерриторияСклада,
+	МАКСИМУМ(итWMSСостояниеТСД.Состояние) КАК Состояние
+ПОМЕСТИТЬ ДанныеТСД
+ИЗ
+	(ВЫБРАТЬ
+		ВложенныйЗапрос.ТСД КАК ТСД,
+		ВложенныйЗапрос.ДатаНачала КАК ДатаНачала,
+		МАКСИМУМ(СостоянияТСД.Период) КАК ДатаСостоянияТСД
+	ИЗ
+		(ВЫБРАТЬ
+			ЗадачиСотбором.ТСД КАК ТСД,
+			ЗадачиСотбором.ДатаНачала КАК ДатаНачала
+		ИЗ
+			ЗадачиСотбором КАК ЗадачиСотбором) КАК ВложенныйЗапрос
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				итWMSСостояниеТСД.Период КАК Период,
+				итWMSСостояниеТСД.ТСД КАК ТСД
+			ИЗ
+				(ВЫБРАТЬ
+					МИНИМУМ(ЗадачиСотбором.ДатаНачала) КАК ДатаНачала,
+					МАКСИМУМ(ЗадачиСотбором.ДатаОкончания) КАК ДатаОкончания
+				ИЗ
+					ЗадачиСотбором КАК ЗадачиСотбором) КАК ВложенныйЗапрос
+					ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.итWMSСостояниеТСД КАК итWMSСостояниеТСД
+					ПО (ДОБАВИТЬКДАТЕ(ВложенныйЗапрос.ДатаНачала, ДЕНЬ, -15) &lt;= итWMSСостояниеТСД.Период)
+						И ВложенныйЗапрос.ДатаОкончания &gt;= итWMSСостояниеТСД.Период) КАК СостоянияТСД
+			ПО ВложенныйЗапрос.ТСД = СостоянияТСД.ТСД
+				И ВложенныйЗапрос.ДатаНачала &gt;= СостоянияТСД.Период
+	
+	СГРУППИРОВАТЬ ПО
+		ВложенныйЗапрос.ТСД,
+		ВложенныйЗапрос.ДатаНачала) КАК ВложенныйЗапрос
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.итWMSСостояниеТСД КАК итWMSСостояниеТСД
+		ПО ВложенныйЗапрос.ТСД = итWMSСостояниеТСД.ТСД
+			И ВложенныйЗапрос.ДатаСостоянияТСД = итWMSСостояниеТСД.Период
+
+СГРУППИРОВАТЬ ПО
+	ВложенныйЗапрос.ТСД,
+	ВложенныйЗапрос.ДатаСостоянияТСД,
+	ВложенныйЗапрос.ДатаНачала
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗадачиСотбором.ТСД,
+	ЗадачиСотбором.ДокументОснование,
+	ЗадачиСотбором.ТипЗадачи,
+	ЗадачиСотбором.ДатаНачала КАК ДатаНачалаЗадачи,
+	ЗадачиСотбором.ДатаОкончания КАК ДатаОкончанияЗадачи,
+	ДанныеТСД.ДатаАктивацииТСД,
+	ДанныеТСД.РаботникСклада,
+	ДанныеТСД.Роль,
+	ДанныеТСД.ТерриторияСклада,
+	ДанныеТСД.Состояние,
+	ЗадачиСотбором.ИдентификаторУпаковки,
+	ЗадачиСотбором.ЯчейкаПолучатель,
+	ЗадачиСотбором.ЯчейкаОтправитель
+ПОМЕСТИТЬ ДанныеДляВывода
+ИЗ
+	ЗадачиСотбором КАК ЗадачиСотбором
+		ЛЕВОЕ СОЕДИНЕНИЕ ДанныеТСД КАК ДанныеТСД
+		ПО ЗадачиСотбором.ТСД = ДанныеТСД.ТСД
+			И ЗадачиСотбором.ДатаНачала = ДанныеТСД.ДатаНачала
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеДляВывода.ТСД,
+	ДанныеДляВывода.ДокументОснование,
+	МИНИМУМ(ДанныеДляВывода.ДатаНачалаЗадачи) КАК ДатаНачалаИсполненияДокумента,
+	ДанныеДляВывода.ДокументОснование.ДатаЗавершенияДокумента КАК ДатаЗавершенияДокумента
+ПОМЕСТИТЬ ДатыДокумента
+ИЗ
+	ДанныеДляВывода КАК ДанныеДляВывода
+
+СГРУППИРОВАТЬ ПО
+	ДанныеДляВывода.ТСД,
+	ДанныеДляВывода.ДокументОснование,
+	ДанныеДляВывода.ДокументОснование.ДатаЗавершенияДокумента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеДляВывода.ТСД,
+	ДанныеДляВывода.ДокументОснование,
+	ДанныеДляВывода.ТипЗадачи,
+	ДанныеДляВывода.ДатаНачалаЗадачи,
+	ДанныеДляВывода.ДатаОкончанияЗадачи,
+	ДанныеДляВывода.ДатаАктивацииТСД,
+	ДанныеДляВывода.РаботникСклада,
+	ДанныеДляВывода.Роль,
+	ДанныеДляВывода.ТерриторияСклада,
+	ДанныеДляВывода.Состояние,
+	ДатыДокумента.ДатаНачалаИсполненияДокумента,
+	ДатыДокумента.ДатаЗавершенияДокумента,
+	ДанныеДляВывода.ИдентификаторУпаковки,
+	ДанныеДляВывода.ЯчейкаПолучатель,
+	ДанныеДляВывода.ЯчейкаОтправитель
+ИЗ
+	ДанныеДляВывода КАК ДанныеДляВывода
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДатыДокумента КАК ДатыДокумента
+		ПО ДанныеДляВывода.ТСД = ДатыДокумента.ТСД
+			И ДанныеДляВывода.ДокументОснование = ДатыДокумента.ДокументОснование</query>
+	</dataSet>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОграничитьПоискДатойДокумента</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ограничить поиск датой документа</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачалаЗадачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончанияЗадачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипЗадачи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТСД</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РаботникСклада</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Роль</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТерриторияСклада</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние ТСД</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаАктивацииТСД</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдентификаторУпаковки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЯчейкаОтправитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЯчейкаПолучатель</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ОграничитьПоискДатойДокумента</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДокументОснование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДатаНачалаИсполненияДокумента</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ДатаЗавершенияДокумента</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

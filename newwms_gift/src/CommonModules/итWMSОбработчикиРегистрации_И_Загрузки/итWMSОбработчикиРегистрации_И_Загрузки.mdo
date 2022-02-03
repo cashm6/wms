@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cec1526-5e7c-412f-bf23-c588a50bcac1">
+  <name>итWMSОбработчикиРегистрации_И_Загрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMSОбработчики регистрации и загрузки</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

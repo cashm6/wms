@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7bd6ee6-3ff8-450e-87b8-19be2d81e83e">
+  <name>УстановкаНовогоНомераВГоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка нового номера в году</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытия.УстановкаНовогоНомераВГодуПередЗаписью</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c3900ff-850f-454c-8dc4-2a5920af0923">
+  <name>итWMSОбработчикДанныхИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMSОбработчик данных Инвентаризации</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

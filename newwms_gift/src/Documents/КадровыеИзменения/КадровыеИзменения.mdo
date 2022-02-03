@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7dcbf28-b2d2-4a20-aa4b-a80fe48c5de5">
+  <producedTypes>
+    <objectType typeId="f0ce5ec6-ba8b-4960-9517-15fe14ddd5a3" valueTypeId="8820521b-2f8a-49b5-9522-e38d8000a459"/>
+    <refType typeId="4007efd0-538e-4c23-aaf3-308f331a7d20" valueTypeId="9b99418e-e257-4bae-9dec-9c4de36e24f7"/>
+    <selectionType typeId="ef1bd2fc-c1b3-4c85-b1c4-dc84c01b6dfd" valueTypeId="046c59a0-5acf-4649-9a27-f599d74b1129"/>
+    <listType typeId="b2b440a9-d30c-4b5e-8763-749ab5593ac7" valueTypeId="0e563042-0ee8-4d8a-b655-f62d1323e10c"/>
+    <managerType typeId="d0d96042-9702-439e-a432-9e6829535609" valueTypeId="1832cb29-8ff2-4cef-ac46-3a17e434f19e"/>
+  </producedTypes>
+  <name>КадровыеИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые изменения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыеИзменения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КадровыеИзменения.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.КадровыеИзменения.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.КадровыеИзмененияРаботниковСклада</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="64ff3f44-b6f7-4cca-a65f-024237824b56">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1259dcfd-a036-42aa-ba33-11f8e12ffbb5">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="707dfbda-184c-4d28-8058-5c0520d36e8c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="379a00bc-8770-48d7-9536-2215f38028b2">
+    <name>ВидКадровогоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид кадрового изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидКадровогоИзменения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d3216492-ffe5-47b1-8cf2-89c7f740b9bc">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41f249a6-7425-4f70-a1ae-04b4ccebd189">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="fdf64159-7b59-4d66-9114-6893c5685cee">
+    <producedTypes>
+      <objectType typeId="2a96fa63-5f1e-4cef-bb0c-2d1d215bad67" valueTypeId="5dbb0919-4571-4831-b795-23e877a264d7"/>
+      <rowType typeId="53c5b2a3-384a-4204-b07b-5b25b01ef715" valueTypeId="e2f6b48a-2cc3-4abb-bb32-2f99828249cb"/>
+    </producedTypes>
+    <name>РаботникиСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники склада</value>
+    </synonym>
+    <attributes uuid="58e52dbe-5e66-40e3-b774-0489991eda34">
+      <name>Работник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Работник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.итWMSРаботникиСклада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c802df1b-e307-4b85-b444-16713ef72000">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДолжностиРаботниковСклада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

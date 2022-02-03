@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="779a4cf5-d8be-4591-a676-19b238d4ae49">
+  <name>итWMSЗаполнитьЯчейкиРежим1</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS Заполнить ячейки получатели по первой строке</value>
+  </synonym>
+  <comment>Работает для ТЧ Товары</comment>
+  <group>CommandGroup.итWMS_Команды</group>
+  <commandParameterType>
+    <types>DocumentRef.итWMSРазмещение</types>
+    <types>DocumentRef.итWMSПеремещение</types>
+    <types>DocumentRef.итWMSРучноеПеремещение</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Только для ТЧ Товары</value>
+  </toolTip>
+</mdclass:CommonCommand>

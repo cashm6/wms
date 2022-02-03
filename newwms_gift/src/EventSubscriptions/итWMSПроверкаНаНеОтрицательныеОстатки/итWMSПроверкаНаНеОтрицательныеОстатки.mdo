@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3592d3e8-c506-42ad-8ace-f75a1a387869">
+  <name>итWMSПроверкаНаНеОтрицательныеОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMSПроверка на не отрицательные остатки</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.итWMSПеремещение</types>
+    <types>DocumentObject.итWMSИзменениеПараметровТовараВЯчейках</types>
+    <types>DocumentObject.итWMSРазмещение</types>
+    <types>DocumentObject.итWMSСписаниеТовара</types>
+    <types>DocumentObject.итWMSНаборка</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.итWMSПривилегированныйМодуль.итWMSПроверкаНаНеОтрицательныеОстаткиОбработкаПроведения</handler>
+</mdclass:EventSubscription>

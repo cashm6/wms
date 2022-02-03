@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c5d4fa-88bf-488f-8972-427fb9e56d04">
+  <producedTypes>
+    <managerType typeId="47f4aa1e-9340-4c2f-828e-6d32094fa578" valueTypeId="4591f646-9f6d-4549-82c0-e9309fcc79e2"/>
+    <valueManagerType typeId="bccae969-6f67-48f3-99fb-5fd784e2ffe6" valueTypeId="1f84e267-840c-4637-a830-4149222ff16c"/>
+    <valueKeyType typeId="906eb3ad-5e76-40fe-b865-9b3797f8f314" valueTypeId="192a5c64-6bb0-47da-965e-e9ba1a52ec15"/>
+  </producedTypes>
+  <name>БлокироватьПриДвиженииНеКратноЕдМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировать при движении не кратно ед. мест</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

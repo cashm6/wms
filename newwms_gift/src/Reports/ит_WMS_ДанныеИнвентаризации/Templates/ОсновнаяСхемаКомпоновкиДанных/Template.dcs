@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХарактеристикаНоменклатуры</dataPath>
+			<field>ХарактеристикаНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРозлива</dataPath>
+			<field>ДатаРозлива</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОстатокСкладПосле</dataPath>
+			<field>КоличествоОстатокСкладПосле</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество остаток склад после</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторУпаковки</dataPath>
+			<field>ИдентификаторУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Качество</dataPath>
+			<field>Качество</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ячейка</dataPath>
+			<field>Ячейка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОстатокСкладДо</dataPath>
+			<field>КоличествоОстатокСкладДо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество остаток склад до</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОстатокУпр</dataPath>
+			<field>КоличествоОстатокУпр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество остаток упр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзлишкиУпр</dataPath>
+			<field>ИзлишкиУпр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Излишки упр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзлишкиСклад</dataPath>
+			<field>ИзлишкиСклад</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Излишки склад</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НедостачаУпр</dataPath>
+			<field>НедостачаУпр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Недостача упр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезультатСклад</dataPath>
+			<field>РезультатСклад</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат склад</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НедостачаСклад</dataPath>
+			<field>НедостачаСклад</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Недостача склад</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезультатУпр</dataPath>
+			<field>РезультатУпр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат упр</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПродукции</dataPath>
+			<field>ВидПродукции</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид продукции</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	итWMSДанныеИнвентаризацииТовары.Номенклатура,
+	итWMSДанныеИнвентаризацииТовары.СерияНоменклатуры,
+	итWMSДанныеИнвентаризацииТовары.Склад,
+	итWMSДанныеИнвентаризацииТовары.Качество,
+	СУММА(ЕСТЬNULL(итWMSДанныеИнвентаризацииТовары.КоличествоФакт, 0) - ЕСТЬNULL(итWMSДанныеИнвентаризацииТовары.КоличествоПлан, 0)) КАК КоличествоОстаток
+ПОМЕСТИТЬ ИтогиИнвенторизации
+ИЗ
+	Документ.итWMSДанныеИнвентаризации.Товары КАК итWMSДанныеИнвентаризацииТовары
+ГДЕ
+	итWMSДанныеИнвентаризацииТовары.ДатаИнвентаризации МЕЖДУ &amp;ПериодДоДата И &amp;ПериодПослеДата
+	И итWMSДанныеИнвентаризацииТовары.Ссылка.Проведен = ИСТИНА
+	И итWMSДанныеИнвентаризацииТовары.Ссылка.СтатусДокумента = ЗНАЧЕНИЕ(Перечисление.итWMSСтатусыСкладскихДокументов.Завершен)
+
+СГРУППИРОВАТЬ ПО
+	итWMSДанныеИнвентаризацииТовары.Номенклатура,
+	итWMSДанныеИнвентаризацииТовары.СерияНоменклатуры,
+	итWMSДанныеИнвентаризацииТовары.Склад,
+	итWMSДанныеИнвентаризацииТовары.Качество
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТоварыНаСкладахОстатки.Склад,
+	ТоварыНаСкладахОстатки.Номенклатура,
+	ТоварыНаСкладахОстатки.Качество,
+	ТоварыНаСкладахОстатки.СерияНоменклатуры,
+	ТоварыНаСкладахОстатки.КоличествоОстаток
+ПОМЕСТИТЬ УпрОстаткиДоИнветоризации
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах.Остатки(&amp;ПериодДо, ) КАК ТоварыНаСкладахОстатки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	итТоварыВЯчейкахБезНеНабранныхНаборокОстатки.Склад,
+	итТоварыВЯчейкахБезНеНабранныхНаборокОстатки.Номенклатура,
+	итТоварыВЯчейкахБезНеНабранныхНаборокОстатки.СерияНоменклатуры,
+	итТоварыВЯчейкахБезНеНабранныхНаборокОстатки.Качество,
+	итТоварыВЯчейкахБезНеНабранныхНаборокОстатки.КоличествоОстаток
+ПОМЕСТИТЬ СкладОстаткиДоИнветоризации
+ИЗ
+	РегистрНакопления.итТоварыВЯчейкахБезНеНабранныхНаборок.Остатки(&amp;ПериодДо, ) КАК итТоварыВЯчейкахБезНеНабранныхНаборокОстатки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СкладОстаткиДоИнветоризации.Склад,
+	СкладОстаткиДоИнветоризации.Номенклатура,
+	СкладОстаткиДоИнветоризации.СерияНоменклатуры,
+	СкладОстаткиДоИнветоризации.Качество,
+	СкладОстаткиДоИнветоризации.КоличествоОстаток
+ПОМЕСТИТЬ ОбъеденныеДанныеДоИ_ДанныеИнвенторизации
+ИЗ
+	СкладОстаткиДоИнветоризации КАК СкладОстаткиДоИнветоризации
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ИтогиИнвенторизации.Склад,
+	ИтогиИнвенторизации.Номенклатура,
+	ИтогиИнвенторизации.СерияНоменклатуры,
+	ИтогиИнвенторизации.Качество,
+	ИтогиИнвенторизации.КоличествоОстаток
+ИЗ
+	ИтогиИнвенторизации КАК ИтогиИнвенторизации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Склад,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Номенклатура,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.СерияНоменклатуры,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Качество,
+	СУММА(ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.КоличествоОстаток) КАК КоличествоОстаток
+ПОМЕСТИТЬ СкладОстаткиПосле
+ИЗ
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации КАК ОбъеденныеДанныеДоИ_ДанныеИнвенторизации
+
+СГРУППИРОВАТЬ ПО
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Склад,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Номенклатура,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.СерияНоменклатуры,
+	ОбъеденныеДанныеДоИ_ДанныеИнвенторизации.Качество
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	УпрОстаткиДоИнветоризации.Склад,
+	УпрОстаткиДоИнветоризации.Номенклатура,
+	УпрОстаткиДоИнветоризации.Качество,
+	УпрОстаткиДоИнветоризации.СерияНоменклатуры,
+	УпрОстаткиДоИнветоризации.КоличествоОстаток КАК КоличествоОстатокУпр,
+	NULL КАК КоличествоОстатокСкладДо,
+	NULL КАК КоличествоОстатокСкладПосле
+ПОМЕСТИТЬ ОбъеденениеДанныхУчета
+ИЗ
+	УпрОстаткиДоИнветоризации КАК УпрОстаткиДоИнветоризации
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СкладОстаткиДоИнветоризации.Склад,
+	СкладОстаткиДоИнветоризации.Номенклатура,
+	СкладОстаткиДоИнветоризации.Качество,
+	СкладОстаткиДоИнветоризации.СерияНоменклатуры,
+	NULL,
+	СкладОстаткиДоИнветоризации.КоличествоОстаток,
+	NULL
+ИЗ
+	СкладОстаткиДоИнветоризации КАК СкладОстаткиДоИнветоризации
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СкладОстаткиПосле.Склад,
+	СкладОстаткиПосле.Номенклатура,
+	СкладОстаткиПосле.Качество,
+	СкладОстаткиПосле.СерияНоменклатуры,
+	NULL,
+	NULL,
+	СкладОстаткиПосле.КоличествоОстаток
+ИЗ
+	СкладОстаткиПосле КАК СкладОстаткиПосле
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОбъеденениеДанныхУчета.Склад,
+	ОбъеденениеДанныхУчета.Номенклатура,
+	ОбъеденениеДанныхУчета.Качество,
+	ОбъеденениеДанныхУчета.СерияНоменклатуры,
+	СУММА(ЕСТЬNULL(ОбъеденениеДанныхУчета.КоличествоОстатокУпр, 0)) КАК КоличествоОстатокУпр,
+	СУММА(ЕСТЬNULL(ОбъеденениеДанныхУчета.КоличествоОстатокСкладДо, 0)) КАК КоличествоОстатокСкладДо,
+	СУММА(ЕСТЬNULL(ОбъеденениеДанныхУчета.КоличествоОстатокСкладПосле, 0)) КАК КоличествоОстатокСкладПосле
+ПОМЕСТИТЬ ГруппировкаОбъедененныхДанных
+ИЗ
+	ОбъеденениеДанныхУчета КАК ОбъеденениеДанныхУчета
+
+СГРУППИРОВАТЬ ПО
+	ОбъеденениеДанныхУчета.Склад,
+	ОбъеденениеДанныхУчета.Номенклатура,
+	ОбъеденениеДанныхУчета.Качество,
+	ОбъеденениеДанныхУчета.СерияНоменклатуры
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ГруппировкаОбъедененныхДанных.Склад,
+	ГруппировкаОбъедененныхДанных.Номенклатура,
+	ГруппировкаОбъедененныхДанных.Качество,
+	ГруппировкаОбъедененныхДанных.СерияНоменклатуры,
+	ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр,
+	ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо,
+	ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр &gt; 0
+			ТОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр
+		ИНАЧЕ 0
+	КОНЕЦ КАК ИзлишкиУпр,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр &lt; 0
+			ТОГДА -(ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр)
+		ИНАЧЕ 0
+	КОНЕЦ КАК НедостачаУпр,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр &gt; 0
+			ТОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр
+		ИНАЧЕ 0
+	КОНЕЦ - ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр &lt; 0
+			ТОГДА -(ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокУпр)
+		ИНАЧЕ 0
+	КОНЕЦ КАК РезультатУпр,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо &gt; 0
+			ТОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо
+		ИНАЧЕ 0
+	КОНЕЦ КАК ИзлишкиСклад,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо &lt; 0
+			ТОГДА -(ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо)
+		ИНАЧЕ 0
+	КОНЕЦ КАК НедостачаСклад,
+	ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо &gt; 0
+			ТОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо
+		ИНАЧЕ 0
+	КОНЕЦ - ВЫБОР
+		КОГДА ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо &lt; 0
+			ТОГДА -(ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладПосле - ГруппировкаОбъедененныхДанных.КоличествоОстатокСкладДо)
+		ИНАЧЕ 0
+	КОНЕЦ КАК РезультатСклад,
+	ГруппировкаОбъедененныхДанных.Номенклатура.алкВидПродукции КАК ВидПродукции,
+	ГруппировкаОбъедененныхДанных.СерияНоменклатуры.алкДатаНачалаРозлива КАК ДатаРозлива
+ИЗ
+	ГруппировкаОбъедененныхДанных КАК ГруппировкаОбъедененныхДанных</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ИзлишкиУпрНоменклатура</dataPath>
+		<expression>ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","Номенклатура")-ВычислитьВыражение("Сумма(НедостачаУпр)","Номенклатура") )&gt;0 Тогда
+ВычислитьВыражение("Сумма(ИзлишкиУпр)","Номенклатура")-ВычислитьВыражение("Сумма(НедостачаУпр)","Номенклатура")
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Излишки упр номенклатура</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НедостачаУпрНоменклатура</dataPath>
+		<expression>ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","Номенклатура")-ВычислитьВыражение("Сумма(НедостачаУпр)","Номенклатура") )&lt;0 Тогда
+-(ВычислитьВыражение("Сумма(ИзлишкиУпр)","Номенклатура")-ВычислитьВыражение("Сумма(НедостачаУпр)","Номенклатура"))
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Недостача упр номенклатура</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзлишкиУпрДатаРозлива</dataPath>
+		<expression>
+ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ДатаРозлива")-ВычислитьВыражение("Сумма(НедостачаУпр)","ДатаРозлива") )&gt;0 Тогда
+ВычислитьВыражение("Сумма(ИзлишкиУпр)","ДатаРозлива")-ВычислитьВыражение("Сумма(НедостачаУпр)","ДатаРозлива")
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Излишки упр дата розлива</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НедостачаУпрДатаРозлива</dataPath>
+		<expression>
+ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ДатаРозлива")-ВычислитьВыражение("Сумма(НедостачаУпр)","ДатаРозлива") )&lt;0 Тогда
+-(ВычислитьВыражение("Сумма(ИзлишкиУпр)","ДатаРозлива")-ВычислитьВыражение("Сумма(НедостачаУпр)","ДатаРозлива"))
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Недостача упр дата розлива</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НедостачаУпрВидПродукции</dataPath>
+		<expression>
+ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ВидПродукции")-ВычислитьВыражение("Сумма(НедостачаУпр)","ВидПродукции") )&lt;0 Тогда
+-(ВычислитьВыражение("Сумма(ИзлишкиУпр)","ВидПродукции")-ВычислитьВыражение("Сумма(НедостачаУпр)","ВидПродукции"))
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Недостача упр вид продукции</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзлишкиУпрВидПродукции</dataPath>
+		<expression>ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ВидПродукции")-ВычислитьВыражение("Сумма(НедостачаУпр)","ВидПродукции") )&gt;0 Тогда
+ВычислитьВыражение("Сумма(ИзлишкиУпр)","ВидПродукции")-ВычислитьВыражение("Сумма(НедостачаУпр)","ВидПродукции")
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Излишки упр вид продукции</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НедостачаУпрОбщийИтог</dataPath>
+		<expression>
+ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ОбщийИтог")-ВычислитьВыражение("Сумма(НедостачаУпр)","ОбщийИтог") )&lt;0 Тогда
+-(ВычислитьВыражение("Сумма(ИзлишкиУпр)","ОбщийИтог")-ВычислитьВыражение("Сумма(НедостачаУпр)","ОбщийИтог"))
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Недостача упр общий итог</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИзлишкиУпрОбщийИтог</dataPath>
+		<expression>ВЫБОР КОГДА (ВычислитьВыражение("Сумма(ИзлишкиУпр)","ОбщийИтог")-ВычислитьВыражение("Сумма(НедостачаУпр)","ОбщийИтог") )&gt;0 Тогда
+ВычислитьВыражение("Сумма(ИзлишкиУпр)","ОбщийИтог")-ВычислитьВыражение("Сумма(НедостачаУпр)","ОбщийИтог")
+иначе
+0
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Излишки упр общий итог</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>ИзлишкиСклад</dataPath>
+		<expression>Сумма(ИзлишкиСклад)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИзлишкиУпр</dataPath>
+		<expression>Сумма(ИзлишкиУпр)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОстатокСкладДо</dataPath>
+		<expression>Сумма(КоличествоОстатокСкладДо)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОстатокСкладПосле</dataPath>
+		<expression>Сумма(КоличествоОстатокСкладПосле)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОстатокУпр</dataPath>
+		<expression>Сумма(КоличествоОстатокУпр)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НедостачаСклад</dataPath>
+		<expression>Сумма(НедостачаСклад)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НедостачаУпр</dataPath>
+		<expression>Сумма(НедостачаУпр)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезультатСклад</dataPath>
+		<expression>Сумма(РезультатСклад)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезультатУпр</dataPath>
+		<expression>Сумма(РезультатУпр)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодДо</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период до</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДокументНачалаИнвенторизации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документ начала инвенторизации</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.итWMSДанныеИнвентаризации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДокументОкончанияИнвенторизации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документ окончания инвенторизации</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.итWMSДанныеИнвентаризации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодДоДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период до дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодПослеДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период после дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Склад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные Серии</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СерияНоменклатуры</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СерияНоменклатуры.Код</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОстатокУпр</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОстатокСкладДо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоОстатокСкладПосле</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УправленческийАнализ</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ИзлишкиУпр</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>НедостачаУпр</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>РезультатУпр</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СкладскойАнализ</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ИзлишкиСклад</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>НедостачаСклад</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>РезультатСклад</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДокументНачалаИнвенторизации</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Документ.итWMSДанныеИнвентаризации.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>fe3c56a6-367c-46e2-a8cf-c4eabe6bdffe</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДокументОкончанияИнвенторизации</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Документ.итWMSДанныеИнвентаризации.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>969ff4d2-c3a0-45b7-9e64-8672fa215def</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РезультатУпр</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">РезультатУпр</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РезультатУпр</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">РезультатУпр</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#33CCCC</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РезультатСклад</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">РезультатСклад</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>РезультатСклад</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">РезультатСклад</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#33CCCC</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидПродукции</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ДатаРозлива</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

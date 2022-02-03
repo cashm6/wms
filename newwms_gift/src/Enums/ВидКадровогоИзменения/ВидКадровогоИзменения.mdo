@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def867ec-816e-4fb0-ac59-a3ff0afe6da5">
+  <producedTypes>
+    <refType typeId="d8eb922a-4b04-453d-a53f-4ab31a1c4a80" valueTypeId="58616d94-0b9e-4d29-8f9a-89457e951faf"/>
+    <listType typeId="03c8f519-ebca-4119-96ee-fbb71a79eac8" valueTypeId="12974c26-90aa-4e3f-a8db-6fa7bdfc752f"/>
+    <managerType typeId="f8c43056-510e-49d5-9996-2282bfa46620" valueTypeId="88d776fa-3812-488c-a467-dffb4c611338"/>
+  </producedTypes>
+  <name>ВидКадровогоИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид кадрового изменения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c44353b0-e2f7-451f-afdb-058116872e4d">
+    <name>УстановитьНаДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить на должность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb5c57f3-6625-4280-ad1d-a22e41e12d8d">
+    <name>СнятьСДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снять с должности</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

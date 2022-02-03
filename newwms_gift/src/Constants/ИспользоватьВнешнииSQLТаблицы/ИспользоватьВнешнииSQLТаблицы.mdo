@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="679458fc-1c98-40d4-9b0f-1f3fc138b836">
+  <producedTypes>
+    <managerType typeId="98334cce-3664-4160-aa72-724fba5d9acf" valueTypeId="f792f136-2c8d-47e6-9226-0bb434ab87af"/>
+    <valueManagerType typeId="2076018f-945d-42e7-a7e5-37a8db92b192" valueTypeId="2604661f-487a-401a-956e-9bc34c2b6a01"/>
+    <valueKeyType typeId="bc993938-354e-49e1-84c1-a4a2b889ff33" valueTypeId="3407c3f0-1165-49ce-a339-6080a2fa6aac"/>
+  </producedTypes>
+  <name>ИспользоватьВнешнииSQLТаблицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внешнии SQLТаблицы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

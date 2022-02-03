@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e7555b0-031d-4064-a3b8-bf3982c4498d">
+  <producedTypes>
+    <selectionType typeId="e6ecbe07-42ea-4aff-b683-93568f3b3d69" valueTypeId="91bee127-bbc2-4fee-a14d-20f59980c4f5"/>
+    <listType typeId="f315cd71-bd48-4718-b205-9e9ca8cc7a0f" valueTypeId="e1b5b262-2603-4796-b5da-6297cae6da95"/>
+    <managerType typeId="95e7d79b-7162-420c-a4e5-62fc4c0646d1" valueTypeId="1f76811b-60a4-46c5-a5fc-145497d1cbc5"/>
+  </producedTypes>
+  <name>ИтWMSЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMSЖурнал документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ИтWMSЖурналДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.итWMSПриемка</registeredDocuments>
+  <registeredDocuments>Document.итWMSРазмещение</registeredDocuments>
+  <registeredDocuments>Document.итWMSПеремещение</registeredDocuments>
+  <registeredDocuments>Document.итWMSНаборка</registeredDocuments>
+  <registeredDocuments>Document.итWMSКонтрольнаяОперацияАгрегации</registeredDocuments>
+  <registeredDocuments>Document.итWMSОтгрузка</registeredDocuments>
+  <registeredDocuments>Document.итWMSИзменениеПараметровТовараВЯчейках</registeredDocuments>
+  <registeredDocuments>Document.итWMSСписаниеТовара</registeredDocuments>
+  <registeredDocuments>Document.итWMSРучноеРазмещение</registeredDocuments>
+  <registeredDocuments>Document.итWMSРучнаяОтгрузка</registeredDocuments>
+  <registeredDocuments>Document.итWMSРучноеПеремещение</registeredDocuments>
+  <registeredDocuments>Document.итWMSПроверка</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="2f5750ea-7dca-48a7-8f43-9785714a541e">
+    <name>итОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ит основание</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.итОснование</references>
+    <references>Document.итWMSРазмещение.Attribute.итОснование</references>
+    <references>Document.итWMSПеремещение.Attribute.итОснование</references>
+    <references>Document.итWMSНаборка.Attribute.итОснование</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.итОснование</references>
+    <references>Document.итWMSОтгрузка.Attribute.итОснование</references>
+    <references>Document.итWMSИзменениеПараметровТовараВЯчейках.Attribute.итОснование</references>
+    <references>Document.итWMSСписаниеТовара.Attribute.итОснование</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.итОснование</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.итОснование</references>
+    <references>Document.итWMSРучноеПеремещение.Attribute.итОснование</references>
+  </columns>
+  <columns uuid="9cb16341-2db4-4a73-8f90-58eb813c759f">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSРазмещение.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSПеремещение.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSНаборка.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSОтгрузка.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSИзменениеПараметровТовараВЯчейках.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSСписаниеТовара.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSРучноеПеремещение.Attribute.СтатусДокумента</references>
+    <references>Document.итWMSПроверка.Attribute.СтатусДокумента</references>
+  </columns>
+  <columns uuid="edfc02f4-918c-4905-8778-87d1e53efa1b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.итWMSПеремещение.Attribute.Ответственный</references>
+    <references>Document.итWMSПриемка.Attribute.Ответственный</references>
+    <references>Document.итWMSРазмещение.Attribute.Ответственный</references>
+    <references>Document.итWMSНаборка.Attribute.Ответственный</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.Ответственный</references>
+    <references>Document.итWMSОтгрузка.Attribute.Ответственный</references>
+    <references>Document.итWMSИзменениеПараметровТовараВЯчейках.Attribute.Ответственный</references>
+    <references>Document.итWMSСписаниеТовара.Attribute.Ответственный</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.Ответственный</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.Ответственный</references>
+    <references>Document.итWMSРучноеПеремещение.Attribute.Ответственный</references>
+    <references>Document.итWMSПроверка.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="82bbc9a0-3131-46e7-8778-6cf89343b003">
+    <name>НеРаспределятьНаТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не распределять на ТСД</value>
+    </synonym>
+    <references>Document.итWMSРазмещение.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSПриемка.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSПеремещение.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSНаборка.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSОтгрузка.Attribute.НеРаспределятьНаТСД</references>
+    <references>Document.итWMSПроверка.Attribute.НеРаспределятьНаТСД</references>
+  </columns>
+  <columns uuid="b87c278c-05b5-4dd5-955b-19f57ffb36af">
+    <name>НомерВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер входящего документа</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.НомерВходящегоДокумента</references>
+    <references>Document.итWMSРазмещение.Attribute.НомерВходящегоДокумента</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.НомерВходящегоДокумента</references>
+  </columns>
+  <columns uuid="5147d5c0-d4dc-437e-8637-8dba4e891c77">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.Контрагент</references>
+    <references>Document.итWMSРазмещение.Attribute.Контрагент</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.Контрагент</references>
+    <references>Document.итWMSОтгрузка.Attribute.Контрагент</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.Контрагент</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.Контрагент</references>
+    <references>Document.итWMSПроверка.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="2ccc3a90-6651-4749-8842-e674d0d389b4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.Организация</references>
+    <references>Document.итWMSРазмещение.Attribute.Организация</references>
+    <references>Document.итWMSПеремещение.Attribute.Организация</references>
+    <references>Document.итWMSНаборка.Attribute.Организация</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.Организация</references>
+    <references>Document.итWMSОтгрузка.Attribute.Организация</references>
+    <references>Document.итWMSИзменениеПараметровТовараВЯчейках.Attribute.ОрганизацияОтправитель</references>
+    <references>Document.итWMSСписаниеТовара.Attribute.Организация</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.Организация</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.Организация</references>
+    <references>Document.итWMSРучноеПеремещение.Attribute.Организация</references>
+    <references>Document.итWMSПроверка.Attribute.Организация</references>
+  </columns>
+  <columns uuid="40268246-cbc1-4089-8e57-8609a0dd49df">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.итWMSПриемка.Attribute.Комментарий</references>
+    <references>Document.итWMSРазмещение.Attribute.Комментарий</references>
+    <references>Document.итWMSПеремещение.Attribute.Комментарий</references>
+    <references>Document.итWMSНаборка.Attribute.Комментарий</references>
+    <references>Document.итWMSКонтрольнаяОперацияАгрегации.Attribute.Комментарий</references>
+    <references>Document.итWMSОтгрузка.Attribute.Комментарий</references>
+    <references>Document.итWMSИзменениеПараметровТовараВЯчейках.Attribute.Комментарий</references>
+    <references>Document.итWMSСписаниеТовара.Attribute.Комментарий</references>
+    <references>Document.итWMSРучноеРазмещение.Attribute.Комментарий</references>
+    <references>Document.итWMSРучнаяОтгрузка.Attribute.Комментарий</references>
+    <references>Document.итWMSРучноеПеремещение.Attribute.Комментарий</references>
+    <references>Document.итWMSПроверка.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="abc76ed1-6566-48a3-aaf3-b7d0d1a10be4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98d88e57-be3c-4282-aaa6-f707b0f13870">
+  <name>итWMS_SQLЗаписьМарки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMS SQLЗапись марки</value>
+  </synonym>
+  <methodName>CommonModule.ЗапускРегЗаданияПривилегированный.итWMS_SQLЗаписьМарки</methodName>
+  <description>итWMS_SQLЗапись</description>
+  <key>итWMS_SQLЗапись</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

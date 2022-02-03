@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b49ddd3-b99a-46ae-87bb-b3b15dcddbef">
+  <producedTypes>
+    <objectType typeId="9f26acc5-d48e-45f8-8871-d8c31d6bf956" valueTypeId="53bf7d61-21aa-49c8-9160-cbd5bcc9c3ee"/>
+    <managerType typeId="b37bc84f-1450-4dfd-8d9f-ada85647398c" valueTypeId="e50bcc97-73e8-4f80-91b9-f183f1d08205"/>
+  </producedTypes>
+  <name>ПечатьSSCCиGTIN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать SSCC и GTIN</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьSSCCиGTIN.Form.ПечатьSSCCиGTIN</defaultForm>
+  <forms uuid="bc8bb566-b1c8-4062-8e1a-09749abfa16a">
+    <name>ПечатьSSCCиGTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать SSCCи GTIN</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

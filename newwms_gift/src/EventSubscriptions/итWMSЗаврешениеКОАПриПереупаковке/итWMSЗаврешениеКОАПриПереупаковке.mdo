@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5450fc93-8c61-4c1a-a27f-a9f9bc9b101a">
+  <name>итWMSЗаврешениеКОАПриПереупаковке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMSЗаврешение КОАПри переупаковке</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.алкПереупаковка</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.итWMSПривилегированныйМодуль.итWMSЗаврешениеКОАПриПереупаковкеОбработкаПроведения</handler>
+</mdclass:EventSubscription>

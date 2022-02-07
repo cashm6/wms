@@ -355,6 +355,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="08c9f7bf-fcc9-485e-ab1a-758b2f8150e2">
+    <name>КоличествоПаллет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество паллет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b673b07f-9a46-48b1-becb-af94949b78dd">
     <producedTypes>
       <objectType typeId="ee4626b6-5b8a-41ac-ba1c-b2c8337b1d22" valueTypeId="11067f50-4e40-44f1-961c-5c68f0a83c53"/>

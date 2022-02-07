@@ -6,7 +6,7 @@
     <value>Ит WMS модуль пов использования сеанс</value>
   </synonym>
   <server>true</server>
-  <serverCall>true</serverCall>
-  <privileged>true</privileged>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

@@ -6,6 +6,7 @@
     <value>WMSОбработчики регистрации и загрузки</value>
   </synonym>
   <server>true</server>
-  <serverCall>true</serverCall>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <privileged>true</privileged>
 </mdclass:CommonModule>

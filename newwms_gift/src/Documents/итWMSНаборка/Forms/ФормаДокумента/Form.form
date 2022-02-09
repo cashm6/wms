@@ -4562,6 +4562,36 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Button">
+        <name>ФормаПеремещениеТоваровУпр</name>
+        <id>382</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаПеремещениеТоваровУпрРасширеннаяПодсказка</name>
+          <id>383</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПеремещениеТоваровУпр</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -6094,6 +6124,23 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ПеремещениеТоваровУпр</name>
+    <title>
+      <key>ru</key>
+      <value>Перемещение товаров(Упр)</value>
+    </title>
+    <id>31</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПеремещениеТоваровУпр</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
@@ -6109,7 +6156,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>1:843b972a-8b4d-403d-b75c-5b41063cd0f1</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -6163,6 +6210,12 @@
         <command>Document.СписаниеТоваров.StandardCommand.CreateBasedOn</command>
         <group>FormCommandBarCreateBasedOn</group>
         <index>5</index>
+        <userVisible/>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>Document.ПеремещениеТоваров.StandardCommand.CreateBasedOn</command>
+        <group>FormCommandBarCreateBasedOn</group>
+        <index>6</index>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>

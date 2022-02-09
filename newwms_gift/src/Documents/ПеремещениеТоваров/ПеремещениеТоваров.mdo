@@ -60,9 +60,14 @@
   <basedOn>Document.итWMSРучноеПеремещение</basedOn>
   <basedOn>Document.итWMSИзменениеПараметровТовараВЯчейках</basedOn>
   <basedOn>Document.итWMSСписаниеТовара</basedOn>
+  <basedOn>Document.итWMSНаборка</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Перемещение товаров</value>
+  </objectPresentation>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -161,6 +166,21 @@
     </synonym>
     <type>
       <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b0a825a-6a21-4b7e-beca-51ae514f5572">
+    <name>ПеремещениеНаУдаленныйСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение на удаленный склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

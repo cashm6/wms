@@ -31,6 +31,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВнутреннийЗаказ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВнутреннийЗаказ.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="08391c98-3f87-439e-b8bf-eb31c3ac6508">
@@ -374,6 +376,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8682998e-4418-4df1-bfd9-2613641c2b80">
+    <name>ИмеютсяНеЗарезервированныеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имеются не зарезервированные товары</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="98199dd7-0912-4c58-921e-e84ef0173f05">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90dbdcf2-48b0-4843-a96f-9378acecea72">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="b673b07f-9a46-48b1-becb-af94949b78dd">
     <producedTypes>
       <objectType typeId="ee4626b6-5b8a-41ac-ba1c-b2c8337b1d22" valueTypeId="11067f50-4e40-44f1-961c-5c68f0a83c53"/>

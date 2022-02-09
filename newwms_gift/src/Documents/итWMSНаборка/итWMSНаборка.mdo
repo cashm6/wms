@@ -58,9 +58,14 @@
   </standardAttributes>
   <basedOn>Document.ЗаказПокупателя</basedOn>
   <basedOn>Document.СписаниеТоваров</basedOn>
+  <basedOn>Document.ВнутреннийЗаказ</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Наборка</value>
+  </objectPresentation>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

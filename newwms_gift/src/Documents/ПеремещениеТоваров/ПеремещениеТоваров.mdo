@@ -188,6 +188,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e7cfc02f-ce77-4e76-9da3-9ef5a69b51fd">
+    <name>НомерИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="02fb33c1-7b07-48bd-b1e5-d3187d8ded58">
     <name>ФормаДокумента</name>
     <synonym>

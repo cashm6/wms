@@ -27,5 +27,6 @@
   <content>Catalog.СменыРаботниковСклада</content>
   <content>Catalog.ВидыДополнительныхРабот</content>
   <content>Catalog.АлгоритмыДопОбработкиДокументов</content>
+  <content>Catalog.НаборыУпаковок</content>
   <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
 </mdclass:Subsystem>

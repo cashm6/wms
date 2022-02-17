@@ -1097,16 +1097,16 @@
         <name>УпаковкиКоманднаяПанель</name>
         <id>58</id>
         <items xsi:type="form:Button">
-          <name>УпаковкиЗаполнитьSSCCиGTINКарантина</name>
-          <id>124</id>
+          <name>УпаковкиЗаполнитьSSCCиGTINИзНабора</name>
+          <id>126</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>УпаковкиЗаполнитьSSCCиGTINКарантинаРасширеннаяПодсказка</name>
-            <id>125</id>
+            <name>УпаковкиЗаполнитьSSCCиGTINИзНабораРасширеннаяПодсказка</name>
+            <id>127</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1119,7 +1119,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ЗаполнитьSSCCиGTINКарантина</commandName>
+          <commandName>Form.Command.ЗаполнитьSSCCиGTINИзНабора</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1384,6 +1384,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
+  </handlers>
   <excludedCommands>Delete</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -1454,22 +1458,18 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьSSCCиGTINКарантина</name>
+    <name>ЗаполнитьSSCCиGTINИзНабора</name>
     <title>
       <key>ru</key>
-      <value>Заполнить SSCC и GTIN Карантина</value>
+      <value>Заполнить SSCС и GTIN из набора</value>
     </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить SSCCи GTINКарантина</value>
-    </toolTip>
+    <id>4</id>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаполнитьSSCCиGTINКарантина</name>
+        <name>ЗаполнитьSSCCиGTINИзНабора</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

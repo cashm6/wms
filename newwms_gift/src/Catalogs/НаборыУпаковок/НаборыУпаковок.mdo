@@ -22,14 +22,14 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Организации</owners>
   <codeLength>9</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="f1b1e525-c5b6-435b-bf08-429947941693">

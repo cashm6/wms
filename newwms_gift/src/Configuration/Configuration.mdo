@@ -220,35 +220,27 @@
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодов</commonTemplates>
   <filterCriteria>FilterCriterion.WMSСвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.ВнешниеКомпонентыВызовСервера</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикиРегистрации_И_Загрузки</commonModules>
-  <commonModules>CommonModule.итWMSСлужебныеПроцедурыИФункции</commonModules>
-  <commonModules>CommonModule.итWMSПривилегированныйМодуль</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхПриемки</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхРазмещения</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхПеремещения</commonModules>
-  <commonModules>CommonModule.итWMSОбщегоНазначенияКлиентСервер</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхНаборки</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхОтгрузки</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхИнвентаризации</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикSSCC</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхПроверки</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикДанныхКонтрольнойАгрегации</commonModules>
-  <commonModules>CommonModule.ит_WMS_МодульПовИспользованияВызовСервера</commonModules>
-  <commonModules>CommonModule.ит_WMS_МодульПовИспользованияСеанс</commonModules>
-  <commonModules>CommonModule.итWMSОбработчикРегистрации</commonModules>
-  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
-  <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
-  <commonModules>CommonModule.СтруктураПодчиненностиПереопределяемый</commonModules>
-  <commonModules>CommonModule.МодульОбменаУправленчискимиДанными</commonModules>
-  <commonModules>CommonModule.МодульОбменаСервеснымиДаннымиWMS</commonModules>
-  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
-  <commonModules>CommonModule.МодульПолученияДанныхМарок</commonModules>
-  <commonModules>CommonModule.ОбработчикОсобенностейКонтрагентов</commonModules>
-  <commonModules>CommonModule.ЗапускРегЗаданияПривилегированный</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыСервер</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкодаСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ЗапускРегЗаданияПривилегированный</commonModules>
+  <commonModules>CommonModule.ит_WMS_МодульПовИспользованияВызовСервера</commonModules>
+  <commonModules>CommonModule.ит_WMS_МодульПовИспользованияСеанс</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикSSCC</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхИнвентаризации</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхКонтрольнойАгрегации</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхНаборки</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхОтгрузки</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхПеремещения</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхПриемки</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхПроверки</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикДанныхРазмещения</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикиРегистрации_И_Загрузки</commonModules>
+  <commonModules>CommonModule.итWMSОбработчикРегистрации</commonModules>
+  <commonModules>CommonModule.итWMSОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.итWMSПривилегированныйМодуль</commonModules>
+  <commonModules>CommonModule.итWMSСлужебныеПроцедурыИФункции</commonModules>
   <commonModules>CommonModule.КассовыеСменыВызовСервера</commonModules>
   <commonModules>CommonModule.КассовыеСменыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.КассовыеСменыПереопределяемый</commonModules>
@@ -271,6 +263,9 @@
   <commonModules>CommonModule.МенеджерОфлайнОборудованияКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.МенеджерОфлайнОборудованияКлиентСервер</commonModules>
   <commonModules>CommonModule.МенеджерОфлайнОборудованияПереопределяемый</commonModules>
+  <commonModules>CommonModule.МодульОбменаСервеснымиДаннымиWMS</commonModules>
+  <commonModules>CommonModule.МодульОбменаУправленчискимиДанными</commonModules>
+  <commonModules>CommonModule.МодульПолученияДанныхМарок</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБПО</commonModules>
   <commonModules>CommonModule.ОборудованиеВесовоеОборудованиеВызовСервера</commonModules>
   <commonModules>CommonModule.ОборудованиеВесовоеОборудованиеКлиент</commonModules>
@@ -298,6 +293,7 @@
   <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваКлиент</commonModules>
   <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваКлиентСервер</commonModules>
   <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваОбновление</commonModules>
+  <commonModules>CommonModule.ОбработчикОсобенностейКонтрагентов</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
@@ -320,6 +316,7 @@
   <commonModules>CommonModule.ПечатьЭтикетокИЦенниковБПОПереопределяемый</commonModules>
   <commonModules>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</commonModules>
   <commonModules>CommonModule.ПодключаемоеОборудованиеДрайверСинхронноКлиент</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытия</commonModules>
   <commonModules>CommonModule.РассылкаЭлектронныхЧеков</commonModules>
   <commonModules>CommonModule.РассылкаЭлектронныхЧековВызовСервера</commonModules>
   <commonModules>CommonModule.РассылкаЭлектронныхЧековКлиент</commonModules>
@@ -327,8 +324,11 @@
   <commonModules>CommonModule.РассылкаЭлектронныхЧековКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.РассылкаЭлектронныхЧековПереопределяемый</commonModules>
   <commonModules>CommonModule.РассылкаЭлектронныхЧековПовтИсп</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтруктураПодчиненностиПереопределяемый</commonModules>
   <commonModules>CommonModule.ФорматноЛогическийКонтрольВызовСервера</commonModules>
   <commonModules>CommonModule.ФорматноЛогическийКонтрольКлиентСервер</commonModules>
   <commonModules>CommonModule.ФорматноЛогическийКонтрольКлиентСерверПереопределяемый</commonModules>

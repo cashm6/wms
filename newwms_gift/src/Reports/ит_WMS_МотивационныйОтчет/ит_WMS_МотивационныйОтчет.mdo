@@ -438,6 +438,38 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="5db2c00d-ca42-4b5f-82a1-b43dedd6fa34">
+    <name>СуммаПаллетыПриемкиПМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма паллеты приемки ПМУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef68538c-d7f6-4bce-8654-6ea4809cef14">
+    <name>СтоимостьПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость приемки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="d4ca6e47-f751-4b05-8ce0-3a1b160424eb">
     <producedTypes>
       <objectType typeId="e676fef3-3e7a-4279-8271-a4dc02e25af1" valueTypeId="3b2dcfc2-05db-4774-b46d-66aa46b0b21f"/>

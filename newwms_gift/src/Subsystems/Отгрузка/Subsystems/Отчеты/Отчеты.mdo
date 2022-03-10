@@ -13,5 +13,6 @@
   <content>Report.ОстаткиЯчеек</content>
   <content>Report.ит_WMS_ПланированиеНаборок</content>
   <content>Report.ит_WMS_ПланированиеПроверок</content>
+  <content>Report.РазличияЗаказовИНаборок</content>
   <parentSubsystem>Subsystem.Отгрузка</parentSubsystem>
 </mdclass:Subsystem>

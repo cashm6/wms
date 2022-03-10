@@ -6,7 +6,5 @@
     <value>Запуск рег задания привилегированный</value>
   </synonym>
   <server>true</server>
-  <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <privileged>true</privileged>
 </mdclass:CommonModule>

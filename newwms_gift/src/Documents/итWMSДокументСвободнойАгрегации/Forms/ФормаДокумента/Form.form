@@ -1073,7 +1073,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>2:b1a8819b-744e-444a-9170-1ee6861424db</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>

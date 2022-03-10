@@ -2393,6 +2393,7 @@
 				<v8:AllowedSign>Any</v8:AllowedSign>
 			</v8:NumberQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
@@ -2411,6 +2412,7 @@
 				<v8:AllowedSign>Any</v8:AllowedSign>
 			</v8:NumberQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>

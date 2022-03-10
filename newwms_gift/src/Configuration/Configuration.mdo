@@ -601,6 +601,7 @@
   <reports>Report.ит_WMS_ПланированиеПроверок</reports>
   <reports>Report.ЛогистическийРеестрWMS</reports>
   <reports>Report.НачисленияРаботниковСклада</reports>
+  <reports>Report.РазличияЗаказовИНаборок</reports>
   <dataProcessors>DataProcessor.итОбработкаТансляторУпрОбычноеПриложение</dataProcessors>
   <dataProcessors>DataProcessor.WMSРабочийСтол</dataProcessors>
   <dataProcessors>DataProcessor.итWMSДанныеТекущегоДокумента</dataProcessors>

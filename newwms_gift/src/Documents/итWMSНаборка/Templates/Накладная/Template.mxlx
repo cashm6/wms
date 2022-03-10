@@ -3159,72 +3159,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>39</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>41</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>43</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>45</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>47</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>49</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>51</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>53</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>55</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>57</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>59</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>61</index>
+		<indexTo>61</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -3243,7 +3178,7 @@
 		<endColumnOffset>882</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<leftHeader>
@@ -3361,6 +3296,11 @@
 		<w>26</w>
 	</merge>
 	<merge>
+		<r>31</r>
+		<c>7</c>
+		<w>11</w>
+	</merge>
+	<merge>
 		<r>34</r>
 		<c>1</c>
 		<w>22</w>
@@ -3384,11 +3324,6 @@
 		<r>36</r>
 		<c>25</c>
 		<w>8</w>
-	</merge>
-	<merge>
-		<r>31</r>
-		<c>7</c>
-		<w>11</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Данные</name>
@@ -3566,7 +3501,7 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<line width="1">
+	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -3575,7 +3510,7 @@
 	<font faceName="Arial" height="9.8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font kind="StyleItem" ref="style:TextFont"/>
+	<font ref="style:TextFont" kind="StyleItem"/>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format/>
@@ -3965,6 +3900,7 @@
 		<drawingBorder>4</drawingBorder>
 	</format>
 	<picture>
-		<picture></picture>
+		<index>0</index>
+		<picture/>
 	</picture>
 </document>

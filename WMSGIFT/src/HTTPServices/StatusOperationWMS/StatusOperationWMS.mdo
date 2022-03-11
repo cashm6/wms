@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62de98d-3ba5-45d0-b534-14d1b2e613a7">
+  <name>StatusOperationWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Status operation WMS</value>
+  </synonym>
+  <rootURL>StatusOperationWMS</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="086ca9d1-ef53-4d8d-b07b-ee54812b9a64">
+    <name>GetAcceptance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get acceptance</value>
+    </synonym>
+    <template>/getacceptance/*</template>
+    <methods uuid="c4f1ba0c-3a91-45e9-a77c-c896b47c3842">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetAcceptanceGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="577657ff-d0e6-4db3-81d1-96a63f72dfdc">
+    <name>GetDial</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get dial</value>
+    </synonym>
+    <template>/getdial/*</template>
+    <methods uuid="bafa19a5-540e-432b-ad3b-6f8c78d13676">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDialGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b02d036e-63cd-4ec9-b7cc-5bdbc2d44835">
+    <name>GetDataDial</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data dial</value>
+    </synonym>
+    <template>/getdatadial/*</template>
+    <methods uuid="2931d37f-f21b-4b5a-859f-57d0f89922c5">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDataDialGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a53196cb-d95a-447e-ac84-eb0d8389cfbc">
+    <name>GetCheckingShipment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get checking shipment</value>
+    </synonym>
+    <template>/checkingshipment/*</template>
+    <methods uuid="c0907d79-3587-4087-9218-acf0ffe9a63b">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetCheckingShipmentGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="38d8b913-1fbc-4302-8961-202679bd2cf0">
+    <name>GetDataCheckingShipment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data checking shipment</value>
+    </synonym>
+    <template>/getdatacheckingshipment/*</template>
+    <methods uuid="33a53db3-9537-434c-bd1d-8aed1f892ab9">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDataCheckingShipmentGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0bd3f698-9dae-4fee-8f4a-492ca63cee05">
+    <name>GetShipment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get shipment</value>
+    </synonym>
+    <template>/shipment/*</template>
+    <methods uuid="97ecae8c-d087-485b-8d24-4bda7e9257fc">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetShipmentGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2a00ec0f-4635-4286-96a2-8c42b994baea">
+    <name>GetDataShipment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data shipment</value>
+    </synonym>
+    <template>/getdatashipment/*</template>
+    <methods uuid="e34e2189-973d-435a-8c07-c3bc6bd8a312">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDataShipmentGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f87ed5d5-6642-42a7-9d26-fc2152566af4">
+  <producedTypes>
+    <selectionType typeId="2e6aae3f-b78f-42ef-b9fd-67acd958ae49" valueTypeId="ff506f22-60ce-4d96-83b3-a82714d8228f"/>
+    <listType typeId="3796651f-1019-4f2f-89bf-bd05d1887358" valueTypeId="8bc0d3d0-53b7-4b10-b2d1-8b4b6ec52e2a"/>
+    <managerType typeId="18dee95f-b681-4aac-a9e9-ef32834357d8" valueTypeId="c7c906ec-0fad-4b28-be20-1952c6a8713c"/>
+    <recordSetType typeId="410f7e71-97a7-431b-ae62-7372ad0fb667" valueTypeId="76d5a7e0-a0cd-471d-bd5e-6475444f9f78"/>
+    <recordKeyType typeId="d2a5fe06-7baf-4166-b041-f846076462a0" valueTypeId="49faf163-190c-4e3e-9c27-ef0d64d206b2"/>
+    <recordType typeId="7f6f70a0-8997-4e3e-86ee-234d1cc89a46" valueTypeId="b6c4b7b8-8cd7-4f18-b7e4-d27a531bb2ae"/>
+    <recordManagerType typeId="08323bfd-495a-49eb-b4ed-f07bf156e3ad" valueTypeId="5cc0fcdf-af4e-46f5-9f76-8c1ce5c2d05f"/>
+  </producedTypes>
+  <name>ИсполнениеПользовательскихРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение пользовательских регламентных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="31d3ba64-f477-4d67-83de-63185b0e0a6f">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияИсполненияПользовательскихЗаданий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8ff501d3-f34d-4a28-9b28-61061dcaf2c8">
+    <name>ТекущийКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий ключ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e7b223bf-d5b0-4ad7-9b3a-bda2fcbebe1b">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c109c3f0-2e59-43d8-9387-eeb1a3608f4f">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fe07a50-33cb-49a5-881b-7d0f3256620e">
+    <name>ДатаПланируемогоПовтора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата планируемого повтора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="950dfdda-b281-41aa-9b72-c15d21c691a2">
+    <name>ПризнакУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак удаления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a337622c-4a20-485c-95db-1f7c097232c3">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользовательскиРегламентныеЗадания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

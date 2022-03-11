@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eda23fe-7f89-4891-916c-5b0eef2a1125">
+  <producedTypes>
+    <objectType typeId="3ed5a0e4-e016-45d3-9b53-1ba0f07bfa47" valueTypeId="48a73db5-b192-4198-8ab9-a34363ff05a0"/>
+    <managerType typeId="7c893f5d-c61b-4f5c-a42b-00d9af67f1bd" valueTypeId="eed5774b-7990-489c-b59d-876669c023f1"/>
+  </producedTypes>
+  <name>итWMS_КострукторЗапросаPostgresQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коструктор запроса postgres QL</value>
+  </synonym>
+  <defaultForm>DataProcessor.итWMS_КострукторЗапросаPostgresQL.Form.Форма</defaultForm>
+  <forms uuid="6e618886-4cc0-4c9a-b2d4-1960ee8c0f32">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7d9e75b5-af46-481c-b5f3-3e25708558ba">
+    <name>ГотовыеЗапросыPostgresQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовые запросы postgres QL</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

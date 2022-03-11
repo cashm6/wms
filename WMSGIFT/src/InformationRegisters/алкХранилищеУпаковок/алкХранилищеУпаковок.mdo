@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b22f9a2c-1fb5-4316-9a81-f665b8d70a07">
+  <producedTypes>
+    <selectionType typeId="5a086091-8b0b-4a76-99b7-5b4611ae14a6" valueTypeId="2a155d7c-4174-4949-9ad9-3eb0c28a4587"/>
+    <listType typeId="073640c2-64e8-48e6-bfd1-204b24aca008" valueTypeId="894cca8c-a44e-4bc6-b905-10bbeb06d973"/>
+    <managerType typeId="566d7ad9-f9f1-43d7-bf81-5e177ed3bee9" valueTypeId="2597ebeb-645a-4c21-a9b4-9e777437c0fc"/>
+    <recordSetType typeId="14f81b51-f1c9-4caf-809d-ddd1eaae0780" valueTypeId="d081ce65-917f-494d-ae20-9711637afca2"/>
+    <recordKeyType typeId="55338dac-0e36-4007-aa34-a8ee040347cf" valueTypeId="2fe163a1-1db2-4d12-92ed-eca484845bcc"/>
+    <recordType typeId="2122939f-2ce9-40dc-8ce9-4f71fe126f87" valueTypeId="ce9724b8-01bc-40b0-aa04-8bf89943fb8f"/>
+    <recordManagerType typeId="186b3d42-34a8-4c29-a78e-5975489ef5ad" valueTypeId="5f98e594-62fa-4cb6-90eb-714d6b1f3e40"/>
+  </producedTypes>
+  <name>алкХранилищеУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алк хранилище упаковок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="094b2cbf-e644-4638-8331-7f176b0c9cc5">
+    <name>ИерархияУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вышестоящий уровень упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="d53d49e4-f450-4c31-81ea-f655ec0031d2">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

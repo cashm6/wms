@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91fc5bbf-8b0a-4231-95eb-3d206b4daade">
+  <name>Складские</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.итWMSПеремещение</content>
+  <content>Document.итWMSРучноеПеремещение</content>
+  <content>Document.итWMSИзменениеПараметровТовараВЯчейках</content>
+  <parentSubsystem>Subsystem.Перемещение.Subsystem.Документы</parentSubsystem>
+</mdclass:Subsystem>

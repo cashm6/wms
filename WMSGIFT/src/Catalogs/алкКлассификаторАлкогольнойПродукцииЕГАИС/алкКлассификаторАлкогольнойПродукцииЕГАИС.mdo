@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04e4a772-6ad8-458e-811d-1acde24bf915">
+  <producedTypes>
+    <objectType typeId="7c0c9013-e5b4-4bfe-a1bc-86945d7264cd" valueTypeId="47746711-bd30-4116-9497-9bb609786397"/>
+    <refType typeId="7a3545b0-eee9-4213-80af-580138c88114" valueTypeId="4144849f-a80e-4f10-83d5-13c36a7dbd84"/>
+    <selectionType typeId="44ee06be-808a-494b-96a9-df2986b02a75" valueTypeId="9f4b7278-7e48-4376-8805-cc0e473d28fc"/>
+    <listType typeId="4937bc8f-2a03-4419-beda-346069228d4b" valueTypeId="3ee3a90a-08cb-406b-aafe-1e0505721e21"/>
+    <managerType typeId="3ad502c5-e776-4f7c-bcaa-dd350eb9b88c" valueTypeId="e61357a8-4624-4cdb-94f2-c65d0d46f2f6"/>
+  </producedTypes>
+  <name>алкКлассификаторАлкогольнойПродукцииЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алк классификатор алкогольной продукции ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.алкКлассификаторАлкогольнойПродукцииЕГАИС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.алкКлассификаторАлкогольнойПродукцииЕГАИС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>19</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0aa74d60-bad3-4f75-a52e-bb24e0438312">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea00e114-8f04-4584-b1bf-62101716f8a1">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c6c51fd-c0eb-4656-ae16-06914ef5eefc">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="290adc5f-6e31-4866-980e-a503f48a867c">
+    <name>Крепость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крепость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

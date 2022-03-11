@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0da0adcc-ba9c-4716-9e4c-11b1ab9c6e67">
+  <producedTypes>
+    <refType typeId="c8a387fc-9213-4604-9f0c-66f01c63944e" valueTypeId="412a8797-29d6-4444-9859-258133af4870"/>
+    <listType typeId="51e9c8c0-4993-41c7-a659-d8dfeb433bb8" valueTypeId="f9bdd596-ab00-4554-ac37-317717f6dc64"/>
+    <managerType typeId="b0596990-6862-4561-a78f-f8b59dba5dca" valueTypeId="35d95802-870f-4bdf-b592-d8877c45e519"/>
+  </producedTypes>
+  <name>алкТипыСправокАиБЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы справок А и Б</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="65d0abde-1823-44b2-93c2-f1e8717a7783">
+    <name>СправкаА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16b8421b-0212-4788-86db-f1079b65d010">
+    <name>СправкаБВходящая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка Б (входящая)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7813b300-06c8-4f14-b8a4-b72c537b2373">
+    <name>СправкаБИсходящая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка Б (исходящая)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

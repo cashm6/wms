@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00a73f0c-db5a-4ff2-a28e-37e86ce59829">
+  <producedTypes>
+    <selectionType typeId="07c3ce32-45c7-4810-87bf-cab8ab3365fd" valueTypeId="f581dff9-97a7-4444-a04b-311c5e209d66"/>
+    <listType typeId="022a793c-9855-4f7b-8df2-48d962556835" valueTypeId="0bc75e9b-aab8-442e-9810-aba8de381b0f"/>
+    <managerType typeId="2ad582d5-6dd7-4c98-8c30-906217db7d53" valueTypeId="1c151016-b80c-4a9f-8385-ba862cb6d667"/>
+    <recordSetType typeId="ff98afd5-21ea-4efd-bd2c-2ee5ef8f5008" valueTypeId="947635f1-2bd2-4687-9b5f-cc0c882f80c7"/>
+    <recordKeyType typeId="452a16fd-5931-4071-aa90-260be1b95e43" valueTypeId="ea1f5c20-f8f2-424d-9d33-7fe9829e5dca"/>
+    <recordType typeId="265ae559-d85b-4732-bde5-980528afba44" valueTypeId="44c59ba4-a13f-467e-8305-9e60e5a7f1dc"/>
+    <recordManagerType typeId="9333d563-1ad8-46c1-888a-7ac671cee2ad" valueTypeId="3461c162-c336-41d2-a410-67bc09fdca8d"/>
+  </producedTypes>
+  <name>ДокументыКДополнительнойОбработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы к дополнительной обработке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="11fa83ff-568a-478b-94c5-e892aa28556e">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3ffeafcf-b723-4a90-8453-0d0d2598a08b">
+    <name>АлгоритмОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АлгоритмыДопОбработкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

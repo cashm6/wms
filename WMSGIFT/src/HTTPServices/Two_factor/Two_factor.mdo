@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8425c99-f10f-4c74-9709-d6b39de650a8">
+  <name>Two_factor</name>
+  <synonym>
+    <key>ru</key>
+    <value>Two factor</value>
+  </synonym>
+  <rootURL>two_factor</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0209cbad-f48b-4ccf-9cc5-9c1c48f8cfc2">
+    <name>PostTwoFactor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post two factor</value>
+    </synonym>
+    <template>/posttwofactor/*</template>
+    <methods uuid="8316a6dd-5175-41c5-aa2a-9df3a659e9b3">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PostTwoFactorPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

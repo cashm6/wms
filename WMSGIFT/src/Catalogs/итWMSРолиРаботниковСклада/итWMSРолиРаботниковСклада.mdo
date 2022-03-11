@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba08287-ab64-418f-a6e8-5330661372cb">
+  <producedTypes>
+    <objectType typeId="20e81b1f-df9c-45cc-8cdc-d87761ba53be" valueTypeId="2548f48e-ae7f-4f16-bf9c-d051ce4918a6"/>
+    <refType typeId="8537e809-6ed8-49da-b2b3-98089f4e311b" valueTypeId="f78b3676-62ec-467c-80f0-6787e732ad62"/>
+    <selectionType typeId="c4e8df8e-5bff-45af-beeb-c38840650282" valueTypeId="252fa582-41b2-4618-a77d-4a86df4a855b"/>
+    <listType typeId="9d12b736-5d15-4d5b-8113-9f1b3c205883" valueTypeId="0db78af8-04fd-45dc-809c-08461a3f063d"/>
+    <managerType typeId="64fd668d-99c9-4935-ae9d-6a9ea20b8824" valueTypeId="18f45bf5-78ce-46ea-b9ec-eb624efbfb66"/>
+  </producedTypes>
+  <name>итWMSРолиРаботниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли работников склада</value>
+  </synonym>
+  <inputByString>Catalog.итWMSРолиРаботниковСклада.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.итWMSРолиРаботниковСклада.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a1ef38ed-8e38-46ae-ab73-492f70da0dbd">
+      <name>Грузчик</name>
+      <description>Грузчик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9b6525de-d27e-466b-acb1-6e56bac085c9">
+      <name>Карщик</name>
+      <description>Карщик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="2a18f1f7-b1e5-42fa-86dc-108e2e5809b2">
+      <name>Кладовщик</name>
+      <description>Кладовщик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="0fe08796-66ab-40d5-b4c3-71bf1ae3ad3f">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="4a37a241-8458-47d1-b3a1-bebd98b95a07">
+      <name>РИЧ</name>
+      <description>РИЧ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="b582b636-0795-4dc5-b5b2-61b1b7ed3cf5">
+    <producedTypes>
+      <objectType typeId="0ef7ffe0-efe9-4979-a0c9-f41a4345f09a" valueTypeId="02950ee2-1894-43f1-897c-60b388fe5476"/>
+      <rowType typeId="4ab58269-5855-4493-9341-144387f6ac02" valueTypeId="ee0f2dea-5151-42ed-9ec6-acd05028604a"/>
+    </producedTypes>
+    <name>СписокРазрешенныхОперацийТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список разрешенных операций ТСД</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="67e05891-0dec-480e-98c8-4e03667d2786">
+      <name>ОперацияТСД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Операция ТСД</value>
+      </synonym>
+      <type>
+        <types>EnumRef.итWMSТипыЗадачТСД</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

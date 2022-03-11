@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0c9956c-296b-48a8-9caa-f2fc7586bca4">
+  <producedTypes>
+    <objectType typeId="a0c181f4-c553-4caa-be13-7c7ceccdd080" valueTypeId="b5216d4c-abf9-4861-9456-f29210a08db2"/>
+    <managerType typeId="ef663ebd-3808-4989-a6b9-8de1fe302f5e" valueTypeId="6003fca4-34a3-49a3-b56b-d122eaa391d6"/>
+  </producedTypes>
+  <name>ит_WMS_МотивационныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мотивационный отчет(WMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ит_WMS_МотивационныйОтчет.Form.ФормаОтчетаУпр</defaultForm>
+  <mainDataCompositionSchema>Report.ит_WMS_МотивационныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="644e4919-c8b5-4a69-9c31-9cc40042a501">
+    <name>СтоимостьКороба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость короба</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2edf5ab3-8f89-4c67-a0d0-b0bcc1eb1077">
+    <name>СтоимостьКоробаПМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость короба ПМУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dc21087-4bac-4f19-aea3-d0e354053681">
+    <name>СтоимостьСпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость спуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="345df52e-985d-4023-bf5a-0079f576f86a">
+    <name>СтоимостьПодъема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость подъема</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="23fe7760-f09c-4e4d-b226-56cd0f3979e6">
+    <name>СтоимостьПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость перемещения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="552a97f3-dae5-438b-897b-5842fb9b1146">
+    <name>СтоимостьПеремещенияПМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость перемещения ПМУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94d49f37-575b-489d-ad1c-49d9649015cd">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5b8e3e1-ee28-422f-9f09-44fb1f5abd22">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0bdec006-bb82-4f87-b978-11fb1f9a99d2">
+    <name>СтоимостьПаллетыНаборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость паллеты наборки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ceeb78d7-64c2-4803-b97b-44b246e126a2">
+    <name>АгрегацияПаллеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегация паллеты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1277d0e-5321-444f-87d7-8d25c48def27">
+    <name>ФизическаяПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическая проверка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fbb3be6-c741-421e-b0df-a8f4e6239508">
+    <name>АгрегацияКоробов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегация коробов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74812366-bd78-4b13-9b03-ab4bfe0caed1">
+    <name>Опалечивание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опалечивание</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1d0f25e-89e3-4538-b5e6-0aa19a503417">
+    <name>СтоимостьЗаНаборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость за наборку</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="87758075-597d-40b7-9526-989268ad90f7">
+    <name>СтоимостьОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость отгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0c5d0d0-1acc-4b88-a6c2-c9663b4e9efc">
+    <name>СтоимостьПаллетыОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость паллеты отгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d15db071-c6c5-458a-9c2a-69500db50ff5">
+    <name>СтоимостьБутылкиНаборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость бутылки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca68a575-2931-4f74-88ed-c8c4f8328eed">
+    <name>СтоимостьБутылкиПМУНаборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость бутылки ПМУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d35e59f1-9115-4933-8393-0f376cb24f45">
+    <name>СтоимостьБутылкиПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость бутылки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69482c59-f298-47d6-a491-4902d9d78be1">
+    <name>СтоимостьНаборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость наборки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="476fd1c4-12dc-4ab1-a38f-1e544e857a34">
+    <name>СтоимостьНаборкиРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость наборки розница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9cd4a6de-02ee-4ad5-b263-7285c5074a98">
+    <name>СуммаПаллетыПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма паллеты приемки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e1aaeec-79be-477f-8b52-0f820712af1c">
+    <name>СуммаАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма акта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02b653c0-82a1-4917-b0bb-99d6446e004c">
+    <name>СтоимостьЗаНаборкуРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость за наборку розница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="80553b74-b5a0-4294-a80b-c675afc6ceec">
+    <name>СтоимостьПроверкиРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость проверки розница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71b4b9d8-bef7-4a50-bf21-54a09d10f2bc">
+    <name>СтоимостьПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость проверки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eae92cbf-33a4-4aaa-a2b6-de27881e480e">
+    <name>СтоимостьЗаПосещениеЯчейкиНаборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость за посещение ячейки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5db2c00d-ca42-4b5f-82a1-b43dedd6fa34">
+    <name>СуммаПаллетыПриемкиПМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма паллеты приемки ПМУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef68538c-d7f6-4bce-8654-6ea4809cef14">
+    <name>СтоимостьПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость приемки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d4ca6e47-f751-4b05-8ce0-3a1b160424eb">
+    <producedTypes>
+      <objectType typeId="e676fef3-3e7a-4279-8271-a4dc02e25af1" valueTypeId="3b2dcfc2-05db-4774-b46d-66aa46b0b21f"/>
+      <rowType typeId="4444c498-0971-4f07-997e-d8df53012dd4" valueTypeId="469a618d-ef5a-4ccf-a128-17308245240b"/>
+    </producedTypes>
+    <name>ТаблицаНаценокПоКА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица наценок по КА</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5b7fb46a-772b-4463-ad43-1a237e3b35f7">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="288c8995-fee7-4839-a5c2-6f79630d875b">
+      <name>ТипЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип задачи</value>
+      </synonym>
+      <type>
+        <types>EnumRef.итWMSТипыЗадачТСД</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="da7d7b69-bf05-49ef-844a-5b3dcfd7b655">
+      <name>ЦенаЗаЗадачу</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за задачу</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="16f2ac0e-c546-4ab9-a0fe-a1fe1c1087b7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e52bfb1b-513d-4d2a-927b-764c40d3ccbc">
+    <name>ФормаВводаПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода пароль</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a12c4368-91d4-4237-beac-61175b608a32">
+    <name>ФормаОтчетаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66d911a7-1390-4de8-977e-2d3721c9efb0">
+    <name>ФормаВводаПароляУПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода пароля УПР</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="386e5a20-4f64-4593-94c3-90f398e01121">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

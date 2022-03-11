@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57ca55e6-9af9-4e6b-8182-968a713aa56b">
+  <producedTypes>
+    <managerType typeId="f5858bef-b5b6-4995-a709-0af40b22c869" valueTypeId="f50bafae-44e4-4c9c-b7de-13c9257ed1fa"/>
+    <valueManagerType typeId="4a12630b-1565-4398-a4cd-d17a290a8487" valueTypeId="47cea21b-60fa-479d-bb61-00f9c04a222b"/>
+    <valueKeyType typeId="f983c463-8843-46f9-a3a6-f689fd09d1ec" valueTypeId="20cdb4c3-9fbf-41ad-af7c-48f77bbc1683"/>
+  </producedTypes>
+  <name>СтратегияСозданияНаборкиРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегия создания наборки розница</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.итWMSСтратегии</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

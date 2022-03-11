@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06866be4-a6b1-4326-9997-f424f73911de">
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.алкКлассификаторАлкогольнойПродукцииЕГАИС</content>
+  <content>Catalog.итИндентификаторыТоварныхПозиций</content>
+  <content>Catalog.СерииНоменклатуры</content>
+  <content>Catalog.алкКлассификаторСправокАиБ</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>Catalog.Качество</content>
+  <content>Catalog.ТипыШтрихкодов</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация.Subsystem.Общие</parentSubsystem>
+</mdclass:Subsystem>

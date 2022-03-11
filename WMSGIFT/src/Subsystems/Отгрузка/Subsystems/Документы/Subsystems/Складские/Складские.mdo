@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff3f6bab-a05e-4191-9984-6b7a909a73df">
+  <name>Складские</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.итWMSНаборка</content>
+  <content>6535a6cf-b8db-4fc3-8db1-8176363705b1</content>
+  <content>Document.итWMSПроверка</content>
+  <content>Document.итWMSОтгрузка</content>
+  <content>Document.итWMSРучнаяОтгрузка</content>
+  <content>Document.итWMSКонтрольнаяОперацияАгрегации</content>
+  <parentSubsystem>Subsystem.Отгрузка.Subsystem.Документы</parentSubsystem>
+</mdclass:Subsystem>

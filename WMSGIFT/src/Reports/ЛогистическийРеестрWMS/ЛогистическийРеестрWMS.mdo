@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7016c9f5-d6eb-45d6-b499-fa9286bdb4ff">
+  <producedTypes>
+    <objectType typeId="5d6ba44f-320e-4de1-81cc-41cebc16282a" valueTypeId="058f75de-239c-4fdd-b8f7-17aba9f4e297"/>
+    <managerType typeId="cfd7864d-fd53-4e76-a9b4-fa051f9ed7f9" valueTypeId="658633fe-0382-4709-b4e4-b0f80a957260"/>
+  </producedTypes>
+  <name>ЛогистическийРеестрWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистический реестр WMS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЛогистическийРеестрWMS.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e577b712-d4b9-4821-bf5b-f28cef896619">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

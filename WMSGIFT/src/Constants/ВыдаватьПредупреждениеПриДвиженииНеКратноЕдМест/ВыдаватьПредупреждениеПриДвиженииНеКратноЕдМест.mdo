@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc7edac5-a565-4cba-bc07-2499cc434147">
+  <producedTypes>
+    <managerType typeId="95c2d0d5-3b83-4bd9-9274-9ebe1ed7596c" valueTypeId="bbc16a5c-30b5-4e8d-9c3a-54fed6dfcd7e"/>
+    <valueManagerType typeId="db7f317e-6251-4af5-a805-d9b6b6edb1ed" valueTypeId="13c5d274-3f3d-42ae-8cd7-72a8836cd670"/>
+    <valueKeyType typeId="6f6181b7-08d1-4155-8716-c590b8ad6c25" valueTypeId="3c9810e4-dbd0-41e1-8f59-1c143ee6ea6f"/>
+  </producedTypes>
+  <name>ВыдаватьПредупреждениеПриДвиженииНеКратноЕдМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдавать предупреждение при движении не кратно ед. мест</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

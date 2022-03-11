@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8461ba82-f12e-4f47-b7b3-3752815dc11f">
+  <producedTypes>
+    <objectType typeId="0eb5d877-8936-4a0f-8d0e-e6d128b84417" valueTypeId="1770e40d-495b-4a29-952b-b4f4a08c48ee"/>
+    <refType typeId="07e8c086-5b67-439a-98dc-3bd8373dc75c" valueTypeId="5fe02d23-eff5-4ee4-960b-334cc582264a"/>
+    <selectionType typeId="91c417d0-d125-4457-a4df-c18e30858fea" valueTypeId="d8e07527-e3ad-456b-ad1d-ea7f3ecab09d"/>
+    <listType typeId="12421896-7506-45ea-98ec-1ba43725ebb8" valueTypeId="b8c6da1c-c25a-45f2-bd4d-d83a19bff5e0"/>
+    <managerType typeId="db840dca-e22e-4aa2-bf48-e8fa7badd61c" valueTypeId="bb53b7c7-0740-4ecb-be8b-d36c17443561"/>
+  </producedTypes>
+  <name>НаборыУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы упаковок</value>
+  </synonym>
+  <comment>Наборы для статического анализа/получения данных</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыУпаковок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборыУпаковок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f1b1e525-c5b6-435b-bf08-429947941693">
+    <name>SSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>SSCC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c73aa028-1efa-472d-a9cc-b92ca1b1674c">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af4f1d87-4653-4b54-905c-314a164ab5de">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

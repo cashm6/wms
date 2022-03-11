@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67db3bd2-254e-4c10-a59c-1c4297a224c9">
+  <name>ИтWMSПолучениеДанныхТранзита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMSПолучение данных транзита</value>
+  </synonym>
+  <methodName>CommonModule.ЗапускРегЗаданияПривилегированный.ИтWMSПолучениеДанныхТранзита</methodName>
+  <description>ИтWMSПолучениеДанныхТранзита</description>
+  <key>ИтWMSПолучениеДанныхТранзита</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

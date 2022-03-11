@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36f44a98-8c28-4935-91c2-26e7231d8d70">
+  <name>Приемка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приемка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаПриемка</picture>
+  </picture>
+  <content>Report.ит_WMS_ДанныеИсполненияЗадач</content>
+  <content>Report.ит_WMS_ТоварыВЯчейках</content>
+  <content>Report.ит_WMS_ТоварыВЯчейкахПоРегистратору</content>
+  <content>Report.ит_WMS_ТоварыВЯчейкахРезервирование</content>
+  <content>Report.ит_WMS_ПечатьШтрихКодаЯчеек</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

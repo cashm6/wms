@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d38ccbdb-bcf4-4bc4-9f10-9aa6f24621d2">
+  <producedTypes>
+    <objectType typeId="fc6e507a-8c80-4e19-b2b7-ed3651fab513" valueTypeId="c1c10d06-7b4a-437d-b802-af4a3ec75613"/>
+    <managerType typeId="29c204f5-ef49-461e-a431-35b9e3c1a305" valueTypeId="da1dac08-7f95-439a-87d9-fb5c4762df21"/>
+  </producedTypes>
+  <name>ит_WMS_ПечатьШтрихКодаЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать штрих кода ячеек(WMS)</value>
+  </synonym>
+  <defaultForm>Report.ит_WMS_ПечатьШтрихКодаЯчеек.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ит_WMS_ПечатьШтрихКодаЯчеек.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="8146c495-3c6b-435a-a600-6a4dbfa9bd4c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ee21c52f-6df8-4258-a9f7-06c314b8614c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b8ada945-06e9-48c5-bfcd-d8c131fed8f8">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9791d2db-c714-4496-a922-2f86cef951c6">
+  <producedTypes>
+    <objectType typeId="569ad3a4-e4f0-42a6-b8bd-11a54aef3257" valueTypeId="b5aca560-d1ad-4776-9cdd-eebfc81c366b"/>
+    <managerType typeId="14359a75-dd3d-4436-8593-9b22e9c812fe" valueTypeId="36a52d19-380d-4278-b24f-5c1204a621f7"/>
+  </producedTypes>
+  <name>РозницаКСнабжению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розница к снабжению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РозницаКСнабжению.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d7bb6872-f3b2-420c-a4c5-58e462d2e81a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

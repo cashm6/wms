@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3e46d1e-dbf1-4502-91b3-a75d19adb2a5">
+  <producedTypes>
+    <selectionType typeId="2346563e-a229-4ce5-b327-5cbf1e757b9e" valueTypeId="5a25df7d-2427-4b84-b87c-60bbd89ddf86"/>
+    <listType typeId="97fe14a7-36bb-48f2-a383-4cc3bf75ad98" valueTypeId="b8d75e7c-aaac-4c51-9656-dae2d0070da1"/>
+    <managerType typeId="bdd3b250-56ff-49d4-a888-da6c040790ce" valueTypeId="68155e1c-365e-4ef1-bcff-ed3c18133134"/>
+    <recordSetType typeId="9e4422a8-1c8e-494a-a237-80bce864bfcd" valueTypeId="a8ef1dee-80de-4738-a76a-ae28998ad456"/>
+    <recordKeyType typeId="e5d96195-43d1-44e7-8fd7-28e1560197a7" valueTypeId="30ccaaf0-0e9e-4f53-830a-0c34b35f3047"/>
+    <recordType typeId="ca01cd40-3775-4f18-88ad-8c4d989401f8" valueTypeId="94af77bc-cef6-4aef-bffa-19ce09d42b9e"/>
+    <recordManagerType typeId="1fbd05db-baa9-48b4-9ab5-3290b052a966" valueTypeId="54ef2c0a-79bc-4174-8752-d57c1b3293e4"/>
+  </producedTypes>
+  <name>ТаблицаДляБлокировкиСозданияМарки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица для блокировки создания марки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="836ff057-4277-45dc-b99e-49f1b33fc429">
+    <name>ЗначениеШтрихКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение штрих кода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

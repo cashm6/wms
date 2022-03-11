@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced0bd92-a038-43d1-89ed-85d900d0f95d">
+  <name>итWMSПечатьШкQr</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMS Печать шк qr</value>
+  </synonym>
+  <comment>дает доступ до обработки печати шк , а также разрешает печать qr  код</comment>
+</mdclass:Role>

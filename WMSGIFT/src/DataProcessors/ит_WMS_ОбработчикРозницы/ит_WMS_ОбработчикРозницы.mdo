@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d9e5811-9eac-4ec0-826c-2b5e3d48759e">
+  <producedTypes>
+    <objectType typeId="b7782974-205c-4243-b76d-56ec5ec5d896" valueTypeId="74dcdea5-250e-418a-8bfe-9b08a03a083a"/>
+    <managerType typeId="5cb4435e-e613-4962-8292-4488969b7e4b" valueTypeId="209b7ff6-609f-4980-a387-c6e42d9fb5ea"/>
+  </producedTypes>
+  <name>ит_WMS_ОбработчикРозницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик розницы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ит_WMS_ОбработчикРозницы.Form.Форма</defaultForm>
+  <forms uuid="5fad2dfd-190b-4487-9c3a-4d1fda3d7175">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b0dce646-5bff-489c-9a18-af342af982bc">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

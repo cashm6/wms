@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28caf694-1e49-46ff-8d65-2ac437b208fe">
+  <producedTypes>
+    <objectType typeId="49a13d7e-c387-4a86-9a47-671985e6949e" valueTypeId="525de42d-5eef-4a2f-aa7c-af0ed3f32b5a"/>
+    <managerType typeId="213cb4c0-5c3c-4183-9ac7-3357ac3357de" valueTypeId="20db94ec-ab66-4d46-99de-836609668c15"/>
+  </producedTypes>
+  <name>РегламентныеИФоновыеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные и фоновые задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегламентныеИФоновыеЗадания.Form.РегламентныеИФоновыеЗадания</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ba5619da-76a5-4a07-b6fd-a77ae6c881ea">
+    <name>РегламентныеИФоновыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные и фоновые задания</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1e477ae-480b-4054-9441-3a5bf52c25e6">
+    <name>ФоновоеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фоновое задание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f4e733d-5218-4244-9283-d49226877c2a">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d0bbeb5-1518-4b83-875d-b46a16833d67">
+    <name>ВыполнениеРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb798a08-4d2f-4925-bbfd-c520737a0a5a">
+    <name>НастройкаВыполненияРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выполнения регламентных заданий</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7969d4a2-0288-4de9-b5db-5c4ac59ffc96">
+    <name>РабочийСтолОтдельногоСеансаВыполненияРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол отдельного сеанса выполнения регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

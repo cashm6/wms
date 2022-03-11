@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3d18159-4e13-4744-8cd9-cbe384f0afa9">
+  <name>УказатьКоличествоПодбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указать количество подбора</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

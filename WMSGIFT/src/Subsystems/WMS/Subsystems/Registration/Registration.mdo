@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="646fa51b-b8c2-427d-8c26-2048c32afcad">
+  <name>Registration</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.итWMSСправочникТСД</content>
+  <content>Catalog.итWMSРаботникиСклада</content>
+  <content>InformationRegister.итWMSПараметрыРаботниковСклада</content>
+  <content>InformationRegister.итWMSСостояниеТСД</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>CommonModule.итWMSОбработчикРегистрации</content>
+  <content>CommonModule.итWMSСлужебныеПроцедурыИФункции</content>
+  <content>WebService.WMS</content>
+  <content>Enum.итWMSСостоянияТСД</content>
+  <content>Enum.итWMSЗоныСклада</content>
+  <content>Catalog.итWMSРолиРаботниковСклада</content>
+  <content>CommonModule.итWMSПривилегированныйМодуль</content>
+  <content>Catalog.итWMSОборудование</content>
+  <content>ExchangePlan.WMS_SQL</content>
+  <content>ScheduledJob.итWMS_SQLЗаписьМарки</content>
+  <content>DataProcessor.итWMS_КострукторЗапросаPostgresQL</content>
+  <content>Role.итWMSПечатьШкQr</content>
+  <content>InformationRegister.ит_WMS_ХранилищеДанных</content>
+  <content>6c5a7188-73e4-42cd-a4ee-0c0b0b4600af</content>
+  <content>CommonModule.ит_WMS_МодульПовИспользованияВызовСервера</content>
+  <content>CommonModule.ит_WMS_МодульПовИспользованияСеанс</content>
+  <content>71f64da3-083f-4b0d-a3b8-6a96327e40cb</content>
+  <content>ScheduledJob.ит_WMS_КонтрольПроведенностиДокументов</content>
+  <content>8bfa8934-76fc-4e9f-a621-5bd05a4c0745</content>
+  <parentSubsystem>Subsystem.WMS</parentSubsystem>
+</mdclass:Subsystem>

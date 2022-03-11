@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="835c4976-0ffe-481f-bd28-6b59b93f4da8">
+  <producedTypes>
+    <refType typeId="120e0de8-6e98-4666-8bba-c9e770e187bc" valueTypeId="b6f731eb-d48a-465f-b1a0-d670bdc4bb24"/>
+    <listType typeId="4ff0bc83-5386-4509-980a-c5d829f4432d" valueTypeId="015539c7-2bc7-4643-8615-b101f0f8031b"/>
+    <managerType typeId="963c8571-6d91-479e-b6c3-9a516ccae95e" valueTypeId="c60b1ed2-d47d-43cf-8987-aa6abbfe5f98"/>
+  </producedTypes>
+  <name>итWMSТипыЛогистическойЕденицыWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит типы логистической еденицы WMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2af4b6f-bc54-497f-8567-e5fe2cdd5696">
+    <name>Короб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Короб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10e2ed48-33ad-41df-ac4b-114867fc4979">
+    <name>Паллет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f606c47-d5d6-4f3b-ac44-f5ede61d08c1">
+    <name>СборныйКороб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборный короб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5ab60a6-d5d0-4938-8247-d0353962083e">
+    <name>СборныйПаллет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборный паллет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

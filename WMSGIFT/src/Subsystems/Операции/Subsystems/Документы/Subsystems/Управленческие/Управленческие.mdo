@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d236efa4-867c-43ad-a0de-0884b43cbb63">
+  <name>Управленческие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.СписаниеТоваров</content>
+  <content>Document.ОприходованиеТоваров</content>
+  <content>Document.КорректировкаЗаписейРегистров</content>
+  <content>Document.ДокументДвиженияМарок</content>
+  <content>Document.алкПереупаковка</content>
+  <content>Document.КорректировкаСерийИХарактеристикТоваров</content>
+  <parentSubsystem>Subsystem.Операции.Subsystem.Документы</parentSubsystem>
+</mdclass:Subsystem>

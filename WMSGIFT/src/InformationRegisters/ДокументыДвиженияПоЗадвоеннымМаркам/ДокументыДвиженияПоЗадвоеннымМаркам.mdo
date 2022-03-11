@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2af94e0d-9757-4f67-abd5-d272811eee0f">
+  <producedTypes>
+    <selectionType typeId="dd988b67-7627-4479-94b5-dbf1160c3295" valueTypeId="e46dfa0a-cd16-4ed3-b39b-d875897f2870"/>
+    <listType typeId="76eaf85d-3022-4244-a08d-57d1bb52c3fd" valueTypeId="3fc5e73f-74d5-45e5-ba2b-bf1e64f692fb"/>
+    <managerType typeId="463230e3-c389-4681-86c0-335ccf7b78f3" valueTypeId="badeb8e6-a5e3-4ffa-a4d2-30d05c14b4a0"/>
+    <recordSetType typeId="9824092f-9adb-438a-b316-c4cb27ad6b66" valueTypeId="e696b754-9c5c-4195-ad7b-895c2acd4a47"/>
+    <recordKeyType typeId="738bd167-ee98-4978-bce5-11522e3ce6c6" valueTypeId="4c6894ed-ca18-45b7-a10f-0445b2547fd7"/>
+    <recordType typeId="3c879172-3b6b-42b7-9f59-25103064d546" valueTypeId="c2ec2a6d-bf35-47b5-8369-70b6ab936313"/>
+    <recordManagerType typeId="9a6200f9-3d4d-42ae-8170-16f2bb178284" valueTypeId="ac91a42f-ce3c-4009-8a9c-3c368f7257ce"/>
+  </producedTypes>
+  <name>ДокументыДвиженияПоЗадвоеннымМаркам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы движения по задвоенным маркам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17da8cdb-e499-4d97-8853-8e6e849578e2">
+    <name>НомерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b1c47694-00fd-4e0e-825d-d1ba63f50526">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="16800a18-7329-488b-b56c-c7f29acbe602">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДокументДвиженияМарок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

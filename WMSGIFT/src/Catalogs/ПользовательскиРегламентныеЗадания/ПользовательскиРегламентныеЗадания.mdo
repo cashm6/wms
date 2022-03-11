@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="412771f9-fb4e-43a3-b54c-671bad8786d6">
+  <producedTypes>
+    <objectType typeId="5c98ad58-b93e-4877-9411-24c188bc17cd" valueTypeId="da8fb3bb-d8bc-46ce-b08e-9104054c5e31"/>
+    <refType typeId="2cc8d2ab-6f36-490a-9752-763c19591c46" valueTypeId="97a1e90e-93e9-4b39-9dc8-a5fc90aafa02"/>
+    <selectionType typeId="5844aa33-9239-4726-b316-f94843c30bd5" valueTypeId="3adb1804-351b-41f2-a02d-19e06e448a1b"/>
+    <listType typeId="7987f9e3-cb7f-4279-a966-582db503fb98" valueTypeId="115fdc1d-dee3-4774-8602-7d55606a7cd8"/>
+    <managerType typeId="66af7da4-e4fe-440b-bfbf-6f19468bc74b" valueTypeId="40b9fd9f-18be-4eeb-89a8-8be64cfc7c61"/>
+  </producedTypes>
+  <name>ПользовательскиРегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользовательски регламентные задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПользовательскиРегламентныеЗадания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПользовательскиРегламентныеЗадания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПользовательскиРегламентныеЗадания.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="700d6b30-fd36-4da3-bbf4-37c389341ad1">
+    <name>Метод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57d94b9b-f970-4f8f-b1a4-1e2f09faa086">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba7b8678-a4f3-45cb-8d23-bb535b9c8edc">
+    <name>ВремяПовтораВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время повтора в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="638851d3-d92d-438f-bdc0-f07c7d292749">
+    <name>ТехническоеНазвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническое название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a62270a5-05f7-498e-a2b1-a095089bcf29">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

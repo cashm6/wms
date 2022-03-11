@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d4639f-bf1e-40df-a3e9-0f3f7e64370c">
+  <producedTypes>
+    <objectType typeId="39ffb369-a9b6-41ca-9ace-14b66eeacc5a" valueTypeId="b70eebea-82fb-4a52-b4d5-33a408b217f5"/>
+    <managerType typeId="172643c8-a60f-49fb-9a4c-29673a3813c7" valueTypeId="3824cca3-08e0-4fb2-a373-efd041f40f4a"/>
+  </producedTypes>
+  <name>ит_WMS_ТоварыВЯчейкахРезервирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары в ячейках резервирование(WMS)</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ит_WMS_ТоварыВЯчейкахРезервирование.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="47458b2d-4685-4332-9254-4b858cdb57a1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

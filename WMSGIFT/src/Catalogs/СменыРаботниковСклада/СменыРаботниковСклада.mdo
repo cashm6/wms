@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28778d86-fe91-4429-a632-24dfb4872377">
+  <producedTypes>
+    <objectType typeId="cb483949-cee3-499f-bfc2-e7fa016d13a9" valueTypeId="96e16761-8069-4111-b8ed-78acfaf47687"/>
+    <refType typeId="e1ddedcd-cc37-4fb3-964b-6307d14f0b8f" valueTypeId="e8e1afe4-6dbf-4a92-b5ab-4c868470c61e"/>
+    <selectionType typeId="b5b205d7-994b-4c75-8473-f32fa85593c1" valueTypeId="86e32749-4cb8-40a5-886f-1a8872630267"/>
+    <listType typeId="841bcc46-522d-425e-803d-dbdd9e8f152f" valueTypeId="4cf41683-70e4-43a6-8b17-14e1e09bbbef"/>
+    <managerType typeId="cec2bf62-4c93-4aef-ad44-5ec4f0ee0731" valueTypeId="a8bb41a7-8e28-4229-8f4e-4dd2b16aa982"/>
+  </producedTypes>
+  <name>СменыРаботниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смены работников склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СменыРаботниковСклада.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СменыРаботниковСклада.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="74fbd0c2-b739-4ec8-af31-9837b0ff83d3">
+    <name>ВремяНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1118922-d692-4528-9599-bf02a2ff4fb3">
+    <name>ВремяКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время конец</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f566076a-6155-4605-a57f-1aad088eea71">
+    <name>НочнаяСмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ночная смена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

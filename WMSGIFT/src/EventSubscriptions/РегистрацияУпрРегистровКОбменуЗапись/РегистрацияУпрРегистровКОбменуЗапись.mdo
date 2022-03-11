@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1388ee6e-f91c-4aaa-b5be-fd5cdff21e3a">
+  <name>РегистрацияУпрРегистровКОбменуЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация упр регистров к обмену запись</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.алкСоответствияСправокАиБЕГАИСИСерий</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПодпискиНаСобытия.РегистрацияУпрРегистровКОбменуЗаписьПриЗаписи</handler>
+</mdclass:EventSubscription>

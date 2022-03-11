@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d070f0b-b279-4c6c-bbe4-7971109ced8f">
+  <name>Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.алкПунктыРазгрузки</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.КлассификаторСтранМира</content>
+  <content>Catalog.ОсобенностиКонтрагентов</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация.Subsystem.Общие</parentSubsystem>
+</mdclass:Subsystem>

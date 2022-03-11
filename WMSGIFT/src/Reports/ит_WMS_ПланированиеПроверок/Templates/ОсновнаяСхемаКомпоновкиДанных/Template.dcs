@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторУпаковки</dataPath>
+			<field>ИдентификаторУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЯчейкаПикинга</dataPath>
+			<field>ЯчейкаПикинга</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЯчейкаПолучатель</dataPath>
+			<field>ЯчейкаПолучатель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентПаллеты</dataPath>
+			<field>КоэффициентПаллеты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент паллеты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Качество</dataPath>
+			<field>Качество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатурыитПризнакПомарочногоУчета</dataPath>
+			<field>СерияНоменклатурыитПризнакПомарочногоУчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоНаПаллете</dataPath>
+			<field>КоличествоНаПаллете</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество на паллете</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторСтроки</dataPath>
+			<field>ИдентификаторСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВКоробе</dataPath>
+			<field>КоличествоВКоробе</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество в коробе</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВнепаллетныхКоробов</dataPath>
+			<field>КоличествоВнепаллетныхКоробов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество внепаллетных коробов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентПосещенияЯчейки</dataPath>
+			<field>КоэффициентПосещенияЯчейки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент посещения ячейки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентОбработкиНеПМУПаллеты</dataPath>
+			<field>КоэффициентОбработкиНеПМУПаллеты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент обработки не ПМУПаллеты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентОплатыЗаОпалечивание</dataPath>
+			<field>КоэффициентОплатыЗаОпалечивание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент оплаты за опалечивание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоэффициентЗадачи</dataPath>
+			<field>КоэффициентЗадачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент задачи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПроверкиПаллеты</dataPath>
+			<field>СуммаПроверкиПаллеты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма проверки паллеты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Всего</dataPath>
+			<field>Всего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКоробов</dataPath>
+			<field>СуммаКоробов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма коробов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПосещения</dataPath>
+			<field>СуммаПосещения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма посещения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОпалечивания</dataPath>
+			<field>СуммаОпалечивания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма опалечивания</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаказПокупателя.Ссылка
+ПОМЕСТИТЬ ВтЗаказы
+ИЗ
+	Документ.ЗаказПокупателя КАК ЗаказПокупателя
+ГДЕ
+	ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(ЗаказПокупателя.ДатаОтгрузки, ЧАС, ЧАС(ЗаказПокупателя.итВремяНачалаПогрузкиКакВремя)), МИНУТА, МИНУТА(ЗаказПокупателя.итВремяНачалаПогрузкиКакВремя)), СЕКУНДА, СЕКУНДА(ЗаказПокупателя.итВремяНачалаПогрузкиКакВремя)) МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ЗаказПокупателя.Проведен
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	итWMSНаборкаТовары.ИдентификаторУпаковкиПолучатель КАК ИдентификаторУпаковки,
+	итWMSНаборкаТовары.Номенклатура,
+	итWMSНаборкаТовары.СерияНоменклатуры,
+	итWMSНаборкаТовары.Количество,
+	итWMSНаборкаТовары.СерияНоменклатуры.итПризнакПомарочногоУчета,
+	итWMSНаборкаТовары.Качество,
+	итWMSНаборкаТовары.ЯчейкаПолучатель,
+	итWMSНаборкаТовары.ЯчейкаПикинга,
+	итWMSНаборкаТовары.Ссылка,
+	итWMSНаборкаТовары.Номенклатура.ЕдиницаХраненияОстатков.итКоличествоНаПаллете КАК КоличествоНаПаллете,
+	итWMSНаборкаТовары.ИдентификаторСтроки,
+	итWMSНаборкаТовары.Номенклатура.ЕдиницаИзмеренияМест.Коэффициент КАК КоличествоВКоробе,
+	итWMSНаборкаТовары.Ссылка.Контрагент
+ПОМЕСТИТЬ НаборкиКПроверке
+ИЗ
+	ВтЗаказы КАК ВтЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.итWMSНаборка.Товары КАК итWMSНаборкаТовары
+		ПО ВтЗаказы.Ссылка = итWMSНаборкаТовары.Ссылка.итОснование
+			И (итWMSНаборкаТовары.Ссылка.Проведен)
+			И (итWMSНаборкаТовары.Ссылка.СтатусДокумента &lt;&gt; ЗНАЧЕНИЕ(Перечисление.итWMSСтатусыСкладскихДокументов.завершен))
+			И (итWMSНаборкаТовары.СостояниеЗадачи &lt;&gt; ЗНАЧЕНИЕ(перечисление.итwmsСостоянияЗадачТСД.Отменена))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	НаборкиКПроверке.Ссылка,
+	МАКСИМУМ(итWMSПроверкаитОснования.Ссылка) КАК Ссылка1
+ПОМЕСТИТЬ ПроверкиКНаборкам
+ИЗ
+	НаборкиКПроверке КАК НаборкиКПроверке
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.итWMSПроверка.итОснования КАК итWMSПроверкаитОснования
+		ПО НаборкиКПроверке.Ссылка = итWMSПроверкаитОснования.Документ
+			И (итWMSПроверкаитОснования.Ссылка.СтатусДокумента В (ЗНАЧЕНИЕ(Перечисление.итwmsСтатусыСкладскихДокументов.Завершен)))
+
+СГРУППИРОВАТЬ ПО
+	НаборкиКПроверке.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПроверкиКНаборкам.Ссылка
+ПОМЕСТИТЬ НаборкиКОтбору
+ИЗ
+	ПроверкиКНаборкам КАК ПроверкиКНаборкам
+ГДЕ
+	ПроверкиКНаборкам.Ссылка1 ЕСТЬ NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	НаборкиКПроверке.ИдентификаторУпаковки,
+	НаборкиКПроверке.Номенклатура,
+	НаборкиКПроверке.СерияНоменклатуры,
+	НаборкиКПроверке.Количество,
+	НаборкиКПроверке.СерияНоменклатурыитПризнакПомарочногоУчета,
+	НаборкиКПроверке.Качество,
+	НаборкиКПроверке.ЯчейкаПолучатель,
+	НаборкиКПроверке.ЯчейкаПикинга,
+	НаборкиКПроверке.Ссылка,
+	НаборкиКПроверке.КоличествоНаПаллете,
+	НаборкиКПроверке.ИдентификаторСтроки,
+	НаборкиКПроверке.КоличествоВКоробе,
+	НаборкиКПроверке.Контрагент
+ПОМЕСТИТЬ ДанныеНаборокКПроверке
+ИЗ
+	НаборкиКОтбору КАК НаборкиКОтбору
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ НаборкиКПроверке КАК НаборкиКПроверке
+		ПО НаборкиКОтбору.Ссылка = НаборкиКПроверке.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеНаборокКПроверке.ИдентификаторУпаковки,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ДанныеНаборокКПроверке.ИдентификаторСтроки) КАК КоэффициентПаллеты,
+	ДанныеНаборокКПроверке.Ссылка,
+	ДанныеНаборокКПроверке.ЯчейкаПолучатель
+ПОМЕСТИТЬ КоличествоСтрокВпаллете
+ИЗ
+	ДанныеНаборокКПроверке КАК ДанныеНаборокКПроверке
+
+СГРУППИРОВАТЬ ПО
+	ДанныеНаборокКПроверке.ИдентификаторУпаковки,
+	ДанныеНаборокКПроверке.Ссылка,
+	ДанныеНаборокКПроверке.ЯчейкаПолучатель
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеНаборокКПроверке.ИдентификаторУпаковки,
+	ДанныеНаборокКПроверке.Номенклатура,
+	ДанныеНаборокКПроверке.СерияНоменклатуры,
+	ДанныеНаборокКПроверке.Количество,
+	ДанныеНаборокКПроверке.СерияНоменклатурыитПризнакПомарочногоУчета,
+	ДанныеНаборокКПроверке.Качество,
+	ДанныеНаборокКПроверке.ЯчейкаПолучатель,
+	ДанныеНаборокКПроверке.ЯчейкаПикинга,
+	ДанныеНаборокКПроверке.Ссылка,
+	ДанныеНаборокКПроверке.КоличествоНаПаллете,
+	ДанныеНаборокКПроверке.ИдентификаторСтроки,
+	КоличествоСтрокВпаллете.КоэффициентПаллеты,
+	ДанныеНаборокКПроверке.КоличествоВКоробе,
+	ВЫБОР
+		КОГДА ДанныеНаборокКПроверке.СерияНоменклатурыитПризнакПомарочногоУчета
+				И ДанныеНаборокКПроверке.Количество &lt;&gt; ДанныеНаборокКПроверке.КоличествоНаПаллете
+			ТОГДА ВЫРАЗИТЬ(ДанныеНаборокКПроверке.Количество / ЕСТЬNULL(ДанныеНаборокКПроверке.КоличествоВКоробе, 1) + 0.49999 КАК ЧИСЛО(15, 0))
+		ИНАЧЕ 0
+	КОНЕЦ КАК КоличествоВнепаллетныхКоробов,
+	1 / КоличествоСтрокВпаллете.КоэффициентПаллеты КАК КоэффициентПосещенияЯчейки,
+	ВЫБОР
+		КОГДА ДанныеНаборокКПроверке.СерияНоменклатурыитПризнакПомарочногоУчета
+				И ДанныеНаборокКПроверке.Количество &lt;&gt; ДанныеНаборокКПроверке.КоличествоНаПаллете
+			ТОГДА 0
+		ИНАЧЕ 1 / КоличествоСтрокВпаллете.КоэффициентПаллеты
+	КОНЕЦ КАК КоэффициентОбработкиНеПМУПаллеты,
+	ВЫБОР
+		КОГДА ДанныеНаборокКПроверке.Количество &lt;&gt; ДанныеНаборокКПроверке.КоличествоНаПаллете
+			ТОГДА 1 / КоличествоСтрокВпаллете.КоэффициентПаллеты
+		ИНАЧЕ 0
+	КОНЕЦ КАК КоэффициентОплатыЗаОпалечивание,
+	1 / КоличествоСтрокВпаллете.КоэффициентПаллеты КАК КоэффициентЗадачи,
+	ДанныеНаборокКПроверке.Контрагент
+ПОМЕСТИТЬ ВтПодготовленныеДанныеПроверки
+ИЗ
+	ДанныеНаборокКПроверке КАК ДанныеНаборокКПроверке
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ КоличествоСтрокВпаллете КАК КоличествоСтрокВпаллете
+		ПО ДанныеНаборокКПроверке.Ссылка = КоличествоСтрокВпаллете.Ссылка
+			И ДанныеНаборокКПроверке.ЯчейкаПолучатель = КоличествоСтрокВпаллете.ЯчейкаПолучатель
+			И ДанныеНаборокКПроверке.ИдентификаторУпаковки = КоличествоСтрокВпаллете.ИдентификаторУпаковки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВтПодготовленныеДанныеПроверки.ИдентификаторУпаковки,
+	ВтПодготовленныеДанныеПроверки.Номенклатура,
+	ВтПодготовленныеДанныеПроверки.СерияНоменклатуры,
+	ВтПодготовленныеДанныеПроверки.Количество,
+	ВтПодготовленныеДанныеПроверки.СерияНоменклатурыитПризнакПомарочногоУчета,
+	ВтПодготовленныеДанныеПроверки.Качество,
+	ВтПодготовленныеДанныеПроверки.ЯчейкаПолучатель,
+	ВтПодготовленныеДанныеПроверки.ЯчейкаПикинга,
+	ВтПодготовленныеДанныеПроверки.Ссылка,
+	ВтПодготовленныеДанныеПроверки.КоличествоНаПаллете,
+	ВтПодготовленныеДанныеПроверки.ИдентификаторСтроки,
+	ВтПодготовленныеДанныеПроверки.КоэффициентПаллеты,
+	ВтПодготовленныеДанныеПроверки.КоличествоВКоробе,
+	ВтПодготовленныеДанныеПроверки.КоличествоВнепаллетныхКоробов,
+	ВтПодготовленныеДанныеПроверки.КоэффициентПосещенияЯчейки,
+	ВтПодготовленныеДанныеПроверки.КоэффициентОбработкиНеПМУПаллеты,
+	ВтПодготовленныеДанныеПроверки.КоэффициентОплатыЗаОпалечивание,
+	ВтПодготовленныеДанныеПроверки.КоэффициентЗадачи,
+	ВтПодготовленныеДанныеПроверки.Контрагент,
+	ВтПодготовленныеДанныеПроверки.КоличествоВнепаллетныхКоробов * &amp;АгрегацияКоробов КАК СуммаКоробов,
+	ВтПодготовленныеДанныеПроверки.КоэффициентПосещенияЯчейки * &amp;ФизическаяПроверка КАК СуммаПосещения,
+	ВтПодготовленныеДанныеПроверки.КоэффициентОбработкиНеПМУПаллеты * &amp;АгрегацияПаллеты КАК СуммаПроверкиПаллеты,
+	ВтПодготовленныеДанныеПроверки.КоэффициентОплатыЗаОпалечивание * &amp;Опалечивание КАК СуммаОпалечивания,
+	ВтПодготовленныеДанныеПроверки.КоличествоВнепаллетныхКоробов * &amp;АгрегацияКоробов + ВтПодготовленныеДанныеПроверки.КоэффициентПосещенияЯчейки * &amp;ФизическаяПроверка + ВтПодготовленныеДанныеПроверки.КоэффициентОбработкиНеПМУПаллеты * &amp;АгрегацияПаллеты + ВтПодготовленныеДанныеПроверки.КоэффициентОплатыЗаОпалечивание * &amp;Опалечивание КАК Всего
+ИЗ
+	ВтПодготовленныеДанныеПроверки КАК ВтПодготовленныеДанныеПроверки</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetObject">
+		<name>ТаблицаНаценокПоКА</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаЗаЗадачу</dataPath>
+			<field>ЦенаЗаЗадачу</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена за задачу</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<objectName>ТаблицаНаценокПоКА</objectName>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>ТаблицаНаценокПоКА</destinationDataSet>
+		<sourceExpression>Контрагент</sourceExpression>
+		<destinationExpression>Контрагент</destinationExpression>
+	</dataSetLink>
+	<calculatedField>
+		<dataPath>СуммаНаценкиКонтрагента</dataPath>
+		<expression>КоэффициентЗадачи*isnull(ЦенаЗаЗадачу,0)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма наценки контрагента</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВсегоЗаЗадачи</dataPath>
+		<expression>КоэффициентЗадачи*isnull(ЦенаЗаЗадачу,0)+Всего</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Всего за задачи</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>Всего</dataPath>
+		<expression>Сумма(ВсегоЗаЗадачи)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВсегоЗаЗадачи</dataPath>
+		<expression>Сумма(ВсегоЗаЗадачи)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоВКоробе</dataPath>
+		<expression>Сумма(КоличествоВКоробе)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоВнепаллетныхКоробов</dataPath>
+		<expression>Сумма(КоличествоВнепаллетныхКоробов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоНаПаллете</dataPath>
+		<expression>Сумма(КоличествоНаПаллете)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоэффициентЗадачи</dataPath>
+		<expression>Сумма(КоэффициентЗадачи)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоэффициентОбработкиНеПМУПаллеты</dataPath>
+		<expression>Сумма(КоэффициентОбработкиНеПМУПаллеты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоэффициентОплатыЗаОпалечивание</dataPath>
+		<expression>Сумма(КоэффициентОплатыЗаОпалечивание)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоэффициентПаллеты</dataPath>
+		<expression>Сумма(КоэффициентПаллеты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоэффициентПосещенияЯчейки</dataPath>
+		<expression>Сумма(КоэффициентПосещенияЯчейки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКоробов</dataPath>
+		<expression>Сумма(СуммаКоробов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНаценкиКонтрагента</dataPath>
+		<expression>Сумма(СуммаНаценкиКонтрагента)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОпалечивания</dataPath>
+		<expression>Сумма(СуммаОпалечивания)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПосещения</dataPath>
+		<expression>Сумма(СуммаПосещения)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПроверкиПаллеты</dataPath>
+		<expression>Сумма(СуммаПроверкиПаллеты)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>АгрегацияКоробов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Агрегация коробов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>АгрегацияПаллеты</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Агрегация паллеты</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Опалечивание</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Опалечивание</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ФизическаяПроверка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Физическая проверка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдентификаторУпаковки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СерияНоменклатуры</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоэффициентПаллеты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внепаллетные короба</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоВнепаллетныхКоробов</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаКоробов</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Посещение ячейки</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоэффициентПосещенияЯчейки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаПосещения</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПроверкаПаллеты</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаПроверкиПаллеты</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаОпалечивания</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Всего</dcsset:field>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>4970e0b7-1d2c-4d2d-a085-637d461e6bc3</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>d1630e96-98e8-492d-b510-95dae6bec3be</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>9363f7bd-1184-4941-ba7b-33405903afa0</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>8478689e-c173-42a4-8d10-48d1f91877bc</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Ссылка</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+			<dcsset:itemsUserSettingID>d7619dd4-6239-432b-b61d-4a6c4db35e63</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b696929-1277-4590-87b7-733eeabf3b77">
+  <name>ит_WMS_УдалениеУстаревшихДанныхХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMS удаление устаревших данных хранилища</value>
+  </synonym>
+  <methodName>CommonModule.ЗапускРегЗаданияПривилегированный.ит_WMS_УдалениеУстаревшихДанныхХранилища</methodName>
+  <description>ит_WMS_УдалениеУстаревшихДанныхХранилища</description>
+  <key>ит_WMS_УдалениеУстаревшихДанныхХранилища</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

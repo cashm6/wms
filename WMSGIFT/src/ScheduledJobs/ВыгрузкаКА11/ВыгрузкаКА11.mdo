@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc32e64d-9cba-4753-8970-3c611ffcad02">
+  <name>ВыгрузкаКА11</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка к а11</value>
+  </synonym>
+  <methodName>CommonModule.ЗапускРегЗаданияПривилегированный.ВыгрузкаКА11</methodName>
+  <description>ВыгрузкаКА11</description>
+  <key>ВыгрузкаКА11</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

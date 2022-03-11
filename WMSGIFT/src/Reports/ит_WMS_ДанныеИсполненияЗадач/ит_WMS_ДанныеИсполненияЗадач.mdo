@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55c32ea4-5703-457b-87ba-9d29fb3eb59a">
+  <producedTypes>
+    <objectType typeId="a5e11789-5810-44a0-9758-d712ab59c5cd" valueTypeId="d5a102a8-c859-4524-a592-34f9f5a5fa4b"/>
+    <managerType typeId="c7c1aca9-82a8-43ad-80c9-e1ed47c85a7d" valueTypeId="4cc8c866-aa75-44d2-b452-66ce5bef07f9"/>
+  </producedTypes>
+  <name>ит_WMS_ДанныеИсполненияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дданные исполнения задач(WMS)</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ит_WMS_ДанныеИсполненияЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="20f30ff3-3194-429b-b5ba-9d34e4306fe1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

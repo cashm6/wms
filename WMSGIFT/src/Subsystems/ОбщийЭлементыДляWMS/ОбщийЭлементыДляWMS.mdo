@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffcd3149-49a9-4478-b759-a4695a00c962">
+  <name>ОбщийЭлементыДляWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий элементы для WMS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Catalog.алкКлассификаторАлкогольнойПродукцииЕГАИС</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.итИндентификаторыТоварныхПозиций</content>
+  <content>Catalog.алкКлассификаторСправокАиБ</content>
+  <content>Catalog.СерииНоменклатуры</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>Catalog.Качество</content>
+  <content>Catalog.ТипыШтрихкодов</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.СписаниеТоваров</content>
+  <content>Document.алкПереупаковка</content>
+  <content>Document.Маршрутизация</content>
+  <content>Document.ОприходованиеТоваров</content>
+  <content>Document.ДокументДвиженияМарок</content>
+  <content>Enum.алкТипыСправокАиБЕГАИС</content>
+  <content>InformationRegister.алкСоответствияАлкогольнойПродукцииЕГАИСИНоменклатуры</content>
+  <content>InformationRegister.алкСоответствияСправокАиБЕГАИСИСерий</content>
+  <content>b273b741-f9bb-4088-aaf5-b5e0647206b1</content>
+  <content>InformationRegister.алкХранилищеУпаковок</content>
+  <content>InformationRegister.СоответствиеОбъектовДляОбмена</content>
+  <content>InformationRegister.ВерсииОбъектов</content>
+  <content>InformationRegister.Штрихкоды</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РегламентныеЗаданияСервер</content>
+  <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
+  <content>CommonModule.РегламентныеЗаданияКлиент</content>
+  <content>Constant.ИспользоватьРассылкуПриОшибках</content>
+  <content>InformationRegister.СоответствиеКонтрагентовИОсобенностей</content>
+  <content>Catalog.ПараметрыОсобенностейКА</content>
+  <content>Catalog.АлгоритмыОсобенностейКА</content>
+  <content>HTTPService.Two_factor</content>
+  <content>Catalog.Марки</content>
+  <content>InformationRegister.алкХранилищеАкцизныхМарок</content>
+</mdclass:Subsystem>

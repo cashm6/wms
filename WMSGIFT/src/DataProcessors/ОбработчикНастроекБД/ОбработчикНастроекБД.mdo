@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8df27cda-4508-4d30-b131-795161527ae0">
+  <producedTypes>
+    <objectType typeId="edfa270e-8d1f-4c0f-88b0-dd96565dd366" valueTypeId="455a1949-98a6-4c1b-897b-abedb1fbf699"/>
+    <managerType typeId="2900b014-66c5-4578-8ceb-605407d69865" valueTypeId="c810da53-b2f8-475a-befc-ba7b29b9081d"/>
+  </producedTypes>
+  <name>ОбработчикНастроекБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик настроек БД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="ff77051e-6b0b-483b-8040-cd862a4157e0">
+    <name>ПолучениеИОтправкаДанныхТоваровВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение и отправка данных товаров в пути</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="512e8153-3660-40e5-aded-1b846c138ea4">
+    <name>ФормаНастроекПолученияSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек получения SSCC</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ff2db48-b8b7-487c-9f01-a82376980c0b">
+    <name>ФормаСистемныхНастроекWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма системных настроек WMS</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6e89c03-78dd-4b22-952b-a1812824fb6b">
+    <name>ФормаНастрокВидаДеятельностиИСтратегий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настрок вида деятельности и стратегий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9abf505-eab1-4103-866f-ef03bb2c1637">
+    <name>ФормаНастройкиАдресовРассылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки адресов рассылок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09b9f73f-7733-4897-b714-e1bdce194178">
+    <name>ФормаНастрокЯчеекИсключенияАвтоРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настрок ячеек исключения авто размещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c171a929-0f8a-4649-970a-aabd5bb99254">
+    <name>ФормаНастроекРазмещенияПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек размещения перемещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b0d2661-a08c-401f-b906-43d7cc232f95">
+    <name>ФормаНастроекСтока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек стока</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7fe338ce-095a-4e29-87e6-83d07cbbb730">
+    <name>НастройкиРассчетаРасстоянияМеждуЯчейками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки рассчета расстояния между ячейками</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6c9c6fb-ffe9-425a-821c-89c53e5d110e">
+    <name>НастройкаСервесныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сервесных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="019fea7e-96e1-48c3-a310-458105cca39d">
+    <name>ФормаНастройкиНаборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки наборки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="874cc148-8234-4df3-9025-5d764391e7d4">
+    <name>ФормаНастроекПриоритетаСкладсихПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек приоритета складсих помещений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ca7f592-2bd5-45db-9fd5-4a8e13413c42">
+    <name>ФормаНастроекДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

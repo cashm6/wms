@@ -6,6 +6,7 @@
     <value>Модуль получения данных марок</value>
   </synonym>
   <server>true</server>
-  <serverCall>true</serverCall>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <privileged>true</privileged>
 </mdclass:CommonModule>

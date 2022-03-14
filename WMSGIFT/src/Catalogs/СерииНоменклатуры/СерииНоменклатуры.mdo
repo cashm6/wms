@@ -185,6 +185,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7f1aabf1-33a2-45dc-96c1-aed9b7ce7bc2">
+    <name>УникальныйИдентификаторСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор серии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="b7c33cee-9254-42ef-83ea-c5a06016edaa">
     <name>ФормаВыбора</name>
     <synonym>

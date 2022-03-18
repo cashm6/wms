@@ -957,9 +957,6 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.Организация</segments>
-    </settingsSavedData>
     <main>true</main>
     <savedData>true</savedData>
   </attributes>

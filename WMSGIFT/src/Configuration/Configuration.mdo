@@ -494,6 +494,9 @@
   <catalogs>Catalog.ШаблоныМагнитныхКарт</catalogs>
   <catalogs>Catalog.ШаблоныЭтикетокИЦенниковБПО</catalogs>
   <catalogs>Catalog.АлгоритмыДопОбработкиДокументов</catalogs>
+  <catalogs>Catalog.ВидыИспользованияРабочегоВремени</catalogs>
+  <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <catalogs>Catalog.ГрафикиРаботыСотрудников</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
@@ -529,6 +532,8 @@
   <documents>Document.КассоваяСмена</documents>
   <documents>Document.КорректировкаСерийИХарактеристикТоваров</documents>
   <documents>Document.ВнутреннийЗаказ</documents>
+  <documents>Document.ТабельУчетаРабочегоВремени</documents>
+  <documents>Document.УстановкаГрафиковСотрудникам</documents>
   <documentNumerators>DocumentNumerator.WMSНумераторКорректировка</documentNumerators>
   <documentJournals>DocumentJournal.ИтWMSЖурналДокументов</documentJournals>
   <enums>Enum.итWMSВидыДиапазонвSSCC</enums>
@@ -580,6 +585,8 @@
   <enums>Enum.ТипыФискальныхДокументовККТ</enums>
   <enums>Enum.ТипыЧековКоррекции</enums>
   <enums>Enum.ВидыОперацииПримкиWMS</enums>
+  <enums>Enum.СостоянияСотрудника</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <reports>Report.ит_WMS_ДанныеИсполненияЗадач</reports>
   <reports>Report.ит_WMS_ТоварыВЯчейкахРезервирование</reports>
   <reports>Report.ит_WMS_ДанныеПоИнвентаризацииЯчеек</reports>
@@ -667,6 +674,10 @@
   <informationRegisters>InformationRegister.ОчередьЧековККТ</informationRegisters>
   <informationRegisters>InformationRegister.ФискальныеОперации</informationRegisters>
   <informationRegisters>InformationRegister.ДокументыКДополнительнойОбработке</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикиРаботыПоВидамВремени</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикРаботыСотрудников</informationRegisters>
   <accumulationRegisters>AccumulationRegister.итТоварыВЯчейках</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.итТоварыВПути</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДанныеТабельногоУчетаРабочегоВремениСотрудников</accumulationRegisters>
 </mdclass:Configuration>

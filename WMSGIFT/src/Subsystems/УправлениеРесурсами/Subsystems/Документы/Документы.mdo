@@ -10,5 +10,7 @@
   <content>Document.КадровыеИзменения</content>
   <content>Document.МотивационныеНачисления</content>
   <content>Document.ДополнительныеНачисления</content>
+  <content>Document.УстановкаГрафиковСотрудникам</content>
+  <content>Document.ТабельУчетаРабочегоВремени</content>
   <parentSubsystem>Subsystem.УправлениеРесурсами</parentSubsystem>
 </mdclass:Subsystem>

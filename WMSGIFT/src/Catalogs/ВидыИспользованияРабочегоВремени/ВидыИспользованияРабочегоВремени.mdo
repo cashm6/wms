@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00b2a40-17f7-4487-b617-05bb38e099ad">
+  <producedTypes>
+    <objectType typeId="accde5bc-086b-4eac-a9a2-41765909ccbd" valueTypeId="f354af81-e18a-48fa-9249-26d843457a70"/>
+    <refType typeId="cca32934-e59e-41ed-b2c0-2c143fd407db" valueTypeId="4080d203-7fc1-49a0-a569-c5a85d7a49c0"/>
+    <selectionType typeId="f2b22e8b-07ef-490f-8f6b-767ec94e507b" valueTypeId="3a6d3353-61da-4cd5-bef3-3a784c890c64"/>
+    <listType typeId="fcd7ebf5-9fa3-42b6-aeb2-0b654bc742a8" valueTypeId="29501406-a6d0-4134-b451-3c5816d17527"/>
+    <managerType typeId="613d9a68-1ae0-4a80-b311-b81ddd997c09" valueTypeId="0e9d022e-96ac-441d-822a-88eddb7202db"/>
+  </producedTypes>
+  <name>ВидыИспользованияРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды использования рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыИспользованияРабочегоВремени.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды использования рабочего времени</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d5a7b74a-f7f9-4cbd-a133-0ca69d7a6afc">
+      <name>Болезнь</name>
+      <description>Болезнь</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1963a61f-e1f2-4a71-8b9a-0caa3de99800">
+      <name>БолезньБезОплаты</name>
+      <description>Болезнь без оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="963fa8a0-49dd-4f9d-b8b6-d3b29aa15626">
+      <name>Вахта</name>
+      <description>Вахта</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5a8e9997-4022-4e37-a4ca-e165d29cab56">
+      <name>ВынужденныйПрогул</name>
+      <description>Вынужденный прогул</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="26a4c952-0924-4dc3-ba65-2dc9c81a492a">
+      <name>ВыходныеДни</name>
+      <description>Выходные дни</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d45aa30d-0d79-4527-80c7-323235a1306c">
+      <name>ГосударственныеОбязанности</name>
+      <description>Государственные обязанности</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f140bf05-cdab-457e-b15d-7e0bc6a3fb96">
+      <name>ДополнительныеВыходныеДниНеОплачиваемые</name>
+      <description>Дополнительные выходные дни не оплачиваемые</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="accae28a-fb1d-4b2c-91c5-efa10c98c251">
+      <name>ДополнительныеВыходныеДниОплачиваемые</name>
+      <description>Дополнительные выходные дни оплачиваемые</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6446313-83ec-4ec0-bb2d-66851460e67a">
+      <name>ДополнительныйОтпуск</name>
+      <description>Дополнительный отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fbf4dc89-477d-4cc4-a439-975238378466">
+      <name>Забастовка</name>
+      <description>Забастовка</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="983d40ce-70c7-4243-b2f4-8e18f8540f6b">
+      <name>ЗадержкаВыплатыЗаработнойПлаты</name>
+      <description>Задержка выплаты заработной платы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9341f1f7-0882-4934-b4ee-0bdbda264c7a">
+      <name>Командировка</name>
+      <description>Командировка</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1e0b647e-5d46-4577-807c-c56e7ea3dd7c">
+      <name>КормлениеРебенка</name>
+      <description>Кормление ребенка</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="86acec74-0a7c-424c-b71e-4c9888728b39">
+      <name>НеоплачиваемыйДополнительныйОтпуск</name>
+      <description>Неоплачиваемый дополнительный отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d90a9187-b379-4385-b766-192d729f6234">
+      <name>НеоплачиваемыйОтпускПоЗаконодательству</name>
+      <description>Неоплачиваемый отпуск по законодательству</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d623a464-8112-4107-a24c-cf96d94f69ff">
+      <name>НеоплачиваемыйОтпускПоРазрешениюРаботодателя</name>
+      <description>Неоплачиваемый отпуск по разрешению работодателя</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="510934e3-7880-46dd-abc3-5ba42118fb7e">
+      <name>НеявкиПоНевыясненнымПричинам</name>
+      <description>Неявки по невыясненным причинам</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="53351597-4fe2-4940-be2d-973f0309f7a6">
+      <name>ОплачиваемыеНерабочиеДни</name>
+      <description>Оплачиваемые нерабочие дни</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1947085a-6024-496d-9c15-d76ede20c67e">
+      <name>ОсновнойОтпуск</name>
+      <description>Основной отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="95372d59-ff00-4fc0-a0ab-79bd52e614bd">
+      <name>ОтпускНаОбучение</name>
+      <description>Отпуск на обучение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="45ebbd13-5033-4edb-bc67-08956c5e5a51">
+      <name>ОтпускНаОбучениеНеоплачиваемый</name>
+      <description>Отпуск на обучение неоплачиваемый</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b325e521-13d0-40b2-a988-ef48cce19f96">
+      <name>ОтпускПоБеременностиИРодам</name>
+      <description>Отпуск по беременности и родам</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="209b2d5b-d1d2-4a77-9cf3-efc5ab2fcc24">
+      <name>ОтпускПоУходуЗаРебенком</name>
+      <description>Отпуск по уходу за ребенком</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0e2a9962-aa37-4eff-b8a1-cf080f8c60a7">
+      <name>ОтстранениеОтРаботыБезОплаты</name>
+      <description>Отстранение от работы без оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f672b6c-8529-481f-95c2-2b5fa41fe661">
+      <name>ОтстранениеОтРаботыСОплатой</name>
+      <description>Отстранение от работы с оплатой</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="63eb6b91-ccd9-46c0-979b-7c90dd498b89">
+      <name>ПовышениеКвалификации</name>
+      <description>Повышение квалификации</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9cf99423-2912-4e65-bd4c-5a2f1365fe0e">
+      <name>ПовышениеКвалификацииВДругойМестности</name>
+      <description>Повышение квалификации в другой местности</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="74436e5e-2593-4971-a295-5a74201e38d7">
+      <name>Праздники</name>
+      <description>Праздники</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dfd6504c-aa4e-4705-9afb-3d31cf1fe67c">
+      <name>ПраздникиБезПовышеннойОплаты</name>
+      <description>Праздники без повышенной оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aefaa3b1-3e5c-4bd1-a83a-2e0b27827a2e">
+      <name>Прогулы</name>
+      <description>Прогулы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="95590e56-0e61-4859-814c-22ec61fdc55c">
+      <name>Простой</name>
+      <description>Простой</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a9392901-86f6-4e2b-a1c8-a8a677c3e1b2">
+      <name>ПростойПоВинеРаботника</name>
+      <description>Простой по вине работника</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b122c66c-8dce-43f8-a94b-d78a00f0ef05">
+      <name>ПростойПоВинеРаботодателя</name>
+      <description>Простой по вине работодателя</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a9991cf9-defe-4b42-8eac-5736044b3441">
+      <name>РаботаВРежимеНеполногоВремени</name>
+      <description>Работа в режиме неполного времени</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="43fe0fc8-b9be-43c5-be10-d5f6f455eefb">
+      <name>РаботаВечерниеЧасы</name>
+      <description>Работа вечерние часы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d8fc2531-4832-4042-81ea-17fa7d4591cd">
+      <name>РаботаНочныеЧасы</name>
+      <description>Работа ночные часы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3bc11332-ad03-46d5-86bf-e8be15bbd927">
+      <name>РабочееВремя</name>
+      <description>Рабочее время</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="92779cff-02f7-4e33-8399-b21d48fe1dfc">
+      <name>Сверхурочные</name>
+      <description>Сверхурочные</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="040359a9-446a-4770-a467-38a8d39b8355">
+      <name>СверхурочныеБезПовышеннойОплаты</name>
+      <description>Сверхурочные без повышенной оплаты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1d9e2a11-13d9-4100-8b0d-5a3deb98f418">
+      <name>СокращенноеВремяОбучающихся</name>
+      <description>Сокращенное время обучающихся</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ddec87bf-04fb-4467-89d0-d580c7eb852b">
+      <name>СокращенноеРабочееВремя</name>
+      <description>Сокращенное рабочее время</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="203c3a40-bc6e-4c7d-8e7b-64fbfc940980">
+      <name>Явка</name>
+      <description>Явка</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8742c70a-6e60-4265-8d61-926bea00dec9">
+    <name>БуквенныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Буквенный код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55a98bbc-960d-46ef-accf-fcf71a3e5a63">
+    <name>ЦифровойКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифровой код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba106699-f241-4225-bf01-336aac445847">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba3ffddb-0a8c-441e-b9ed-de4c0507f3a1">
+    <name>РабочееВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее время</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6287949-9e81-46e0-9173-1a1902ac6e0a">
+    <name>ОсновноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное время</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="636f84a2-29ac-4044-8ddf-3918d7bfe5fe">
+    <name>Целосменное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целосменное</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dd33d6e-21a5-46b5-b09a-0007fb385c76">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

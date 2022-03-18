@@ -13,5 +13,8 @@
   <content>InformationRegister.МотивационныеНачисленияРаботниковСклада</content>
   <content>Catalog.СменыРаботниковСклада</content>
   <content>Catalog.ВидыДополнительныхРабот</content>
+  <content>Catalog.ВидыИспользованияРабочегоВремени</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.ГрафикиРаботыСотрудников</content>
   <parentSubsystem>Subsystem.УправлениеРесурсами</parentSubsystem>
 </mdclass:Subsystem>

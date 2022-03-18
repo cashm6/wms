@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="790265a4-23ac-4bac-8f2b-edc3be884643">
+  <producedTypes>
+    <objectType typeId="7d6b792e-fc02-48cb-a286-9dbf1f6e2481" valueTypeId="349549d5-23ce-4b05-bb01-73af28dd3a82"/>
+    <refType typeId="b915f794-f4a9-4d50-bd0e-c014eb47ff2b" valueTypeId="c5944f8b-70f2-4db6-bb1b-c07db329da66"/>
+    <selectionType typeId="237b4990-633b-48c7-99f5-90eb0e623d06" valueTypeId="d96c67b7-b313-4039-9a47-33908e5bd2fe"/>
+    <listType typeId="82fee8d2-ec72-4c22-b3c2-11c04ad654c3" valueTypeId="461b603c-a0ba-4de3-8752-5a338bdcfedd"/>
+    <managerType typeId="694ae5d6-f320-488f-9f47-5d79cf75d0c5" valueTypeId="038b0901-b055-48ca-b906-65b026baf167"/>
+  </producedTypes>
+  <name>УстановкаГрафиковСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка графиков сотрудникам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаГрафиковСотрудникам.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка графиков сотрудникам</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ГрафикРаботыСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fdf0ff85-4f20-4cad-91f1-1049b8303c43">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e96ec5a-8181-46c9-8951-27d237807b6c">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8decdc35-59a1-4780-91ba-9493dd398302">
+    <name>ДатаОграниченияДействияГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ограничения действия графика</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="40ca62d8-751d-4d0e-9182-54bcc4a0a1d7">
+    <producedTypes>
+      <objectType typeId="f6e10e13-afe6-4481-949f-13af39039f3b" valueTypeId="ab7f3ef4-4e6d-48ed-80a3-12934fa341d3"/>
+      <rowType typeId="097eb855-e60b-43f2-8db8-18293001c287" valueTypeId="267e4621-99c0-4013-bcae-fb123a45f8ba"/>
+    </producedTypes>
+    <name>ДанныеСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные сотрудников</value>
+    </synonym>
+    <attributes uuid="7de054e9-66cd-475f-9d5f-30bdbd487bc9">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.итWMSРаботникиСклада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

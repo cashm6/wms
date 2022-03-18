@@ -48,4 +48,7 @@
   <content>InformationRegister.ИсполненныеДополнительныеРаботы</content>
   <content>InformationRegister.ПраваНаСогласованияПоДокументам</content>
   <content>Document.КорректировкаСерийИХарактеристикТоваров</content>
+  <content>InformationRegister.ДанныеПроизводственногоКалендаря</content>
+  <content>InformationRegister.ГрафикиРаботыПоВидамВремени</content>
+  <content>InformationRegister.ГрафикРаботыСотрудников</content>
 </mdclass:Subsystem>

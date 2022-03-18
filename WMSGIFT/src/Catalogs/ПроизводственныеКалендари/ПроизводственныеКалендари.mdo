@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4683aa7-3b75-43c9-a853-69d1fe9c753d">
+  <producedTypes>
+    <objectType typeId="ea4a2796-7d63-4be7-a6d4-788477ae85a9" valueTypeId="122cf6f7-c638-4fbf-8221-8d3f1fd50a65"/>
+    <refType typeId="ede4689b-752e-4e1e-8c42-89febf4fdd0e" valueTypeId="d9bdf7bc-70fe-4be3-a6bb-5300a24903f3"/>
+    <selectionType typeId="07114e39-ef76-43b4-9929-6358a4861566" valueTypeId="50296f6f-e2c3-4842-bd2d-a9b5621ee3a5"/>
+    <listType typeId="59093ad6-cc89-4976-9687-8261cdace935" valueTypeId="f45090a8-eb15-4928-83e7-6730d3eb20ad"/>
+    <managerType typeId="0e3df2d8-1148-4ab6-aed7-3503ccfbd602" valueTypeId="3cf62091-a356-41a6-93e5-540176533e4c"/>
+  </producedTypes>
+  <name>ПроизводственныеКалендари</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные календари</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроизводственныеКалендари.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПроизводственныеКалендари.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="55408a80-ce86-4b18-8365-2f5164e311cd">
+    <name>БазовыйКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3060a3f5-0f5b-4b5e-9f2d-25d8c272885c">
+  <producedTypes>
+    <objectType typeId="9f53dd9c-c911-4b55-8008-09e2f67238e5" valueTypeId="9696acf9-7580-4401-b64d-4a2836cf67df"/>
+    <refType typeId="a2649ba2-c7d0-440c-b6b7-e277ed503b1c" valueTypeId="49502df9-ff8c-4d94-bdf3-991729d43148"/>
+    <selectionType typeId="567d0cbf-92de-48c2-a548-2f69f8a309b1" valueTypeId="0a907184-63ea-444d-9e90-35372fde63a3"/>
+    <listType typeId="87d31bae-4b75-40b5-a515-3dfb50296c51" valueTypeId="52582e95-1956-4d95-a3c6-9ea8f42bf3b8"/>
+    <managerType typeId="c7c82369-49f3-422a-90c2-a0fa637a5673" valueTypeId="4f58a1ac-bcc0-421d-8486-7067bff17a70"/>
+  </producedTypes>
+  <name>ТабельУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель учета рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ТабельУчетаРабочегоВремени.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ТабельУчетаРабочегоВремени.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДанныеТабельногоУчетаРабочегоВремениСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2648eb2f-526b-47aa-9ffc-ea3784b5bfb8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5080140-ac32-46fe-a2f9-aeaae451b407">
+    <name>ДатаНачалаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38bc7a00-9955-42f0-95af-813c487b9c9a">
+    <name>ДатаОкончанияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="972d49fc-9c85-432f-b1c2-4205c5e0dbd3">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8adb8159-dd78-46f5-b106-43ea0016b6ee">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="222c05b5-ace3-4fc8-8797-1f1a95ba2367">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1deb49ae-bb40-40fd-822c-6a2a3db19d3b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="bd06d164-e950-4a50-b9e4-f1e3afaf5d6b">
+    <producedTypes>
+      <objectType typeId="bdccd449-868e-4bff-bcb6-ac7231b0722b" valueTypeId="7d2333a7-bae2-4d06-ad23-e75005655c40"/>
+      <rowType typeId="0eca5016-89e2-4639-9f3a-d6d89a2d2eda" valueTypeId="ebcde617-b7e9-4faf-a79a-0998425f4f6f"/>
+    </producedTypes>
+    <name>ДанныеОВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные о времени</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c5e21e31-38be-4e91-a264-fb4e9725001c">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.итWMSРаботникиСклада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86645477-6e89-4a3e-bfab-60f71f282348">
+      <name>Часов1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd858fd9-a09f-40d6-866b-0b464cee27db">
+      <name>Часов2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c097f7c8-5f1d-45ec-9240-7cc49f2359fd">
+      <name>Часов3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов3</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="873e5262-e020-4636-adbe-53124008619c">
+      <name>Часов4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов4</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e19ab59a-aa12-46e0-a6af-7e3ba637ce1a">
+      <name>Часов5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов5</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b10762a3-9ba2-4f23-ab6a-a3074adba3c0">
+      <name>Часов6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов6</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91c97926-cf9a-4272-b5ef-8689b69d9567">
+      <name>Часов7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов7</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b26ee410-d8df-422b-8e5d-b2e781001df0">
+      <name>Часов8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов8</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11173dc3-555a-4384-8a7e-3c22e5996d73">
+      <name>Часов9</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов9</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b85ad21-fa8d-44e9-93f0-493991f1c1af">
+      <name>Часов10</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов10</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eface456-f5db-4fd9-b598-7d288f1c361e">
+      <name>Часов11</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов11</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97b171d0-b802-48bd-8d68-475cb9bce2e5">
+      <name>Часов12</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов12</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="59b25a44-f738-4d4c-8857-f32d9fbeedbb">
+      <name>Часов13</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов13</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91032cfc-aadb-46ce-9dae-9458168becf3">
+      <name>Часов14</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов14</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1e287bc-a9ef-452a-ad22-75851670c49f">
+      <name>Часов15</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов15</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b2b794f-2603-410c-8b48-c76596feb64c">
+      <name>Часов16</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов16</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="038b4e85-223e-417c-90dc-d5c14847848f">
+      <name>Часов17</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов17</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d56b0b3-b36c-4358-b22e-3c4700a9a07f">
+      <name>Часов18</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов18</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f1c49498-88a7-4b59-bb7d-5879e2a0b64c">
+      <name>Часов19</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов19</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4aac2142-3fb8-4a70-ba4e-0519a19b35ac">
+      <name>Часов20</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов20</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0125f88-51b0-4946-8f83-177551689585">
+      <name>Часов21</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов21</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77398ffe-7221-484b-8376-a28c126ccfd0">
+      <name>Часов22</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов22</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ccda15d-beac-4e65-be4f-36674d1f41bb">
+      <name>Часов23</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов23</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c5b9683-8907-404b-906e-26da82210d67">
+      <name>Часов24</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов24</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3fecf185-d1af-4a0f-8392-8513093294fd">
+      <name>Часов25</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов25</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="869d66be-46f4-4d16-ad15-cbe4fc998916">
+      <name>Часов26</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов26</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="28bcdb0d-eb61-4953-84b6-78a2532b0727">
+      <name>Часов27</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов27</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d0ca3a5-692d-4a3f-a345-3d621a2f3c86">
+      <name>Часов28</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов28</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32680fb9-e7a7-4e1a-9fae-5902c969a675">
+      <name>Часов29</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов29</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1ea5299-6a7c-4826-beb2-2ef4c508582c">
+      <name>Часов30</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов30</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47c20974-daf9-4774-90e3-6e0bef479908">
+      <name>Часов31</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов31</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b169ec9-8418-4132-8a1a-fc2a47626ce7">
+      <name>ВидВремени1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени1</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2fc0163d-9d89-4c25-a79f-99c3fc24016e">
+      <name>ВидВремени2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени2</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dec1e8b7-bf5d-4496-a5f9-3c16d1bf0850">
+      <name>ВидВремени3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени3</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6397f45e-945a-4133-a67e-5c6d21e8739c">
+      <name>ВидВремени4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени4</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b7aee1c1-419b-4191-b129-b40954605f03">
+      <name>ВидВремени5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени5</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d28cc781-c9e7-463f-ab70-5ff1474bd60a">
+      <name>ВидВремени6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени6</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0558c31e-a112-4928-927a-2b77c143547d">
+      <name>ВидВремени7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени7</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13593c76-4633-47c1-b25d-5f7146cdb7b6">
+      <name>ВидВремени8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени8</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a55c3cc-bd0e-47cc-8c58-d77e87d1e618">
+      <name>ВидВремени9</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени9</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6bedbfe-7f37-4989-b646-1dfde46c8182">
+      <name>ВидВремени10</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени10</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87f93dc8-678f-4eea-92e6-0d8b8377cb6c">
+      <name>ВидВремени11</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени11</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="15fbed18-8157-4799-8aeb-11756036295b">
+      <name>ВидВремени12</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени12</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="db718089-cb88-492d-8878-750257d09a4e">
+      <name>ВидВремени13</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени13</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="437a3c94-5689-41e3-88fa-b566c5459680">
+      <name>ВидВремени14</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени14</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5486a857-1203-468e-a412-219e2dd58b14">
+      <name>ВидВремени15</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени15</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8aed8dc5-526c-46cc-ba50-01d1bdadbf4d">
+      <name>ВидВремени16</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени16</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd8ca05a-6929-4165-b11f-1cbed765304d">
+      <name>ВидВремени17</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени17</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37999ce9-7abe-488a-b855-0ca1c6595434">
+      <name>ВидВремени18</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени18</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c88644bc-11bf-468e-8673-2fe6a4f2c80a">
+      <name>ВидВремени19</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени19</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f02e949e-80ff-4b18-a40f-59c26defb8d8">
+      <name>ВидВремени20</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени20</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b3ed3db-c6ea-41a3-834d-e538ecee3736">
+      <name>ВидВремени21</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени21</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9865ff7b-d989-42e0-ad3e-a84a7a4c4835">
+      <name>ВидВремени22</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени22</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="df948feb-a755-42d0-8422-3113f266cf8b">
+      <name>ВидВремени23</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени23</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ec8db08-8818-4e19-ba79-883a73d313a6">
+      <name>ВидВремени24</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени24</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="84103c45-d6b4-4489-ab2c-1341eed1887e">
+      <name>ВидВремени25</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени25</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50bddd2f-8ae1-4260-9eca-0f2ea3103d5d">
+      <name>ВидВремени26</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени26</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e1d388c0-7f0d-472a-8253-ee54f6fbde3d">
+      <name>ВидВремени27</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени27</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ad30dae6-8c6f-4b53-abc0-e453e165e4ed">
+      <name>ВидВремени28</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени28</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4f6c2ec6-3f35-45bb-8a2e-61da4d2b26b3">
+      <name>ВидВремени29</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени29</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2d53e59c-c6c7-4b3b-a9fd-8b953f5eaaac">
+      <name>ВидВремени30</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени30</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c398659-244e-4b34-bf28-fb842438efb7">
+      <name>ВидВремени31</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени31</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4649348c-7294-458a-ba96-f3c855cca426">
+      <name>ПереходящаяЧастьСмены1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены1</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6bb575c6-23eb-449d-9a86-eb9875fcc2e7">
+      <name>ПереходящаяЧастьСмены2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены2</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c370364-69c4-4494-930c-aa2db3063727">
+      <name>ПереходящаяЧастьСмены3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены3</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e83e49ad-88bc-41b5-bffa-1db61bc7bb1f">
+      <name>ПереходящаяЧастьСмены4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены4</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b6361bc-eb51-46e6-8d6a-bfa676c6b7f5">
+      <name>ПереходящаяЧастьСмены5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены5</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8726c60-290f-45db-9b10-7bbd367dbc75">
+      <name>ПереходящаяЧастьСмены6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены6</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c5efcb0-27e2-4de0-9c7d-736ec4af7263">
+      <name>ПереходящаяЧастьСмены7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены7</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb6cf817-4848-4c86-9df5-8eb82a28fca9">
+      <name>ПереходящаяЧастьСмены8</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены8</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e7b19a96-e478-488c-9323-1c3da8290291">
+      <name>ПереходящаяЧастьСмены9</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены9</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7d91eb8e-48d1-425c-9a57-2a895859e40b">
+      <name>ПереходящаяЧастьСмены10</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены10</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee08d9f5-0ae1-4322-b36f-53bb74cf877b">
+      <name>ПереходящаяЧастьСмены11</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены11</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2875bc29-537f-4ef8-8874-5612c8c1ce15">
+      <name>ПереходящаяЧастьСмены12</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены12</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3df09963-1557-45d7-9078-ecb62d355773">
+      <name>ПереходящаяЧастьСмены13</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены13</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e336ccdf-6f26-4262-8df7-9019871042ef">
+      <name>ПереходящаяЧастьСмены14</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены14</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="948d79b9-0945-471c-9b7b-f44e8d6227c8">
+      <name>ПереходящаяЧастьСмены15</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены15</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71d38880-b8e6-4b55-9a8e-1aa715ec23a2">
+      <name>ПереходящаяЧастьСмены16</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены16</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7df04655-77bd-49ca-9602-8aa2513e10cd">
+      <name>ПереходящаяЧастьСмены17</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены17</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3a34091-ede8-4a6e-a1ba-f6eeaa44d05e">
+      <name>ПереходящаяЧастьСмены18</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены18</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b26a01de-f045-4fe9-a073-57594f4326e2">
+      <name>ПереходящаяЧастьСмены19</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены19</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2823a80-5d6b-4c29-9c56-c78521241cd9">
+      <name>ПереходящаяЧастьСмены20</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены20</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b4f12af2-8554-4637-ad17-9d2698efbf06">
+      <name>ПереходящаяЧастьСмены21</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены21</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d9c2b7fb-1954-4c54-9a32-5f64065b29ab">
+      <name>ПереходящаяЧастьСмены22</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены22</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7cceffbe-f0b7-4fed-bafa-1e943384b6d4">
+      <name>ПереходящаяЧастьСмены23</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены23</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a9c8e480-6f9c-41f1-95b9-97469cd10d89">
+      <name>ПереходящаяЧастьСмены24</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены24</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f53676a-710f-4082-a3fe-b99c218bd042">
+      <name>ПереходящаяЧастьСмены25</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены25</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a4b0a50d-e80a-49bc-93db-f9e2f0dd230d">
+      <name>ПереходящаяЧастьСмены26</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены26</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46b5e48a-b6a2-4c11-a21f-6eecb9fb4b1d">
+      <name>ПереходящаяЧастьСмены27</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены27</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="426b54a4-b92e-4864-b335-168e1a1734f1">
+      <name>ПереходящаяЧастьСмены28</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены28</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12d81f2d-283c-45e9-aa26-0e3e21422e47">
+      <name>ПереходящаяЧастьСмены29</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены29</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="799c182b-2acf-4063-84d2-ca515072487d">
+      <name>ПереходящаяЧастьСмены30</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены30</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="433ce68d-99a0-4cb9-9a69-9b5f04c38645">
+      <name>ПереходящаяЧастьСмены31</name>
+      <synonym>
+        <key>ru</key>
+        <value>Переходящая часть смены31</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="7831521b-a667-4b78-aeef-1374714b5106">
+    <name>МакетПредставленияТабеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет представления табеля</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

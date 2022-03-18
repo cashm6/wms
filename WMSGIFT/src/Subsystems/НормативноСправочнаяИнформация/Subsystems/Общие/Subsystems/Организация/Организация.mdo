@@ -16,5 +16,8 @@
   <content>Catalog.КлассификаторСтранМира</content>
   <content>Catalog.ОсобенностиКонтрагентов</content>
   <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.ВидыИспользованияРабочегоВремени</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.ГрафикиРаботыСотрудников</content>
   <parentSubsystem>Subsystem.НормативноСправочнаяИнформация.Subsystem.Общие</parentSubsystem>
 </mdclass:Subsystem>

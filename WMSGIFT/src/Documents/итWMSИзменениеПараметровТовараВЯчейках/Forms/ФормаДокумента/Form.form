@@ -2258,12 +2258,6 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ОрганизацияОтправитель</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ОрганизацияПолучатель</segments>
-    </settingsSavedData>
     <main>true</main>
     <savedData>true</savedData>
     <additionalColumns>

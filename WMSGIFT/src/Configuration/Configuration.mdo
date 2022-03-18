@@ -415,6 +415,7 @@
   <commonCommands>CommonCommand.СверкаИтоговПоКартам</commonCommands>
   <commonCommands>CommonCommand.УправлениеФискальнымУстройством</commonCommands>
   <commonCommands>CommonCommand.УправлениеЭквайринговымТерминалом</commonCommands>
+  <commonCommands>CommonCommand.МоиНастройкиПользователя</commonCommands>
   <commandGroups>CommandGroup.итWMS_Команды</commandGroups>
   <constants>Constant.ИспользоватьРассылкуПриОшибках</constants>
   <constants>Constant.ИспользоватьВнешнииSQLТаблицы</constants>

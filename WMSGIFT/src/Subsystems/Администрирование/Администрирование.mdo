@@ -17,5 +17,6 @@
   <content>DataProcessor.ВключитьИспользованиеИсторииДанных</content>
   <content>DataProcessor.КонсольЗапросов</content>
   <content>InformationRegister.ИсполнениеПользовательскихРегламентныхЗаданий</content>
+  <content>CommonCommand.МоиНастройкиПользователя</content>
   <subsystems>Спраовчники</subsystems>
 </mdclass:Subsystem>

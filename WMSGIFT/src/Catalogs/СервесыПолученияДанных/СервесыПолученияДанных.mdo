@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СервесыПолученияДанных.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="f4c6e6c3-6696-49bc-9e48-d747de1fda80">
     <name>IPАдресСервера</name>
     <synonym>
@@ -71,10 +72,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d616d3c9-55c4-4113-b62d-0eeb9e968769">
-    <name>URLПространствоВебСервиса</name>
+    <name>URLПространствоСервиса</name>
     <synonym>
       <key>ru</key>
-      <value>URLПространство веб сервиса</value>
+      <value>URLПространство сервиса</value>
     </synonym>
     <type>
       <types>String</types>
@@ -137,4 +138,100 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="06ecea50-44f1-4e47-a0e6-4625356f8766">
+    <name>ПортHttpСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт http сервиса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25a945f0-ba25-47b9-ba7d-8c5bba698c79">
+    <name>ТипСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сервиса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab381441-4328-4e13-bd33-05d571b8479d">
+    <name>ТребуетсяАутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется аутентификация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce8bdaa8-7cca-4a7e-8907-0c01a056c1ea">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de5f5fa0-3c94-4214-8526-20c259019a31">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="88d08ebe-4f50-466f-990b-09bcee2817bd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

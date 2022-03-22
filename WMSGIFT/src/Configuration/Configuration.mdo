@@ -498,6 +498,7 @@
   <catalogs>Catalog.ВидыИспользованияРабочегоВремени</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.ГрафикиРаботыСотрудников</catalogs>
+  <catalogs>Catalog.СервесыПолученияДанных</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>

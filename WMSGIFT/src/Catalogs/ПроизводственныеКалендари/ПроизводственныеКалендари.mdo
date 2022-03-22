@@ -28,8 +28,18 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="51cd8726-54ee-4b5d-884c-069570e9d9a5">
+      <name>РегламентированныйПроизводственныйКалендарь</name>
+      <description>Регламентированный производственный календарь</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроизводственныеКалендари.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="55408a80-ce86-4b18-8365-2f5164e311cd">
     <name>БазовыйКалендарь</name>
     <synonym>
@@ -45,4 +55,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6c2a7655-24fb-4367-bb83-08986c0de754">
+    <name>СервисПолученияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис получения данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СервесыПолученияДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="70c7bb8e-96eb-418a-b4af-8e6e06107ea5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

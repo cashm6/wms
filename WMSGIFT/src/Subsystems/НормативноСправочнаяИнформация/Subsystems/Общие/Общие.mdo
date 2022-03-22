@@ -7,6 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СервесыПолученияДанных</content>
   <subsystems>Организация</subsystems>
   <subsystems>Номенклатура</subsystems>
   <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c93fe3db-7bed-4499-83e0-e24a29654324">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c93fe3db-7bed-4499-83e0-e24a29654324">
   <producedTypes>
     <objectType typeId="a23440c0-fe03-4532-83f9-0522b62bf8ef" valueTypeId="54f00dec-db85-482e-b239-88b08dba4ae4"/>
     <refType typeId="d5f02777-10d2-46a8-89c4-0eb453b9a6be" valueTypeId="6e14163e-9bef-4fca-8601-24fc585605e1"/>
@@ -34,4 +34,119 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГрафикиРаботыСотрудников.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d68b6d82-e5ed-43af-b2c1-28ef3d8a089f">
+    <name>СменныйГрафик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный график</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9ce86a6-d4ea-4b18-91d0-491c3eaaacc9">
+    <name>ПроизводственныйКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственный календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ee719d53-0c13-42b9-8047-0ed7f155a156">
+    <producedTypes>
+      <objectType typeId="60aac52f-bced-4397-80fa-3664d43a96ac" valueTypeId="d004114c-4226-430d-80e5-52eb3648d654"/>
+      <rowType typeId="b82eabef-525d-4ca7-9bbf-46707cb844ed" valueTypeId="f97628ef-38a4-437f-a306-cad4d77fb2e0"/>
+    </producedTypes>
+    <name>ДанныеОРабочихЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные о рабочих часах</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7c1ba03a-cbd3-4ed6-a8e3-f593727be86b">
+      <name>НомерДняЦикла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер дня цикла</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="282d4d8c-ebfe-48c9-85ef-25c7c3aa0864">
+      <name>ВидВремени</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5671699e-552e-401d-8a0f-44bf9fa03ac0">
+      <name>Часов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7258ffb1-8ab3-4799-995a-66f5230f59bb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="afae4243-e545-49f5-9de5-1a592a6ee632">
+    <name>ШаблонГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон графика</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

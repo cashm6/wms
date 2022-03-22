@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04195d70-9563-46b2-a27a-0aee59683670">
+  <producedTypes>
+    <objectType typeId="ac5b6c59-28d9-4b4c-bde4-72d8a4a9ee28" valueTypeId="7bdacd51-2d5c-42b6-b39b-40670b5e34c1"/>
+    <refType typeId="371d5e58-d025-4ac8-814d-12ba6830462d" valueTypeId="7380347b-a394-4d09-971f-1e739c912fde"/>
+    <selectionType typeId="d9400f77-862b-4723-94fb-a696b3263062" valueTypeId="53da42a2-4cd6-4fb0-9b5b-c1ea5601a653"/>
+    <listType typeId="5cb7b8bc-cf85-433f-ab42-e480da35b2f7" valueTypeId="4a555d2f-e918-4b98-8e16-a9fb8b77cad8"/>
+    <managerType typeId="7fcf409a-b409-4a6d-8a4d-5871b1b93504" valueTypeId="e7940b82-db58-4ea3-a33e-c335b4cdcd08"/>
+  </producedTypes>
+  <name>СервесыПолученияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервесы получения данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СервесыПолученияДанных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СервесыПолученияДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f4c6e6c3-6696-49bc-9e48-d747de1fda80">
+    <name>IPАдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>IPАдрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d85a01cc-e69f-48a4-b5ac-87f5a6a1f55a">
+    <name>ИмяПубликацииБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя публикации базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d616d3c9-55c4-4113-b62d-0eeb9e968769">
+    <name>URLПространствоВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>URLПространство веб сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c95d244f-6f76-471c-9831-1f445e666691">
+    <name>ИмяОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67be8c4b-9460-4425-8e23-f204da12cfc5">
+    <name>ПроизвольнаяСтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc82b326-cf03-481b-b26e-0b230dae866f">
+    <name>ПроизвольныйСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный сервис</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -16,7 +16,7 @@
   <content>DataProcessor.итWMSНастройки</content>
   <content>DataProcessor.ит_WMS_ОбработчикРозницы</content>
   <content>DataProcessor.ит_WMS_КонструкторФормированияЯчеек</content>
-  <content>d1fe37e0-f5a6-4996-ab62-a4fd3b4eabbb</content>
   <content>DataProcessor.ПечатьSSCCиGTIN</content>
   <content>Report.ЛогистическийРеестрWMS</content>
+  <content>DataProcessor.ОбработкаСканированияВходаВыхода</content>
 </mdclass:Subsystem>

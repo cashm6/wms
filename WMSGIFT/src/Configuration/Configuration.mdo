@@ -499,6 +499,7 @@
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.ГрафикиРаботыСотрудников</catalogs>
   <catalogs>Catalog.СервесыПолученияДанных</catalogs>
+  <catalogs>Catalog.ПодразделенияРаботниковСклада</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
@@ -536,6 +537,7 @@
   <documents>Document.ВнутреннийЗаказ</documents>
   <documents>Document.ТабельУчетаРабочегоВремени</documents>
   <documents>Document.УстановкаГрафиковСотрудникам</documents>
+  <documents>Document.ИзменениеСостоянияРаботниковСклада</documents>
   <documentNumerators>DocumentNumerator.WMSНумераторКорректировка</documentNumerators>
   <documentJournals>DocumentJournal.ИтWMSЖурналДокументов</documentJournals>
   <enums>Enum.итWMSВидыДиапазонвSSCC</enums>
@@ -589,6 +591,7 @@
   <enums>Enum.ВидыОперацииПримкиWMS</enums>
   <enums>Enum.СостоянияСотрудника</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ДействияВходаВыхода</enums>
   <reports>Report.ит_WMS_ДанныеИсполненияЗадач</reports>
   <reports>Report.ит_WMS_ТоварыВЯчейкахРезервирование</reports>
   <reports>Report.ит_WMS_ДанныеПоИнвентаризацииЯчеек</reports>
@@ -633,6 +636,7 @@
   <dataProcessors>DataProcessor.ФормированиеДанныхСветофора</dataProcessors>
   <dataProcessors>DataProcessor.ОбменСОфлайнОборудованием</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьЭтикетокИЦенниковБПО</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаСканированияВходаВыхода</dataProcessors>
   <informationRegisters>InformationRegister.алкСоответствияАлкогольнойПродукцииЕГАИСИНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.алкСоответствияСправокАиБЕГАИСИСерий</informationRegisters>
   <informationRegisters>InformationRegister.алкХранилищеАкцизныхМарок</informationRegisters>
@@ -679,6 +683,9 @@
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботыПоВидамВремени</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикРаботыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияРаботниковСклада</informationRegisters>
+  <informationRegisters>InformationRegister.ФактическиеДанныеОЧасахРаботников</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеВходаВыходаРаботника</informationRegisters>
   <accumulationRegisters>AccumulationRegister.итТоварыВЯчейках</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.итТоварыВПути</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДанныеТабельногоУчетаРабочегоВремениСотрудников</accumulationRegisters>

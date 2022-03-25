@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76d39464-3c85-4d7c-8bad-24aad2585005">
+  <producedTypes>
+    <objectType typeId="849cad63-8da8-4975-95c4-f59797b9d066" valueTypeId="78d79dd3-b7f1-44b9-adc1-7f73f33dbb70"/>
+    <refType typeId="c0007809-da76-49b7-8d21-c32e490954f7" valueTypeId="0da9fa75-dde8-416a-a428-56a4b32a07d1"/>
+    <selectionType typeId="dcc3f314-3131-4c1b-8265-c21878e86a64" valueTypeId="a09f48dd-82df-44af-b2b2-18ba850af142"/>
+    <listType typeId="442e669e-33de-4f40-9c69-e793e0de24eb" valueTypeId="b6a4a06a-c925-418f-b75f-7176ce5712ce"/>
+    <managerType typeId="7950368d-95ca-4b9d-b161-f6366a5bb106" valueTypeId="d569d3d7-afc6-42bd-81f0-ac93bf392190"/>
+  </producedTypes>
+  <name>ИзменениеСостоянияРаботниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состояния работников склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИзменениеСостоянияРаботниковСклада.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.СостоянияРаботниковСклада</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a252349b-3bb4-4864-a78f-5c9923bebe19">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40f58ea0-f2e1-4f0c-8bf2-bb5e98f37372">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6b3af0a-c080-4f96-9d2e-c71ff909d53a">
+    <name>СостояниеРаботниковСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние работников склада</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСотрудника</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb1ef2e9-81cc-40cf-8922-9f4ba166ae8d">
+    <name>ВидВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид времени</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fc38b39d-28f0-4b1d-adb1-f8d2a8add351">
+    <producedTypes>
+      <objectType typeId="4b516d16-8c50-43db-8420-64699d9f669b" valueTypeId="4ec8e61d-410d-4a89-a86d-7efcafcebb03"/>
+      <rowType typeId="d8511161-eba8-49b9-a0d0-56d5b8aa7851" valueTypeId="4b388332-c82c-494f-bc2d-48f27fe56c36"/>
+    </producedTypes>
+    <name>РаботникиСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники склада</value>
+    </synonym>
+    <attributes uuid="089918e3-c1f7-4b1a-ab45-56ac2932e91a">
+      <name>РаботникСклада</name>
+      <synonym>
+        <key>ru</key>
+        <value>Работник склада</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.итWMSРаботникиСклада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

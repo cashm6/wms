@@ -51,4 +51,7 @@
   <content>InformationRegister.ДанныеПроизводственногоКалендаря</content>
   <content>InformationRegister.ГрафикиРаботыПоВидамВремени</content>
   <content>InformationRegister.ГрафикРаботыСотрудников</content>
+  <content>InformationRegister.ДанныеВходаВыходаРаботника</content>
+  <content>InformationRegister.ФактическиеДанныеОЧасахРаботников</content>
+  <content>InformationRegister.СостоянияРаботниковСклада</content>
 </mdclass:Subsystem>

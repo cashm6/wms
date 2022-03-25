@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0466eafa-c4b9-44bc-b34f-5e7860d5c284">
+  <producedTypes>
+    <selectionType typeId="a774b474-0fe2-4b0e-9694-1992cb8167a2" valueTypeId="12333224-d802-4895-bbf6-79c13d1fab0c"/>
+    <listType typeId="fc63f1bd-3a48-4418-9f5c-198b3da597da" valueTypeId="8dd99564-97cb-45a4-bb03-31d8e67ff98c"/>
+    <managerType typeId="9691e4f2-0f0e-4532-8bfc-f6049debff16" valueTypeId="8b29ca2e-63af-4890-9182-a2a621afa300"/>
+    <recordSetType typeId="094b5af5-1b6a-4c5e-ac77-54f1fa57f757" valueTypeId="81aebaab-d992-4952-82fd-34f2c6336362"/>
+    <recordKeyType typeId="c9082443-3106-4c85-9092-750c0a9c8e6f" valueTypeId="0233b641-bee7-4c5b-9a6b-7c1969bbd747"/>
+    <recordType typeId="54948f03-127d-443e-a8f7-954fb7545fe6" valueTypeId="442dd4fc-2a8a-4a4e-9969-67554c8e0750"/>
+    <recordManagerType typeId="093c8a6f-31ee-454d-a149-a8b50c3ab8bd" valueTypeId="d64404bf-4eff-4637-add0-aee619486e60"/>
+  </producedTypes>
+  <name>ДанныеВходаВыходаРаботника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные входа выхода работника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="5769e62e-a437-43b1-818e-2faa7cc3cbb2">
+    <name>ПризнакОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b1246465-ef9e-4e88-9e9d-b1cb5df3d2b2">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="221d75d3-13c9-4913-bec7-7dfa2cabfd62">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="839e0477-3441-4ddc-8c1f-5d89dde88120">
+    <name>РаботникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник склада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итWMSРаботникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="436cc346-c15b-469b-bc53-5286e14926af">
+    <name>ДействиеВходаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие входа выхода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияВходаВыхода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

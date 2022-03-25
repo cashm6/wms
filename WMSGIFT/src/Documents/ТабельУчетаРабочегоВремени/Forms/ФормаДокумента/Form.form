@@ -231,6 +231,10 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ='ММММ гггг'</value>
+      </editFormat>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>

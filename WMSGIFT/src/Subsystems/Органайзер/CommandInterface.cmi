@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ОбработкаСканированияВходаВыхода.Command.НайстройкиСканированияВходаВыхода</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбработкаСканированияВходаВыхода.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ОбработкаСканированияВходаВыхода.Command.НайстройкиСканированияВходаВыхода</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ОбработкаСканированияВходаВыхода.Command.НайстройкиСканированияВходаВыхода</commands>
+      <commands>DataProcessor.ОбработкаСканированияВходаВыхода.Command.ОбработкаСканированияВХодаВыхода</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

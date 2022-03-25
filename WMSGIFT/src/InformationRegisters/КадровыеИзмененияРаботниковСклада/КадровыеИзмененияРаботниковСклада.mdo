@@ -21,6 +21,22 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
   <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="dfe968f9-bd2b-455f-9d39-5ec6336fc2c0">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияРаботниковСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
   <resources uuid="630c85e0-ee09-4587-907c-d9dc931d7b0b">
     <name>Должность</name>
     <synonym>

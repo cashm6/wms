@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0706eb92-c5ca-494d-af4c-487fe756df1a">
+  <producedTypes>
+    <objectType typeId="ba45fbb4-86df-414b-a5ad-4fe2f79e7c1b" valueTypeId="bc22314d-9794-49e6-8808-4106c4041941"/>
+    <managerType typeId="b9c9af15-c6ca-4083-b262-a72d42aa2070" valueTypeId="0a82ad33-a2f0-41cd-b6af-d8894ac13fd8"/>
+  </producedTypes>
+  <name>ОбработкаСканированияВходаВыхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка сканирования входа выхода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаСканированияВходаВыхода.Form.Форма</defaultForm>
+  <forms uuid="887513f6-56cd-4c32-9383-f9d60834d96f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06b4e8dc-dbca-4701-b305-3ade9d857f15">
+    <name>ФормаВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма входа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8c13ffb-30fe-4293-ac58-d29f746684a2">
+    <name>ФормаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выхода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="844debd3-6ae8-4464-97bd-f5190d3e3ca3">
+    <name>НастройкиВходаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки входа выхода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="164e268e-1e4b-4d55-ad7d-880e33d948b7">
+    <name>НайстройкиСканированияВходаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найстройки сканирования входа выхода</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="06e552d9-6036-4b49-92ea-ce8e08471869">
+    <name>ОбработкаСканированияВХодаВыхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка сканирования в хода выхода</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

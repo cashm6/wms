@@ -12,5 +12,6 @@
   <content>Document.ДополнительныеНачисления</content>
   <content>Document.УстановкаГрафиковСотрудникам</content>
   <content>Document.ТабельУчетаРабочегоВремени</content>
+  <content>Document.ИзменениеСостоянияРаботниковСклада</content>
   <parentSubsystem>Subsystem.УправлениеРесурсами</parentSubsystem>
 </mdclass:Subsystem>

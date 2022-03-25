@@ -26,7 +26,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -126,6 +126,31 @@
           <precision>4</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3c4ece26-66f0-4b08-8f21-57535501bc62">
+    <producedTypes>
+      <objectType typeId="2a364cd7-a872-4a0a-a294-cd788d2d29a9" valueTypeId="3711a01a-5d15-4fca-a356-a57397e4ee14"/>
+      <rowType typeId="10aa6792-1bca-4732-a359-deb1f7d06675" valueTypeId="be032df7-4434-4926-b48e-8f731b2d9523"/>
+    </producedTypes>
+    <name>ВидыВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды времени</value>
+    </synonym>
+    <attributes uuid="8d3dca1b-9a34-4eae-974f-b1dd1fbf627e">
+      <name>ВидВремени</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид времени</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="845f3a13-74e1-4f88-a773-fffe4d64a7c4">
+  <producedTypes>
+    <objectType typeId="e4085082-06b6-4c13-9ecb-cd78bdb2c1e0" valueTypeId="f55ebda6-8ce8-4e1e-81aa-2f04f449fb8f"/>
+    <refType typeId="381e7fe5-1093-494a-b2d7-58614c300d52" valueTypeId="dedd0e77-6c97-4456-8e02-8681b128596a"/>
+    <selectionType typeId="0f9d5923-a17e-4169-9b59-537c1858997d" valueTypeId="d5f024da-ec2c-4afd-87cc-0bd1b6cef7df"/>
+    <listType typeId="15b9eac8-4581-459d-b926-ddc679f5e2d7" valueTypeId="8aa87cd7-dbcf-4227-bc68-ae6ea4487dc0"/>
+    <managerType typeId="8ee9a767-b1d7-40cb-b72e-1e837ada66fa" valueTypeId="f42a8e5d-340b-4a2f-99c8-d8a83ceeac00"/>
+  </producedTypes>
+  <name>ПодразделенияРаботниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения работников склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПодразделенияРаботниковСклада.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПодразделенияРаботниковСклада.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

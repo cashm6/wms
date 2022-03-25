@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Графики работы по видам времени</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -146,8 +147,8 @@
       <value>График работы</value>
     </synonym>
     <type>
-      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
       <types>CatalogRef.итWMSРаботникиСклада</types>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -16,5 +16,6 @@
   <content>Catalog.ВидыИспользованияРабочегоВремени</content>
   <content>Catalog.ПроизводственныеКалендари</content>
   <content>Catalog.ГрафикиРаботыСотрудников</content>
+  <content>Catalog.ПодразделенияРаботниковСклада</content>
   <parentSubsystem>Subsystem.УправлениеРесурсами</parentSubsystem>
 </mdclass:Subsystem>

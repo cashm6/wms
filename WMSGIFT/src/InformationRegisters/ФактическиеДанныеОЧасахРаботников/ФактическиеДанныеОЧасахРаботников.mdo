@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94181519-dcc6-4dd5-93ef-d9650f78ade0">
+  <producedTypes>
+    <selectionType typeId="c2176d0f-5950-4846-a51e-86d2ffa99c7a" valueTypeId="f0e06073-e61d-4dee-b1c2-2f33b6e22490"/>
+    <listType typeId="8e13a303-26a2-4771-bb59-4cdc5c379e07" valueTypeId="c1115075-e30a-40ab-868f-8bc32707e786"/>
+    <managerType typeId="d25d443c-af8c-40de-aed7-835e3c28f958" valueTypeId="29ab9666-d6f1-4939-8d4e-d5750b9eb456"/>
+    <recordSetType typeId="ca5f0137-34e8-4418-8eab-c27d6e413674" valueTypeId="bbf08cfa-754c-4511-9401-5d22af728123"/>
+    <recordKeyType typeId="04a93690-ba6c-4d17-a992-7463eefb5694" valueTypeId="1aef4051-2a23-4399-af05-01317a1811a6"/>
+    <recordType typeId="5acfba2d-adfc-40b2-aaff-f8aa42aa8d4d" valueTypeId="4a5f228c-41fd-4b26-950b-2511c7ac3904"/>
+    <recordManagerType typeId="1a113ffe-6dec-465f-a9f4-ce8c12524732" valueTypeId="abcca64c-b95d-4bec-aaf2-e93c35643557"/>
+  </producedTypes>
+  <name>ФактическиеДанныеОЧасахРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фактические данные о часах работников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="83637d05-f495-4def-8668-e94280b71ee2">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b204d17-6e9f-4a77-942d-e0387f2281b7">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5b07a25e-6e05-48de-89c1-9d3b6fa5aae8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a4d552c3-cb02-4318-a81b-7e0debdb5c9a">
+    <name>РаботникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник склада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.итWMSРаботникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f6950e0-a24c-42bd-8d8b-5d8786124210">
+    <name>ВидУчетаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учета времени</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыИспользованияРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

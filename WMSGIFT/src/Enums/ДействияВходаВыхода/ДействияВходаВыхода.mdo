@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c01a774-c03c-4636-939e-3da525e01e34">
+  <producedTypes>
+    <refType typeId="08ff2efc-f93e-4cd3-b73f-ad41a1ffd165" valueTypeId="a3073c8f-2ede-48b5-987d-f8aba88133dd"/>
+    <listType typeId="7daae18c-034d-4dec-98e1-828d9e29ed92" valueTypeId="b67c86f2-f8b9-4995-ae5e-f1491d49307b"/>
+    <managerType typeId="c4a07feb-c1b3-41a8-8391-38a32343d30d" valueTypeId="8413a3a4-f8e2-4ec8-b3b1-74687fb70b6d"/>
+  </producedTypes>
+  <name>ДействияВходаВыхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия входа выхода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="36371d72-2510-47a8-a89a-cd088e2339c4">
+    <name>Вход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75e4ab20-5436-4c85-a990-a7a4a70bbb02">
+    <name>Выход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выход</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

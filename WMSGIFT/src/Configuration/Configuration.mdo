@@ -447,6 +447,7 @@
   <commonForms>CommonForm.КодВидаНоменклатурнойКлассификации</commonForms>
   <commonForms>CommonForm.УправлениеФискальнымУстройством</commonForms>
   <commonForms>CommonForm.УправлениеЭквайринговымТерминалом</commonForms>
+  <commonForms>CommonForm.ВыборПериода</commonForms>
   <catalogs>Catalog.алкКлассификаторАлкогольнойПродукцииЕГАИС</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>

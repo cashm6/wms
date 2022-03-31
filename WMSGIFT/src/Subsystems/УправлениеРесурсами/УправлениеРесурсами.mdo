@@ -11,6 +11,8 @@
     <picture>CommonPicture.усУправлениеРесурсами</picture>
   </picture>
   <content>Report.ит_WMS_МотивационныйОтчет</content>
+  <content>InformationRegister.ФактическиеДанныеОЧасахРаботников</content>
+  <content>InformationRegister.ДанныеВходаВыходаРаботника</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Отчеты</subsystems>

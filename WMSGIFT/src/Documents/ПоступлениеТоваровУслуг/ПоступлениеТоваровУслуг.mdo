@@ -203,6 +203,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1387358d-800e-40d4-adc7-8b73ac5e5cef">
+    <name>итКоличествоВозвратнойТары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ит количество возвратной тары</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="be68c385-43f2-4781-a219-87b71c40b496">
     <name>ФормаДокумента</name>
     <synonym>

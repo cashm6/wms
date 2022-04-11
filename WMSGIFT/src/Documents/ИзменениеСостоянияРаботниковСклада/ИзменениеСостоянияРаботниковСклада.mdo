@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИзменениеСостоянияРаботниковСклада.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>InformationRegister.СостоянияРаботниковСклада</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -86,6 +87,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="3a685456-7dad-4189-8087-de8e6d462d7d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="fc38b39d-28f0-4b1d-adb1-f8d2a8add351">
     <producedTypes>
       <objectType typeId="4b516d16-8c50-43db-8420-64699d9f669b" valueTypeId="4ec8e61d-410d-4a89-a86d-7efcafcebb03"/>
